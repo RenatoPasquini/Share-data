@@ -369,7 +369,7 @@
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "FITONITY_DATA" 
  LOB ("MESSAGE") STORE AS SECUREFILE (
-  TABLESPACE "FITONITY_DATA" ENABLE STORAGE IN ROW CHUNK 8192
+  TABLESPACE "FITONITY_DATA" STORAGE IN ROW CHUNK 8192
   NOCACHE LOGGING  NOCOMPRESS  KEEP_DUPLICATES 
   STORAGE(INITIAL 106496 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0
@@ -638,13 +638,13 @@
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "FITONITY_DATA" 
  LOB ("XMLDATA_ENCODED") STORE AS SECUREFILE (
-  TABLESPACE "FITONITY_DATA" ENABLE STORAGE IN ROW CHUNK 8192
+  TABLESPACE "FITONITY_DATA" STORAGE IN ROW CHUNK 8192
   NOCACHE LOGGING  NOCOMPRESS  KEEP_DUPLICATES 
   STORAGE(INITIAL 106496 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)) 
  XMLTYPE COLUMN "XMLDATA_DECODED" STORE AS SECUREFILE BINARY XML (
-  TABLESPACE "FITONITY_DATA" ENABLE STORAGE IN ROW CHUNK 8192
+  TABLESPACE "FITONITY_DATA" STORAGE IN ROW CHUNK 8192
   NOCACHE LOGGING  NOCOMPRESS  KEEP_DUPLICATES 
   STORAGE(INITIAL 106496 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0
@@ -671,7 +671,7 @@
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "FITONITY_DATA" 
  LOB ("WS_RESPONSE") STORE AS SECUREFILE (
-  TABLESPACE "FITONITY_DATA" ENABLE STORAGE IN ROW CHUNK 8192
+  TABLESPACE "FITONITY_DATA" STORAGE IN ROW CHUNK 8192
   NOCACHE LOGGING  NOCOMPRESS  KEEP_DUPLICATES 
   STORAGE(INITIAL 106496 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0
@@ -1524,7 +1524,7 @@
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "FITONITY_DOC_DATA" 
  LOB ("ATTACHMENT") STORE AS SECUREFILE (
-  TABLESPACE "FITONITY_DOC_DATA" ENABLE STORAGE IN ROW CHUNK 8192
+  TABLESPACE "FITONITY_DOC_DATA" STORAGE IN ROW CHUNK 8192
   NOCACHE NOLOGGING  NOCOMPRESS  KEEP_DUPLICATES 
   STORAGE(INITIAL 106496 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0
@@ -2005,7 +2005,7 @@
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "FITONITY_DOC_DATA" 
  LOB ("ATTACHMENT") STORE AS BASICFILE (
-  TABLESPACE "FITONITY_DOC_DATA" ENABLE STORAGE IN ROW CHUNK 8192 RETENTION 
+  TABLESPACE "FITONITY_DOC_DATA" STORAGE IN ROW CHUNK 8192 RETENTION 
   NOCACHE NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
@@ -2066,7 +2066,7 @@
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "FITONITY_DOC_DATA" 
  LOB ("ATTACHMENT") STORE AS SECUREFILE (
-  TABLESPACE "FITONITY_DOC_DATA" ENABLE STORAGE IN ROW CHUNK 8192
+  TABLESPACE "FITONITY_DOC_DATA" STORAGE IN ROW CHUNK 8192
   NOCACHE NOLOGGING  NOCOMPRESS  KEEP_DUPLICATES 
   STORAGE(INITIAL 106496 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0
@@ -2159,7 +2159,7 @@
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "FITONITY_DATA" 
  LOB ("REPORT") STORE AS SECUREFILE (
-  TABLESPACE "FITONITY_DATA" ENABLE STORAGE IN ROW CHUNK 8192
+  TABLESPACE "FITONITY_DATA" STORAGE IN ROW CHUNK 8192
   NOCACHE LOGGING  NOCOMPRESS  KEEP_DUPLICATES 
   STORAGE(INITIAL 106496 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0
@@ -2312,7 +2312,7 @@
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "FITONITY_DOC_DATA" 
  LOB ("ATTACHMENT") STORE AS BASICFILE (
-  TABLESPACE "FITONITY_DOC_DATA" ENABLE STORAGE IN ROW CHUNK 8192 RETENTION 
+  TABLESPACE "FITONITY_DOC_DATA" STORAGE IN ROW CHUNK 8192 RETENTION 
   NOCACHE NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
@@ -3704,7 +3704,7 @@
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "FITONITY_DOC_DATA" 
  LOB ("TXT") STORE AS BASICFILE (
-  TABLESPACE "FITONITY_DOC_DATA" ENABLE STORAGE IN ROW CHUNK 8192 RETENTION 
+  TABLESPACE "FITONITY_DOC_DATA" STORAGE IN ROW CHUNK 8192 RETENTION 
   NOCACHE NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
@@ -3902,7 +3902,7 @@
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "FITONITY_DOC_DATA" 
  LOB ("FILEBLOB") STORE AS BASICFILE (
-  TABLESPACE "FITONITY_DOC_DATA" ENABLE STORAGE IN ROW CHUNK 8192 RETENTION 
+  TABLESPACE "FITONITY_DOC_DATA" STORAGE IN ROW CHUNK 8192 RETENTION 
   NOCACHE NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
@@ -4292,7 +4292,7 @@
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "FITONITY_DATA" 
  LOB ("DATA") STORE AS SECUREFILE (
-  TABLESPACE "FITONITY_DATA" ENABLE STORAGE IN ROW CHUNK 8192
+  TABLESPACE "FITONITY_DATA" STORAGE IN ROW CHUNK 8192
   NOCACHE LOGGING  NOCOMPRESS  KEEP_DUPLICATES 
   STORAGE(INITIAL 106496 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0
@@ -4418,7 +4418,7 @@
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "FITONITY_DATA" 
  LOB ("ATTACHMENT") STORE AS SECUREFILE (
-  TABLESPACE "FITONITY_DATA" ENABLE STORAGE IN ROW CHUNK 8192
+  TABLESPACE "FITONITY_DATA" STORAGE IN ROW CHUNK 8192
   NOCACHE NOLOGGING  NOCOMPRESS  KEEP_DUPLICATES 
   STORAGE(INITIAL 106496 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0
@@ -4513,7 +4513,7 @@
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "FITONITY_DOC_DATA" 
  LOB ("ATTACHMENT") STORE AS BASICFILE (
-  TABLESPACE "FITONITY_DOC_DATA" ENABLE STORAGE IN ROW CHUNK 8192 RETENTION 
+  TABLESPACE "FITONITY_DOC_DATA" STORAGE IN ROW CHUNK 8192 RETENTION 
   NOCACHE NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
@@ -5124,7 +5124,7 @@
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "FITONITY_DOC_DATA" 
  LOB ("ATTACHMENT") STORE AS BASICFILE (
-  TABLESPACE "FITONITY_DOC_DATA" ENABLE STORAGE IN ROW CHUNK 8192 RETENTION 
+  TABLESPACE "FITONITY_DOC_DATA" STORAGE IN ROW CHUNK 8192 RETENTION 
   NOCACHE NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
@@ -5466,7 +5466,7 @@
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "FITONITY_DATA" 
  LOB ("ATTACHMENT") STORE AS SECUREFILE (
-  TABLESPACE "FITONITY_DATA" ENABLE STORAGE IN ROW CHUNK 8192
+  TABLESPACE "FITONITY_DATA" STORAGE IN ROW CHUNK 8192
   NOCACHE LOGGING  NOCOMPRESS  KEEP_DUPLICATES 
   STORAGE(INITIAL 106496 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0
@@ -6187,7 +6187,7 @@
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "FITONITY_DOC_DATA" 
  LOB ("ATTACHMENT") STORE AS BASICFILE (
-  TABLESPACE "FITONITY_DOC_DATA" ENABLE STORAGE IN ROW CHUNK 8192 RETENTION 
+  TABLESPACE "FITONITY_DOC_DATA" STORAGE IN ROW CHUNK 8192 RETENTION 
   NOCACHE NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
@@ -6428,7 +6428,7 @@ INVOICELINE_CENTRIC - Invoice where each entire shipment is represented by an <I
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "FITONITY_DOC_DATA" 
  LOB ("ATTACHMENT") STORE AS BASICFILE (
-  TABLESPACE "FITONITY_DOC_DATA" ENABLE STORAGE IN ROW CHUNK 8192 RETENTION 
+  TABLESPACE "FITONITY_DOC_DATA" STORAGE IN ROW CHUNK 8192 RETENTION 
   NOCACHE NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
@@ -6453,7 +6453,7 @@ INVOICELINE_CENTRIC - Invoice where each entire shipment is represented by an <I
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "FITONITY_DOC_DATA" 
  LOB ("REPORT_LAYOUT") STORE AS BASICFILE (
-  TABLESPACE "FITONITY_DOC_DATA" ENABLE STORAGE IN ROW CHUNK 8192 RETENTION 
+  TABLESPACE "FITONITY_DOC_DATA" STORAGE IN ROW CHUNK 8192 RETENTION 
   NOCACHE NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
@@ -6482,7 +6482,7 @@ INVOICELINE_CENTRIC - Invoice where each entire shipment is represented by an <I
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "FITONITY_DOC_DATA" 
  LOB ("QUERY_TEXT") STORE AS BASICFILE (
-  TABLESPACE "FITONITY_DOC_DATA" ENABLE STORAGE IN ROW CHUNK 8192 RETENTION 
+  TABLESPACE "FITONITY_DOC_DATA" STORAGE IN ROW CHUNK 8192 RETENTION 
   NOCACHE NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
@@ -6702,7 +6702,7 @@ INVOICELINE_CENTRIC - Invoice where each entire shipment is represented by an <I
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "FITONITY_DATA" 
  LOB ("REPORT") STORE AS SECUREFILE (
-  TABLESPACE "FITONITY_DATA" ENABLE STORAGE IN ROW CHUNK 8192
+  TABLESPACE "FITONITY_DATA" STORAGE IN ROW CHUNK 8192
   NOCACHE LOGGING  NOCOMPRESS  KEEP_DUPLICATES 
   STORAGE(INITIAL 106496 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0
@@ -6966,7 +6966,7 @@ INVOICELINE_CENTRIC - Invoice where each entire shipment is represented by an <I
   CREATE GLOBAL TEMPORARY TABLE "TRANSPORT"."SFTP_LOG_XML" OF XMLTYPE 
   SEGMENT CREATION IMMEDIATE 
  XMLTYPE STORE AS BASICFILE BINARY XML (
-  ENABLE STORAGE IN ROW CHUNK 8192 RETENTION 
+  STORAGE IN ROW CHUNK 8192 RETENTION 
   NOCACHE ) 
   ALLOW NONSCHEMA DISALLOW ANYSCHEMA 
   ;
@@ -7939,7 +7939,7 @@ INVOICELINE_CENTRIC - Invoice where each entire shipment is represented by an <I
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "FITONITY_DOC_DATA" 
  XMLTYPE COLUMN "MESSAGE" STORE AS SECUREFILE BINARY XML (
-  TABLESPACE "FITONITY_DOC_DATA" ENABLE STORAGE IN ROW CHUNK 8192
+  TABLESPACE "FITONITY_DOC_DATA" STORAGE IN ROW CHUNK 8192
   NOCACHE NOLOGGING  NOCOMPRESS  KEEP_DUPLICATES 
   STORAGE(INITIAL 106496 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0
@@ -7952,7 +7952,7 @@ INVOICELINE_CENTRIC - Invoice where each entire shipment is represented by an <I
    (	"XML" "SYS"."XMLTYPE" 
    ) ON COMMIT DELETE ROWS 
  XMLTYPE COLUMN "XML" STORE AS BASICFILE BINARY XML (
-  ENABLE STORAGE IN ROW CHUNK 8192 RETENTION 
+  STORAGE IN ROW CHUNK 8192 RETENTION 
   NOCACHE ) ALLOW NONSCHEMA DISALLOW ANYSCHEMA ;
 --------------------------------------------------------
 --  DDL for Table Y
@@ -17155,7 +17155,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."A_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."A_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger A00_BR_TRG
 --------------------------------------------------------
@@ -17174,7 +17174,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."A00_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."A00_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger A10_BR_TRG
 --------------------------------------------------------
@@ -17193,7 +17193,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."A10_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."A10_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger ADDRESS_SERVICE_LEVELS_BR
 --------------------------------------------------------
@@ -17208,7 +17208,7 @@ begin
 end;
 
 /
-ALTER TRIGGER "TRANSPORT"."ADDRESS_SERVICE_LEVELS_BR" ENABLE;
+ALTER TRIGGER "TRANSPORT"."ADDRESS_SERVICE_LEVELS_BR";
 --------------------------------------------------------
 --  DDL for Trigger bi_ADDRESS_TEMP
 --------------------------------------------------------
@@ -17224,7 +17224,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."bi_ADDRESS_TEMP" ENABLE;
+ALTER TRIGGER "TRANSPORT"."bi_ADDRESS_TEMP";
 --------------------------------------------------------
 --  DDL for Trigger ADDRESS_TYPES_BR_TRG
 --------------------------------------------------------
@@ -17241,7 +17241,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."ADDRESS_TYPES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."ADDRESS_TYPES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_ADDRESSES
 --------------------------------------------------------
@@ -17258,7 +17258,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_ADDRESSES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_ADDRESSES";
 --------------------------------------------------------
 --  DDL for Trigger BI_ADHOC_QUOTATIONS
 --------------------------------------------------------
@@ -17291,7 +17291,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_ADHOC_QUOTATIONS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_ADHOC_QUOTATIONS";
 --------------------------------------------------------
 --  DDL for Trigger AGENT_MATRIX_BR_TRG
 --------------------------------------------------------
@@ -17307,7 +17307,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."AGENT_MATRIX_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."AGENT_MATRIX_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_AGREEMENTS
 --------------------------------------------------------
@@ -17325,7 +17325,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_AGREEMENTS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_AGREEMENTS";
 --------------------------------------------------------
 --  DDL for Trigger AUTH_GROUPS_BR_TRG
 --------------------------------------------------------
@@ -17342,7 +17342,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."AUTH_GROUPS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."AUTH_GROUPS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger AUTO_MATCH_COSTS_BR_TRG
 --------------------------------------------------------
@@ -17358,7 +17358,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."AUTO_MATCH_COSTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."AUTO_MATCH_COSTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger AUTO_MATCH_INVOICES_BR_TRG
 --------------------------------------------------------
@@ -17375,7 +17375,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."AUTO_MATCH_INVOICES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."AUTO_MATCH_INVOICES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger B_BR_TRG
 --------------------------------------------------------
@@ -17394,7 +17394,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."B_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."B_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger B00_BR_TRG
 --------------------------------------------------------
@@ -17413,7 +17413,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."B00_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."B00_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger B10_BR_TRG
 --------------------------------------------------------
@@ -17432,7 +17432,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."B10_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."B10_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger B2B_DATA_BR_TRG
 --------------------------------------------------------
@@ -17452,7 +17452,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."B2B_DATA_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."B2B_DATA_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BARCODE_IN_BR_TRG
 --------------------------------------------------------
@@ -17476,7 +17476,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BARCODE_IN_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BARCODE_IN_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_BASES
 --------------------------------------------------------
@@ -17493,7 +17493,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_BASES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_BASES";
 --------------------------------------------------------
 --  DDL for Trigger BORD128_UNITS_BR_TRG
 --------------------------------------------------------
@@ -17510,7 +17510,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BORD128_UNITS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BORD128_UNITS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BORD512_UNITS_BR_TRG
 --------------------------------------------------------
@@ -17527,7 +17527,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BORD512_UNITS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BORD512_UNITS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BVA_ITEM_BR_TRG
 --------------------------------------------------------
@@ -17544,7 +17544,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BVA_ITEM_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BVA_ITEM_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BVAS_BR_TRG
 --------------------------------------------------------
@@ -17575,7 +17575,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BVAS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BVAS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger C_BR_TRG
 --------------------------------------------------------
@@ -17594,7 +17594,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."C_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."C_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger C00_BR_TRG
 --------------------------------------------------------
@@ -17613,7 +17613,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."C00_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."C00_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger CALCULATION_CRITERIAS_TRG
 --------------------------------------------------------
@@ -17628,7 +17628,7 @@ begin
 end;
 
 /
-ALTER TRIGGER "TRANSPORT"."CALCULATION_CRITERIAS_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."CALCULATION_CRITERIAS_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_CARRIER_TYPES
 --------------------------------------------------------
@@ -17646,7 +17646,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_CARRIER_TYPES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_CARRIER_TYPES";
 --------------------------------------------------------
 --  DDL for Trigger CITY_COLLECTION_CITIES_BR_TRG
 --------------------------------------------------------
@@ -17665,7 +17665,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."CITY_COLLECTION_CITIES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."CITY_COLLECTION_CITIES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger CITY_COLLECTIONS_BR_TRG
 --------------------------------------------------------
@@ -17684,7 +17684,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."CITY_COLLECTIONS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."CITY_COLLECTIONS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger CMR_ITEMS_BR_TRG
 --------------------------------------------------------
@@ -17703,7 +17703,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."CMR_ITEMS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."CMR_ITEMS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger CMRS_BR_TRG
 --------------------------------------------------------
@@ -17723,7 +17723,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."CMRS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."CMRS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger COLLECT_PARAMETERS_BR_TRG
 --------------------------------------------------------
@@ -17739,7 +17739,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."COLLECT_PARAMETERS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."COLLECT_PARAMETERS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_COLLECTION_TERMS
 --------------------------------------------------------
@@ -17757,7 +17757,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_COLLECTION_TERMS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_COLLECTION_TERMS";
 --------------------------------------------------------
 --  DDL for Trigger BI_CONTACTS
 --------------------------------------------------------
@@ -17775,7 +17775,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_CONTACTS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_CONTACTS";
 --------------------------------------------------------
 --  DDL for Trigger CONTRACT_LINE_CELL_VAL_BR_TR
 --------------------------------------------------------
@@ -17795,7 +17795,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."CONTRACT_LINE_CELL_VAL_BR_TR" ENABLE;
+ALTER TRIGGER "TRANSPORT"."CONTRACT_LINE_CELL_VAL_BR_TR";
 --------------------------------------------------------
 --  DDL for Trigger CONTRACT_LINE_COLUMNS_BR_TR
 --------------------------------------------------------
@@ -17815,7 +17815,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."CONTRACT_LINE_COLUMNS_BR_TR" ENABLE;
+ALTER TRIGGER "TRANSPORT"."CONTRACT_LINE_COLUMNS_BR_TR";
 --------------------------------------------------------
 --  DDL for Trigger CONTRACT_LINE_ROWS_BR_TR
 --------------------------------------------------------
@@ -17835,7 +17835,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."CONTRACT_LINE_ROWS_BR_TR" ENABLE;
+ALTER TRIGGER "TRANSPORT"."CONTRACT_LINE_ROWS_BR_TR";
 --------------------------------------------------------
 --  DDL for Trigger BI_COST_REVENUES
 --------------------------------------------------------
@@ -17924,7 +17924,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_COST_REVENUES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_COST_REVENUES";
 --------------------------------------------------------
 --  DDL for Trigger BI_COUNTRIES
 --------------------------------------------------------
@@ -17941,7 +17941,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_COUNTRIES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_COUNTRIES";
 --------------------------------------------------------
 --  DDL for Trigger COUNTRY_MATRIX_BR_TRG
 --------------------------------------------------------
@@ -17957,7 +17957,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."COUNTRY_MATRIX_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."COUNTRY_MATRIX_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_CRM_CARRIER_TYPES
 --------------------------------------------------------
@@ -17975,7 +17975,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_CRM_CARRIER_TYPES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_CRM_CARRIER_TYPES";
 --------------------------------------------------------
 --  DDL for Trigger BI_CRM_COMPETITORS
 --------------------------------------------------------
@@ -17993,7 +17993,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_CRM_COMPETITORS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_CRM_COMPETITORS";
 --------------------------------------------------------
 --  DDL for Trigger CRM_CONTACTS_BR_TRG
 --------------------------------------------------------
@@ -18010,7 +18010,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."CRM_CONTACTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."CRM_CONTACTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_CRM_FROM_TO
 --------------------------------------------------------
@@ -18028,7 +18028,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_CRM_FROM_TO" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_CRM_FROM_TO";
 --------------------------------------------------------
 --  DDL for Trigger BI_CRM_GOOD_TYPES
 --------------------------------------------------------
@@ -18046,7 +18046,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_CRM_GOOD_TYPES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_CRM_GOOD_TYPES";
 --------------------------------------------------------
 --  DDL for Trigger BI_CRM_QUOTATION_STATUSES
 --------------------------------------------------------
@@ -18066,7 +18066,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_CRM_QUOTATION_STATUSES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_CRM_QUOTATION_STATUSES";
 --------------------------------------------------------
 --  DDL for Trigger BI_CRM_RELATION_COMPETITORS
 --------------------------------------------------------
@@ -18084,7 +18084,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_CRM_RELATION_COMPETITORS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_CRM_RELATION_COMPETITORS";
 --------------------------------------------------------
 --  DDL for Trigger BI_CRM_RELATION_GOOD_TYPES
 --------------------------------------------------------
@@ -18102,7 +18102,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_CRM_RELATION_GOOD_TYPES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_CRM_RELATION_GOOD_TYPES";
 --------------------------------------------------------
 --  DDL for Trigger CRM_RELATIONS_BR_TRG
 --------------------------------------------------------
@@ -18151,7 +18151,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."CRM_RELATIONS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."CRM_RELATIONS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_CRM_SALES_CYCLE_STATUS
 --------------------------------------------------------
@@ -18169,7 +18169,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_CRM_SALES_CYCLE_STATUS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_CRM_SALES_CYCLE_STATUS";
 --------------------------------------------------------
 --  DDL for Trigger BI_CRM_SALES_CYCLES
 --------------------------------------------------------
@@ -18187,7 +18187,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_CRM_SALES_CYCLES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_CRM_SALES_CYCLES";
 --------------------------------------------------------
 --  DDL for Trigger CROSSDOCK_IN_BR_TRG
 --------------------------------------------------------
@@ -18203,7 +18203,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."CROSSDOCK_IN_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."CROSSDOCK_IN_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_CURRENCIES
 --------------------------------------------------------
@@ -18221,7 +18221,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_CURRENCIES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_CURRENCIES";
 --------------------------------------------------------
 --  DDL for Trigger CUSTOMS_DOSS_ATTMENTS_BR_TRG
 --------------------------------------------------------
@@ -18264,7 +18264,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."CUSTOMS_DOSS_ATTMENTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."CUSTOMS_DOSS_ATTMENTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger CUSTOMS_DOSSIER_HISTORY_BR_TRG
 --------------------------------------------------------
@@ -18283,7 +18283,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."CUSTOMS_DOSSIER_HISTORY_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."CUSTOMS_DOSSIER_HISTORY_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger CUSTOMS_DOSSIERS_BR_TRG
 --------------------------------------------------------
@@ -18306,7 +18306,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."CUSTOMS_DOSSIERS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."CUSTOMS_DOSSIERS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger CUSTOMS_GD_LIN_ADD_DOCS_BR_TRG
 --------------------------------------------------------
@@ -18322,7 +18322,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."CUSTOMS_GD_LIN_ADD_DOCS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."CUSTOMS_GD_LIN_ADD_DOCS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger CUSTOMS_GOODS_LINES_BR_TRG
 --------------------------------------------------------
@@ -18354,7 +18354,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."CUSTOMS_GOODS_LINES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."CUSTOMS_GOODS_LINES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger CUSTOMS_SCENARIOS_BIR_TRG
 --------------------------------------------------------
@@ -18371,7 +18371,7 @@ BEGIN
 END;
 
 /
-ALTER TRIGGER "TRANSPORT"."CUSTOMS_SCENARIOS_BIR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."CUSTOMS_SCENARIOS_BIR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger CUSTOMS_STATUSES_BIR_TRG
 --------------------------------------------------------
@@ -18388,7 +18388,7 @@ BEGIN
 END;
 
 /
-ALTER TRIGGER "TRANSPORT"."CUSTOMS_STATUSES_BIR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."CUSTOMS_STATUSES_BIR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger D_BR_TRG
 --------------------------------------------------------
@@ -18407,7 +18407,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."D_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."D_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger D00_BR_TRG
 --------------------------------------------------------
@@ -18426,7 +18426,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."D00_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."D00_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger D10_BR_TRG
 --------------------------------------------------------
@@ -18445,7 +18445,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."D10_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."D10_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger DEBUG_LOG_BR_TRG
 --------------------------------------------------------
@@ -18463,7 +18463,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."DEBUG_LOG_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."DEBUG_LOG_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger DEL_COUN_ZIPCODES_BR_TRG
 --------------------------------------------------------
@@ -18479,7 +18479,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."DEL_COUN_ZIPCODES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."DEL_COUN_ZIPCODES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger DELIVERY_TERM_RELATIONS_BR_TRG
 --------------------------------------------------------
@@ -18495,7 +18495,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."DELIVERY_TERM_RELATIONS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."DELIVERY_TERM_RELATIONS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_DELIVERY_TERMS
 --------------------------------------------------------
@@ -18513,7 +18513,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_DELIVERY_TERMS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_DELIVERY_TERMS";
 --------------------------------------------------------
 --  DDL for Trigger DEPARTMENTS_BR_TRG
 --------------------------------------------------------
@@ -18529,7 +18529,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."DEPARTMENTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."DEPARTMENTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger DISPUTE_REASONS_BR_TRG
 --------------------------------------------------------
@@ -18545,7 +18545,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."DISPUTE_REASONS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."DISPUTE_REASONS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_DOCKS
 --------------------------------------------------------
@@ -18561,7 +18561,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_DOCKS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_DOCKS";
 --------------------------------------------------------
 --  DDL for Trigger DOSSIER_ATTMENTS_BR_TRG
 --------------------------------------------------------
@@ -18584,7 +18584,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."DOSSIER_ATTMENTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."DOSSIER_ATTMENTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_DOSSIER_CHATS
 --------------------------------------------------------
@@ -18605,7 +18605,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_DOSSIER_CHATS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_DOSSIER_CHATS";
 --------------------------------------------------------
 --  DDL for Trigger DOSSIER_CMR_BR_TRG
 --------------------------------------------------------
@@ -18621,7 +18621,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."DOSSIER_CMR_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."DOSSIER_CMR_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger DOSSIER_EMAIL_ATTMENTS_BR_TRG
 --------------------------------------------------------
@@ -18638,7 +18638,7 @@ BEGIN
 END;
 
 /
-ALTER TRIGGER "TRANSPORT"."DOSSIER_EMAIL_ATTMENTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."DOSSIER_EMAIL_ATTMENTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger DOSSIER_GOOD_ITEM_HISTORY_BR_TRG
 --------------------------------------------------------
@@ -18657,7 +18657,7 @@ begin
 end;
 
 /
-ALTER TRIGGER "TRANSPORT"."DOSSIER_GOOD_ITEM_HISTORY_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."DOSSIER_GOOD_ITEM_HISTORY_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger DOSSIER_GOOD_ITEMS_BR_TRG
 --------------------------------------------------------
@@ -18730,7 +18730,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."DOSSIER_GOOD_ITEMS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."DOSSIER_GOOD_ITEMS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EXPORT_DOSSIER_HIST_BR_TRG
 --------------------------------------------------------
@@ -18748,7 +18748,7 @@ end EXPORT_DOSSIER_HIST_BR_TRG;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EXPORT_DOSSIER_HIST_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EXPORT_DOSSIER_HIST_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger DOSSIER_REFERENCES_BR_TRG
 --------------------------------------------------------
@@ -18765,7 +18765,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."DOSSIER_REFERENCES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."DOSSIER_REFERENCES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger DOSSIER_REP_ATTRIBS_BR_TRG
 --------------------------------------------------------
@@ -18783,7 +18783,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."DOSSIER_REP_ATTRIBS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."DOSSIER_REP_ATTRIBS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger DOSSIER_SERVICE_LEVELS_BR
 --------------------------------------------------------
@@ -18798,7 +18798,7 @@ begin
 end;
 
 /
-ALTER TRIGGER "TRANSPORT"."DOSSIER_SERVICE_LEVELS_BR" ENABLE;
+ALTER TRIGGER "TRANSPORT"."DOSSIER_SERVICE_LEVELS_BR";
 --------------------------------------------------------
 --  DDL for Trigger DOSSIER_STATUS_BR_TRG
 --------------------------------------------------------
@@ -18815,7 +18815,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."DOSSIER_STATUS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."DOSSIER_STATUS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger DOSSIER_STATUSES_BR_TRG
 --------------------------------------------------------
@@ -18872,7 +18872,7 @@ begin
 end;
 
 /
-ALTER TRIGGER "TRANSPORT"."DOSSIER_STATUSES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."DOSSIER_STATUSES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger E_BR_TRG
 --------------------------------------------------------
@@ -18891,7 +18891,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."E_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."E_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger E_DOCUMENTS_BR_TRG
 --------------------------------------------------------
@@ -18907,7 +18907,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."E_DOCUMENTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."E_DOCUMENTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger E00_BR_TRG
 --------------------------------------------------------
@@ -18926,7 +18926,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."E00_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."E00_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_HEADER_COMMON_BR_TRG
 --------------------------------------------------------
@@ -18942,7 +18942,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_HEADER_COMMON_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_HEADER_COMMON_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_HISTORY_BR_TRG
 --------------------------------------------------------
@@ -18959,7 +18959,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_HISTORY_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_HISTORY_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_LINE_COMMON_BR_TRG
 --------------------------------------------------------
@@ -18975,7 +18975,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_LINE_COMMON_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_LINE_COMMON_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_MESSAGE_PARAMETER_BR
 --------------------------------------------------------
@@ -18991,7 +18991,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_MESSAGE_PARAMETER_BR" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_MESSAGE_PARAMETER_BR";
 --------------------------------------------------------
 --  DDL for Trigger EDI_SAMSUMG_AFZ_BR_TRG
 --------------------------------------------------------
@@ -19007,7 +19007,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_SAMSUMG_AFZ_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_SAMSUMG_AFZ_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_SAMSUMG_DGS_BR_TRG
 --------------------------------------------------------
@@ -19023,7 +19023,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_SAMSUMG_DGS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_SAMSUMG_DGS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_SAMSUMG_GEA_BR_TRG
 --------------------------------------------------------
@@ -19039,7 +19039,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_SAMSUMG_GEA_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_SAMSUMG_GEA_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_SAMSUMG_INF_BR_TRG
 --------------------------------------------------------
@@ -19055,7 +19055,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_SAMSUMG_INF_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_SAMSUMG_INF_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_SAMSUMG_SHP_BR_TRG
 --------------------------------------------------------
@@ -19071,7 +19071,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_SAMSUMG_SHP_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_SAMSUMG_SHP_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_SAMSUMG_VZE_BR_TRG
 --------------------------------------------------------
@@ -19087,7 +19087,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_SAMSUMG_VZE_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_SAMSUMG_VZE_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_SAMSUNG_HEADER_BR_TRG
 --------------------------------------------------------
@@ -19103,7 +19103,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_SAMSUNG_HEADER_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_SAMSUNG_HEADER_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_SHIPMENT_EDI_STATUS_BR_TRG
 --------------------------------------------------------
@@ -19121,7 +19121,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_SHIPMENT_EDI_STATUS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_SHIPMENT_EDI_STATUS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_SHIPMENT_IN_HEADERS_BR_TRG
 --------------------------------------------------------
@@ -19137,7 +19137,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_SHIPMENT_IN_HEADERS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_SHIPMENT_IN_HEADERS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_SHIPMENT_IN_LINES_BR_TRG
 --------------------------------------------------------
@@ -19153,7 +19153,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_SHIPMENT_IN_LINES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_SHIPMENT_IN_LINES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_SHIPMENT_IN_STATUS_BR_TRG
 --------------------------------------------------------
@@ -19171,7 +19171,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_SHIPMENT_IN_STATUS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_SHIPMENT_IN_STATUS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_SHIPMENT_LINK_BR_TRG
 --------------------------------------------------------
@@ -19187,7 +19187,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_SHIPMENT_LINK_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_SHIPMENT_LINK_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_SHIPMENTS_BR_TRG
 --------------------------------------------------------
@@ -19203,7 +19203,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_SHIPMENTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_SHIPMENTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_TEMP_BR_TRG
 --------------------------------------------------------
@@ -19220,7 +19220,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_TEMP_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_TEMP_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_VESCOM_F0_BR_TRG
 --------------------------------------------------------
@@ -19237,7 +19237,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_VESCOM_F0_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_VESCOM_F0_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_VESCOM_F1_BR_TRG
 --------------------------------------------------------
@@ -19254,7 +19254,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_VESCOM_F1_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_VESCOM_F1_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_VESCOM_F2_BR_TRG
 --------------------------------------------------------
@@ -19277,7 +19277,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_VESCOM_F2_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_VESCOM_F2_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_VESCOM_F3_BR_TRG
 --------------------------------------------------------
@@ -19294,7 +19294,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_VESCOM_F3_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_VESCOM_F3_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDI_VESCOM_F4_BR_TRG
 --------------------------------------------------------
@@ -19311,7 +19311,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDI_VESCOM_F4_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDI_VESCOM_F4_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDIFACT_BR_TRG
 --------------------------------------------------------
@@ -19331,7 +19331,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDIFACT_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDIFACT_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EDIFACT_LINES_BR_TRG
 --------------------------------------------------------
@@ -19353,7 +19353,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EDIFACT_LINES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EDIFACT_LINES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_EMAIL_BODIES
 --------------------------------------------------------
@@ -19370,7 +19370,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_EMAIL_BODIES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_EMAIL_BODIES";
 --------------------------------------------------------
 --  DDL for Trigger BI_EMAIL_RELATIONS
 --------------------------------------------------------
@@ -19387,7 +19387,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_EMAIL_RELATIONS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_EMAIL_RELATIONS";
 --------------------------------------------------------
 --  DDL for Trigger EMPLOYEE_MATRIX_BR_TRG
 --------------------------------------------------------
@@ -19403,7 +19403,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EMPLOYEE_MATRIX_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EMPLOYEE_MATRIX_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EMPLOYEES_BR_TRG
 --------------------------------------------------------
@@ -19421,7 +19421,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EMPLOYEES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EMPLOYEES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_ENTITY_SEQUENCES
 --------------------------------------------------------
@@ -19439,7 +19439,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_ENTITY_SEQUENCES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_ENTITY_SEQUENCES";
 --------------------------------------------------------
 --  DDL for Trigger EORI_VALIDATION_HISTORY_BR_TRG
 --------------------------------------------------------
@@ -19455,7 +19455,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EORI_VALIDATION_HISTORY_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EORI_VALIDATION_HISTORY_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EXACT_BOOKINGS_BR_TRG
 --------------------------------------------------------
@@ -19473,7 +19473,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EXACT_BOOKINGS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EXACT_BOOKINGS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EXACT_BOOKLINES_BR_TRG
 --------------------------------------------------------
@@ -19490,7 +19490,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EXACT_BOOKLINES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EXACT_BOOKLINES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger EXACT_ERRORS_BR_TRG
 --------------------------------------------------------
@@ -19507,7 +19507,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EXACT_ERRORS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EXACT_ERRORS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_EXACT_OPEN_DEBTORS
 --------------------------------------------------------
@@ -19524,7 +19524,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_EXACT_OPEN_DEBTORS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_EXACT_OPEN_DEBTORS";
 --------------------------------------------------------
 --  DDL for Trigger BI_EXPORT_DOSSIER_GOODS
 --------------------------------------------------------
@@ -19572,7 +19572,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_EXPORT_DOSSIER_GOODS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_EXPORT_DOSSIER_GOODS";
 --------------------------------------------------------
 --  DDL for Trigger BI_EXPORT_DOSSIERS
 --------------------------------------------------------
@@ -19827,7 +19827,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_EXPORT_DOSSIERS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_EXPORT_DOSSIERS";
 --------------------------------------------------------
 --  DDL for Trigger EXPORT_DOSSIERS_AR_TRG
 --------------------------------------------------------
@@ -19909,7 +19909,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."EXPORT_DOSSIERS_AR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."EXPORT_DOSSIERS_AR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_EXPORT_INVOICES
 --------------------------------------------------------
@@ -19992,7 +19992,7 @@ begin
 end;
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_EXPORT_INVOICES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_EXPORT_INVOICES";
 --------------------------------------------------------
 --  DDL for Trigger F_BR_TRG
 --------------------------------------------------------
@@ -20011,7 +20011,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."F_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."F_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger F00_BR_TRG
 --------------------------------------------------------
@@ -20030,7 +20030,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."F00_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."F00_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_FEATURES
 --------------------------------------------------------
@@ -20047,7 +20047,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_FEATURES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_FEATURES";
 --------------------------------------------------------
 --  DDL for Trigger FINANCE_CONTROL_MATRIX_BR_TRG
 --------------------------------------------------------
@@ -20065,7 +20065,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."FINANCE_CONTROL_MATRIX_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."FINANCE_CONTROL_MATRIX_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_FISFILE_HEADERS
 --------------------------------------------------------
@@ -20082,7 +20082,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_FISFILE_HEADERS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_FISFILE_HEADERS";
 --------------------------------------------------------
 --  DDL for Trigger BI_FISFILE_LINES
 --------------------------------------------------------
@@ -20099,7 +20099,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_FISFILE_LINES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_FISFILE_LINES";
 --------------------------------------------------------
 --  DDL for Trigger FOC_FILES_BR_TRG
 --------------------------------------------------------
@@ -20123,7 +20123,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."FOC_FILES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."FOC_FILES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger FOC_FILES_ATTACHMENTS_BR_TRG
 --------------------------------------------------------
@@ -20139,7 +20139,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."FOC_FILES_ATTACHMENTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."FOC_FILES_ATTACHMENTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger FOC_TEMPLATES_BR_TRG
 --------------------------------------------------------
@@ -20157,7 +20157,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."FOC_TEMPLATES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."FOC_TEMPLATES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger FORM_TRANSLATIONS_BR_TRG
 --------------------------------------------------------
@@ -20174,7 +20174,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."FORM_TRANSLATIONS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."FORM_TRANSLATIONS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger FTP_BR_TRG
 --------------------------------------------------------
@@ -20194,7 +20194,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."FTP_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."FTP_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BIR_FTP_DEBUGGING
 --------------------------------------------------------
@@ -20211,7 +20211,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BIR_FTP_DEBUGGING" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BIR_FTP_DEBUGGING";
 --------------------------------------------------------
 --  DDL for Trigger FTP_DIRECTORIES_BR_TRG
 --------------------------------------------------------
@@ -20230,7 +20230,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."FTP_DIRECTORIES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."FTP_DIRECTORIES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger FTP_GET_BR_TRG
 --------------------------------------------------------
@@ -20248,7 +20248,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."FTP_GET_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."FTP_GET_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger G00_BR_TRG
 --------------------------------------------------------
@@ -20267,7 +20267,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."G00_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."G00_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger GASOIL_SURCHARGES_BR_TRG
 --------------------------------------------------------
@@ -20284,7 +20284,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."GASOIL_SURCHARGES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."GASOIL_SURCHARGES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger GOODS_BR_TRG
 --------------------------------------------------------
@@ -20301,7 +20301,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."GOODS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."GOODS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_GROUPAGE_DOSSIER
 --------------------------------------------------------
@@ -20341,7 +20341,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_GROUPAGE_DOSSIER" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_GROUPAGE_DOSSIER";
 --------------------------------------------------------
 --  DDL for Trigger GRP_LOCATIONS_BR_TRG
 --------------------------------------------------------
@@ -20359,7 +20359,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."GRP_LOCATIONS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."GRP_LOCATIONS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger H_BR_TRG
 --------------------------------------------------------
@@ -20377,7 +20377,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."H_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."H_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger H00_BR_TRG
 --------------------------------------------------------
@@ -20396,7 +20396,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."H00_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."H00_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger H00_RELATIONS_BR_TRG
 --------------------------------------------------------
@@ -20412,7 +20412,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."H00_RELATIONS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."H00_RELATIONS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger H00_TEXT_CODES_BR_TRG
 --------------------------------------------------------
@@ -20429,7 +20429,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."H00_TEXT_CODES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."H00_TEXT_CODES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger H10_BR_TRG
 --------------------------------------------------------
@@ -20448,7 +20448,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."H10_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."H10_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger I_BR_TRG
 --------------------------------------------------------
@@ -20467,7 +20467,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."I_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."I_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger I00_BR_TRG
 --------------------------------------------------------
@@ -20486,7 +20486,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."I00_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."I00_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger INCOMING_INVOICE_ATTMENTS_BR_TRG
 --------------------------------------------------------
@@ -20503,7 +20503,7 @@ BEGIN
 END;
 
 /
-ALTER TRIGGER "TRANSPORT"."INCOMING_INVOICE_ATTMENTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."INCOMING_INVOICE_ATTMENTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_INCOMING_INVOICES
 --------------------------------------------------------
@@ -20548,7 +20548,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_INCOMING_INVOICES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_INCOMING_INVOICES";
 --------------------------------------------------------
 --  DDL for Trigger BI_INTERVALS
 --------------------------------------------------------
@@ -20566,7 +20566,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_INTERVALS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_INTERVALS";
 --------------------------------------------------------
 --  DDL for Trigger INVOICE_ATTMENTS_BR_TRG
 --------------------------------------------------------
@@ -20584,7 +20584,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."INVOICE_ATTMENTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."INVOICE_ATTMENTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_INVOICE_DESCRIPTION
 --------------------------------------------------------
@@ -20602,7 +20602,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_INVOICE_DESCRIPTION" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_INVOICE_DESCRIPTION";
 --------------------------------------------------------
 --  DDL for Trigger INVOICE_FORMATS_BR_TRG
 --------------------------------------------------------
@@ -20620,7 +20620,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."INVOICE_FORMATS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."INVOICE_FORMATS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_INVOICES_COLLECTIONS
 --------------------------------------------------------
@@ -20653,7 +20653,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_INVOICES_COLLECTIONS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_INVOICES_COLLECTIONS";
 --------------------------------------------------------
 --  DDL for Trigger J_BR_TRG
 --------------------------------------------------------
@@ -20670,7 +20670,7 @@ BEGIN
 END;
 
 /
-ALTER TRIGGER "TRANSPORT"."J_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."J_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger J00_BR_TRG
 --------------------------------------------------------
@@ -20689,7 +20689,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."J00_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."J00_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger K_BR_TRG
 --------------------------------------------------------
@@ -20705,7 +20705,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."K_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."K_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger L_BR_TRG
 --------------------------------------------------------
@@ -20724,7 +20724,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."L_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."L_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger LANGUAGES_BR_TRG
 --------------------------------------------------------
@@ -20741,7 +20741,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."LANGUAGES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."LANGUAGES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger LEAD_TIME_ZIPCODES_TRG
 --------------------------------------------------------
@@ -20757,7 +20757,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."LEAD_TIME_ZIPCODES_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."LEAD_TIME_ZIPCODES_TRG";
 --------------------------------------------------------
 --  DDL for Trigger LEAD_TIMES_BR_TRG
 --------------------------------------------------------
@@ -20773,7 +20773,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."LEAD_TIMES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."LEAD_TIMES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_LEDGERS
 --------------------------------------------------------
@@ -20791,7 +20791,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_LEDGERS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_LEDGERS";
 --------------------------------------------------------
 --  DDL for Trigger M_BR_TRG
 --------------------------------------------------------
@@ -20807,7 +20807,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."M_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."M_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger M_ENTL128_L1_BR_TRG
 --------------------------------------------------------
@@ -20823,7 +20823,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."M_ENTL128_L1_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."M_ENTL128_L1_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger M_ENTL128_L2_BR_TRG
 --------------------------------------------------------
@@ -20839,7 +20839,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."M_ENTL128_L2_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."M_ENTL128_L2_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger M_ENTL128_L3_BR_TRG
 --------------------------------------------------------
@@ -20855,7 +20855,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."M_ENTL128_L3_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."M_ENTL128_L3_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger M00_BR_TRG
 --------------------------------------------------------
@@ -20871,7 +20871,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."M00_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."M00_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger M10_BR_TRG
 --------------------------------------------------------
@@ -20887,7 +20887,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."M10_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."M10_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger M20_BR_TRG
 --------------------------------------------------------
@@ -20903,7 +20903,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."M20_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."M20_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_MAILING_LETTERS
 --------------------------------------------------------
@@ -20921,7 +20921,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_MAILING_LETTERS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_MAILING_LETTERS";
 --------------------------------------------------------
 --  DDL for Trigger BI_MAILING_RELATIONS
 --------------------------------------------------------
@@ -20939,7 +20939,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_MAILING_RELATIONS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_MAILING_RELATIONS";
 --------------------------------------------------------
 --  DDL for Trigger BI_MAILINGS
 --------------------------------------------------------
@@ -20957,7 +20957,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_MAILINGS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_MAILINGS";
 --------------------------------------------------------
 --  DDL for Trigger MASTER_QUOTATION_BR_TRG
 --------------------------------------------------------
@@ -20974,7 +20974,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."MASTER_QUOTATION_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."MASTER_QUOTATION_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger MK_STYLES_BR_TRG
 --------------------------------------------------------
@@ -20990,7 +20990,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."MK_STYLES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."MK_STYLES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_MODALITIES
 --------------------------------------------------------
@@ -21008,7 +21008,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_MODALITIES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_MODALITIES";
 --------------------------------------------------------
 --  DDL for Trigger N_BR_TRG
 --------------------------------------------------------
@@ -21024,7 +21024,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."N_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."N_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger N_ENTL128_PACKING_TYPE_BR_TRG
 --------------------------------------------------------
@@ -21040,7 +21040,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."N_ENTL128_PACKING_TYPE_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."N_ENTL128_PACKING_TYPE_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger N_ENTL128_PROBLEM_CODE_BR_TRG
 --------------------------------------------------------
@@ -21056,7 +21056,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."N_ENTL128_PROBLEM_CODE_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."N_ENTL128_PROBLEM_CODE_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger N00_BR_TRG
 --------------------------------------------------------
@@ -21072,7 +21072,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."N00_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."N00_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger NCF_REASONS_ACTIONS_BR_TRG
 --------------------------------------------------------
@@ -21097,7 +21097,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."NCF_REASONS_ACTIONS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."NCF_REASONS_ACTIONS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger NON_CONFORMITIES_BR_TRG
 --------------------------------------------------------
@@ -21114,7 +21114,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."NON_CONFORMITIES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."NON_CONFORMITIES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger NON_CONFORMITY_REGS_BR_TRG
 --------------------------------------------------------
@@ -21143,7 +21143,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."NON_CONFORMITY_REGS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."NON_CONFORMITY_REGS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger O_BR_TRG
 --------------------------------------------------------
@@ -21159,7 +21159,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."O_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."O_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger O00_BR_TRG
 --------------------------------------------------------
@@ -21175,7 +21175,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."O00_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."O00_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger O10_BR_TRG
 --------------------------------------------------------
@@ -21191,7 +21191,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."O10_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."O10_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger O20_BR_TRG
 --------------------------------------------------------
@@ -21207,7 +21207,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."O20_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."O20_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger OFFICE_PWD_POLICIES_BR_TRG
 --------------------------------------------------------
@@ -21223,7 +21223,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."OFFICE_PWD_POLICIES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."OFFICE_PWD_POLICIES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger OFFICES_BR_TRG
 --------------------------------------------------------
@@ -21242,7 +21242,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."OFFICES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."OFFICES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_OPEN_DEBTORS
 --------------------------------------------------------
@@ -21259,7 +21259,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_OPEN_DEBTORS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_OPEN_DEBTORS";
 --------------------------------------------------------
 --  DDL for Trigger OUTGOING_INVOICE_HIS_BR_TRG
 --------------------------------------------------------
@@ -21275,7 +21275,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."OUTGOING_INVOICE_HIS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."OUTGOING_INVOICE_HIS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_OUTGOING_INVOICES
 --------------------------------------------------------
@@ -21317,7 +21317,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_OUTGOING_INVOICES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_OUTGOING_INVOICES";
 --------------------------------------------------------
 --  DDL for Trigger P_BR_TRG
 --------------------------------------------------------
@@ -21333,7 +21333,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."P_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."P_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_PACKAGES
 --------------------------------------------------------
@@ -21351,7 +21351,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_PACKAGES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_PACKAGES";
 --------------------------------------------------------
 --  DDL for Trigger BI_PAGE_CONTROL
 --------------------------------------------------------
@@ -21368,7 +21368,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_PAGE_CONTROL" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_PAGE_CONTROL";
 --------------------------------------------------------
 --  DDL for Trigger PARAMETER_APPLICATION_BR_TRG
 --------------------------------------------------------
@@ -21398,7 +21398,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."PARAMETER_APPLICATION_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."PARAMETER_APPLICATION_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger PARAMETER_EMAIL_BR_TRG
 --------------------------------------------------------
@@ -21415,7 +21415,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."PARAMETER_EMAIL_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."PARAMETER_EMAIL_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_PAYMENT_TERMS
 --------------------------------------------------------
@@ -21433,7 +21433,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_PAYMENT_TERMS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_PAYMENT_TERMS";
 --------------------------------------------------------
 --  DDL for Trigger PICKUP_DELIVERY_BR_TRG
 --------------------------------------------------------
@@ -21471,7 +21471,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."PICKUP_DELIVERY_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."PICKUP_DELIVERY_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger PLAN_CONTROL_MATRIX_BR_TRG
 --------------------------------------------------------
@@ -21487,7 +21487,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."PLAN_CONTROL_MATRIX_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."PLAN_CONTROL_MATRIX_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger POD_LINKS_BR_TRG
 --------------------------------------------------------
@@ -21503,7 +21503,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."POD_LINKS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."POD_LINKS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger PORTAL_ADDRESSES_BR_TRG
 --------------------------------------------------------
@@ -21519,7 +21519,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."PORTAL_ADDRESSES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."PORTAL_ADDRESSES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger PORTAL_COUNTRIES_BR_TRG
 --------------------------------------------------------
@@ -21536,7 +21536,7 @@ begin
 end;
 
 /
-ALTER TRIGGER "TRANSPORT"."PORTAL_COUNTRIES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."PORTAL_COUNTRIES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger PORTAL_DEPOTS_BR_TRG
 --------------------------------------------------------
@@ -21553,7 +21553,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."PORTAL_DEPOTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."PORTAL_DEPOTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger PORTAL_DOSSIER_ATTM_BR_TRG
 --------------------------------------------------------
@@ -21571,7 +21571,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."PORTAL_DOSSIER_ATTM_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."PORTAL_DOSSIER_ATTM_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger PORTAL_DOSSIER_DETAILS_BR_TRG
 --------------------------------------------------------
@@ -21589,7 +21589,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."PORTAL_DOSSIER_DETAILS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."PORTAL_DOSSIER_DETAILS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger PORTAL_DOSSIERS_BR_TRG
 --------------------------------------------------------
@@ -21606,7 +21606,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."PORTAL_DOSSIERS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."PORTAL_DOSSIERS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_PORTAL_DOSSIERS
 --------------------------------------------------------
@@ -21634,7 +21634,7 @@ begin
 end;
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_PORTAL_DOSSIERS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_PORTAL_DOSSIERS";
 --------------------------------------------------------
 --  DDL for Trigger PUR_AGR_ADD_SURCHARGES_BR_TRG
 --------------------------------------------------------
@@ -21652,7 +21652,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."PUR_AGR_ADD_SURCHARGES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."PUR_AGR_ADD_SURCHARGES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger PUR_AGR_CITY_COLS_BR_TRG
 --------------------------------------------------------
@@ -21669,7 +21669,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."PUR_AGR_CITY_COLS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."PUR_AGR_CITY_COLS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger PUR_AGR_CITY_INTS_BR_TRG
 --------------------------------------------------------
@@ -21686,7 +21686,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."PUR_AGR_CITY_INTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."PUR_AGR_CITY_INTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger PUR_AGR_CITY_TERMS_BR_TRG
 --------------------------------------------------------
@@ -21704,7 +21704,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."PUR_AGR_CITY_TERMS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."PUR_AGR_CITY_TERMS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger PUR_AGR_DEP_DEP_INTS_BR_TRG
 --------------------------------------------------------
@@ -21720,7 +21720,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."PUR_AGR_DEP_DEP_INTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."PUR_AGR_DEP_DEP_INTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger PUR_AGR_DEP_DEP_TERMS_BR_TRG
 --------------------------------------------------------
@@ -21738,7 +21738,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."PUR_AGR_DEP_DEP_TERMS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."PUR_AGR_DEP_DEP_TERMS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger PUR_AGR_DEPOT_DEPOT_BR_TRG
 --------------------------------------------------------
@@ -21762,7 +21762,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."PUR_AGR_DEPOT_DEPOT_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."PUR_AGR_DEPOT_DEPOT_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger PUR_AGR_SURCH_INTS_BR_TRG
 --------------------------------------------------------
@@ -21778,7 +21778,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."PUR_AGR_SURCH_INTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."PUR_AGR_SURCH_INTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger PUR_AGR_SURCHARGES_BR_TRG
 --------------------------------------------------------
@@ -21795,7 +21795,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."PUR_AGR_SURCHARGES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."PUR_AGR_SURCHARGES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger PUR_GASOIL_SURCHARGES_BR_TRG
 --------------------------------------------------------
@@ -21812,7 +21812,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."PUR_GASOIL_SURCHARGES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."PUR_GASOIL_SURCHARGES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_PURCHASE_AGREEMENTS
 --------------------------------------------------------
@@ -21829,7 +21829,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_PURCHASE_AGREEMENTS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_PURCHASE_AGREEMENTS";
 --------------------------------------------------------
 --  DDL for Trigger Q_BR_TRG
 --------------------------------------------------------
@@ -21845,7 +21845,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."Q_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."Q_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger Q_STAT128_ERRORCODE_BR_TRG
 --------------------------------------------------------
@@ -21861,7 +21861,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."Q_STAT128_ERRORCODE_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."Q_STAT128_ERRORCODE_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger Q_128_STATC_RELA_BR_TRG
 --------------------------------------------------------
@@ -21879,7 +21879,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."Q_128_STATC_RELA_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."Q_128_STATC_RELA_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger Q_STAT128_STATUSCODE_BR_TRG
 --------------------------------------------------------
@@ -21895,7 +21895,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."Q_STAT128_STATUSCODE_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."Q_STAT128_STATUSCODE_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger Q00_BR_TRG
 --------------------------------------------------------
@@ -21911,7 +21911,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."Q00_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."Q00_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger Q10_BR_TRG
 --------------------------------------------------------
@@ -21927,7 +21927,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."Q10_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."Q10_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger Q11_BR_TRG
 --------------------------------------------------------
@@ -21943,7 +21943,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."Q11_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."Q11_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger Q20_BR_TRG
 --------------------------------------------------------
@@ -21959,7 +21959,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."Q20_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."Q20_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger Q30_BR_TRG
 --------------------------------------------------------
@@ -21975,7 +21975,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."Q30_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."Q30_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_OFFERTE
 --------------------------------------------------------
@@ -22008,7 +22008,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_OFFERTE" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_OFFERTE";
 --------------------------------------------------------
 --  DDL for Trigger BI_QUOTATION_COUNTRIES
 --------------------------------------------------------
@@ -22028,7 +22028,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_QUOTATION_COUNTRIES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_QUOTATION_COUNTRIES";
 --------------------------------------------------------
 --  DDL for Trigger BI_QUOTATION_FEATURES
 --------------------------------------------------------
@@ -22045,7 +22045,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_QUOTATION_FEATURES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_QUOTATION_FEATURES";
 --------------------------------------------------------
 --  DDL for Trigger BI_QUOTATION_INTERVALS
 --------------------------------------------------------
@@ -22062,7 +22062,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_QUOTATION_INTERVALS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_QUOTATION_INTERVALS";
 --------------------------------------------------------
 --  DDL for Trigger BI_QUOTATION_LINES
 --------------------------------------------------------
@@ -22079,7 +22079,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_QUOTATION_LINES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_QUOTATION_LINES";
 --------------------------------------------------------
 --  DDL for Trigger BI_QUOTATION_SURCHARGES
 --------------------------------------------------------
@@ -22096,7 +22096,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_QUOTATION_SURCHARGES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_QUOTATION_SURCHARGES";
 --------------------------------------------------------
 --  DDL for Trigger BI_QUOTATION_ZIPCODES
 --------------------------------------------------------
@@ -22113,7 +22113,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_QUOTATION_ZIPCODES" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_QUOTATION_ZIPCODES";
 --------------------------------------------------------
 --  DDL for Trigger RELATION_ADDRESSES_BR_TRG
 --------------------------------------------------------
@@ -22130,7 +22130,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."RELATION_ADDRESSES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."RELATION_ADDRESSES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger RELATION_ATTMENTS_BR_TRG
 --------------------------------------------------------
@@ -22148,7 +22148,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."RELATION_ATTMENTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."RELATION_ATTMENTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger RELATION_DEL_COUNTRIES_BR_TRG
 --------------------------------------------------------
@@ -22164,7 +22164,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."RELATION_DEL_COUNTRIES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."RELATION_DEL_COUNTRIES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger RELATION_FOLLOW_UPS_BR_TRG
 --------------------------------------------------------
@@ -22181,7 +22181,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."RELATION_FOLLOW_UPS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."RELATION_FOLLOW_UPS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger RELATION_HISTORY_BR_TRG
 --------------------------------------------------------
@@ -22197,7 +22197,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."RELATION_HISTORY_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."RELATION_HISTORY_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger RELATION_NON_CONF_BR_TRG
 --------------------------------------------------------
@@ -22213,7 +22213,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."RELATION_NON_CONF_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."RELATION_NON_CONF_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger RELATION_STATUSES_BR_TRG
 --------------------------------------------------------
@@ -22229,7 +22229,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."RELATION_STATUSES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."RELATION_STATUSES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_RELATIONS
 --------------------------------------------------------
@@ -22297,7 +22297,7 @@ begin
 end;
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_RELATIONS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_RELATIONS";
 --------------------------------------------------------
 --  DDL for Trigger REPLACE_MULTIBYTES_BR_TRG
 --------------------------------------------------------
@@ -22342,7 +22342,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."REPLACE_MULTIBYTES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."REPLACE_MULTIBYTES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger REPORT_ATTACHMENTS_BR_TRG
 --------------------------------------------------------
@@ -22360,7 +22360,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."REPORT_ATTACHMENTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."REPORT_ATTACHMENTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger REPORT_LAYOUTS_BR_TRG
 --------------------------------------------------------
@@ -22381,7 +22381,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."REPORT_LAYOUTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."REPORT_LAYOUTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger REPORT_QUERIES_BR_TRG
 --------------------------------------------------------
@@ -22400,7 +22400,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."REPORT_QUERIES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."REPORT_QUERIES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger REPORT_SCHEDULER_BR_TRG
 --------------------------------------------------------
@@ -22419,7 +22419,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."REPORT_SCHEDULER_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."REPORT_SCHEDULER_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger REPORT_SCHEDULER_ATTMEN_BR_TRG
 --------------------------------------------------------
@@ -22438,7 +22438,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."REPORT_SCHEDULER_ATTMEN_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."REPORT_SCHEDULER_ATTMEN_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger RFQ_ASSISTANCES_BR_TRG
 --------------------------------------------------------
@@ -22458,7 +22458,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."RFQ_ASSISTANCES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."RFQ_ASSISTANCES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger RFQ_DOSSIER_DETAILS_BR_TRG
 --------------------------------------------------------
@@ -22488,7 +22488,7 @@ begin
 end;
 
 /
-ALTER TRIGGER "TRANSPORT"."RFQ_DOSSIER_DETAILS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."RFQ_DOSSIER_DETAILS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger RFQ_DOSSIERS_BR_TRG
 --------------------------------------------------------
@@ -22506,7 +22506,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."RFQ_DOSSIERS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."RFQ_DOSSIERS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger RFQ_DOSSIERS_AR_TRG
 --------------------------------------------------------
@@ -22522,7 +22522,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."RFQ_DOSSIERS_AR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."RFQ_DOSSIERS_AR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger RFQ_REVENUES_BR_TRG
 --------------------------------------------------------
@@ -22541,7 +22541,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."RFQ_REVENUES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."RFQ_REVENUES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger RFS_HISTORY_BR_TRG
 --------------------------------------------------------
@@ -22559,7 +22559,7 @@ begin
 end;
 
 /
-ALTER TRIGGER "TRANSPORT"."RFS_HISTORY_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."RFS_HISTORY_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger SAL_AGR_ADD_SURCHARGES_BR
 --------------------------------------------------------
@@ -22575,7 +22575,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."SAL_AGR_ADD_SURCHARGES_BR" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SAL_AGR_ADD_SURCHARGES_BR";
 --------------------------------------------------------
 --  DDL for Trigger SAL_AGR_CITY_COLS_BR_TRG
 --------------------------------------------------------
@@ -22591,7 +22591,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."SAL_AGR_CITY_COLS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SAL_AGR_CITY_COLS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger SAL_AGR_CITY_INTS_BR_TRG
 --------------------------------------------------------
@@ -22607,7 +22607,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."SAL_AGR_CITY_INTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SAL_AGR_CITY_INTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger SAL_AGR_CITY_MAUT_INTS_BR_TRG
 --------------------------------------------------------
@@ -22622,7 +22622,7 @@ begin
 end;
 
 /
-ALTER TRIGGER "TRANSPORT"."SAL_AGR_CITY_MAUT_INTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SAL_AGR_CITY_MAUT_INTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger SAL_AGR_DEPOT_DEPOT_BR_TRG
 --------------------------------------------------------
@@ -22646,7 +22646,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."SAL_AGR_DEPOT_DEPOT_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SAL_AGR_DEPOT_DEPOT_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger SAL_AGR_DEP_DEP_INTS_BR_TRG
 --------------------------------------------------------
@@ -22662,7 +22662,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."SAL_AGR_DEP_DEP_INTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SAL_AGR_DEP_DEP_INTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger SAL_AGR_MAUT_INTS_BR_TRG
 --------------------------------------------------------
@@ -22678,7 +22678,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."SAL_AGR_MAUT_INTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SAL_AGR_MAUT_INTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger SAL_AGR_SURCH_INTS_BR_TRG
 --------------------------------------------------------
@@ -22696,7 +22696,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."SAL_AGR_SURCH_INTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SAL_AGR_SURCH_INTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger SAL_AGR_SURCHARGES_BR_TRG
 --------------------------------------------------------
@@ -22714,7 +22714,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."SAL_AGR_SURCHARGES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SAL_AGR_SURCHARGES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger SAL_GASOIL_SURCHARGES_BR_TRG
 --------------------------------------------------------
@@ -22730,7 +22730,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."SAL_GASOIL_SURCHARGES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SAL_GASOIL_SURCHARGES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger SAL_MAUT_SURCHARGES_BR_TRG
 --------------------------------------------------------
@@ -22748,7 +22748,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."SAL_MAUT_SURCHARGES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SAL_MAUT_SURCHARGES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger SALES_AGREEMENTS_BR
 --------------------------------------------------------
@@ -22764,7 +22764,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."SALES_AGREEMENTS_BR" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SALES_AGREEMENTS_BR";
 --------------------------------------------------------
 --  DDL for Trigger SERVICE_LEVELS_BR_TRG
 --------------------------------------------------------
@@ -22781,7 +22781,7 @@ begin
 end;
 
 /
-ALTER TRIGGER "TRANSPORT"."SERVICE_LEVELS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SERVICE_LEVELS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger SHIPMENT_CHANGES_BR_TRG
 --------------------------------------------------------
@@ -22804,7 +22804,7 @@ end if;
 end;
 
 /
-ALTER TRIGGER "TRANSPORT"."SHIPMENT_CHANGES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SHIPMENT_CHANGES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger SHPLAD_BR_TRG
 --------------------------------------------------------
@@ -22820,7 +22820,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."SHPLAD_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SHPLAD_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger SHPLAD_PLAN_BR_TRG
 --------------------------------------------------------
@@ -22836,7 +22836,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."SHPLAD_PLAN_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SHPLAD_PLAN_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger SHPLOS_BR_TRG
 --------------------------------------------------------
@@ -22852,7 +22852,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."SHPLOS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SHPLOS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger SHPLOS_PLAN_BR_TRG
 --------------------------------------------------------
@@ -22868,7 +22868,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."SHPLOS_PLAN_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SHPLOS_PLAN_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger SHPORD_BR_TRG
 --------------------------------------------------------
@@ -22889,7 +22889,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."SHPORD_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SHPORD_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger SHPORD_OB_BR_TRG
 --------------------------------------------------------
@@ -22905,7 +22905,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."SHPORD_OB_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SHPORD_OB_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger SHPORD_PLAN_BR_TRG
 --------------------------------------------------------
@@ -22921,7 +22921,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."SHPORD_PLAN_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SHPORD_PLAN_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger SHPORD_STATUS_BR_TRG
 --------------------------------------------------------
@@ -22937,7 +22937,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."SHPORD_STATUS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SHPORD_STATUS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger STAT512_STATUSCODES_BR_TRG
 --------------------------------------------------------
@@ -22953,7 +22953,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."STAT512_STATUSCODES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."STAT512_STATUSCODES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger STAT512_STATCODE_RELA_BR_TRG
 --------------------------------------------------------
@@ -22971,7 +22971,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."STAT512_STATCODE_RELA_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."STAT512_STATCODE_RELA_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_STATUS
 --------------------------------------------------------
@@ -22989,7 +22989,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_STATUS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_STATUS";
 --------------------------------------------------------
 --  DDL for Trigger STD_EDI_FORMAT_DETAILS_BR_TRG
 --------------------------------------------------------
@@ -23004,7 +23004,7 @@ begin
 end;
 
 /
-ALTER TRIGGER "TRANSPORT"."STD_EDI_FORMAT_DETAILS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."STD_EDI_FORMAT_DETAILS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger STD_EDI_FORMAT_SHIPMENTS_BR_TRG
 --------------------------------------------------------
@@ -23021,7 +23021,7 @@ begin
 end;
 
 /
-ALTER TRIGGER "TRANSPORT"."STD_EDI_FORMAT_SHIPMENTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."STD_EDI_FORMAT_SHIPMENTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger STD_EDI_FORMAT_TRANSPORT_BR_TRG
 --------------------------------------------------------
@@ -23039,7 +23039,7 @@ begin
 end;
 
 /
-ALTER TRIGGER "TRANSPORT"."STD_EDI_FORMAT_TRANSPORT_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."STD_EDI_FORMAT_TRANSPORT_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger SYSTEM_LOG_BR_TRG
 --------------------------------------------------------
@@ -23060,7 +23060,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."SYSTEM_LOG_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."SYSTEM_LOG_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger TASK_LOGGINGS_BR_TRG
 --------------------------------------------------------
@@ -23077,7 +23077,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."TASK_LOGGINGS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."TASK_LOGGINGS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger TT_EXCEPTIONS_BR_TRG
 --------------------------------------------------------
@@ -23093,7 +23093,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."TT_EXCEPTIONS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."TT_EXCEPTIONS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger TT_STATUS_EXCEPTIONS_BR_TRG
 --------------------------------------------------------
@@ -23111,7 +23111,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."TT_STATUS_EXCEPTIONS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."TT_STATUS_EXCEPTIONS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger TT_STATUSSES_BR_TRG
 --------------------------------------------------------
@@ -23127,7 +23127,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."TT_STATUSSES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."TT_STATUSSES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger TURNOVER_STATISTICS_BR_TRG
 --------------------------------------------------------
@@ -23143,7 +23143,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."TURNOVER_STATISTICS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."TURNOVER_STATISTICS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger UNIT_TYPE_CONVERSIONS_BR_TRG
 --------------------------------------------------------
@@ -23159,7 +23159,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."UNIT_TYPE_CONVERSIONS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."UNIT_TYPE_CONVERSIONS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger UPLOAD_COST_LINES_BR_TRG
 --------------------------------------------------------
@@ -23175,7 +23175,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."UPLOAD_COST_LINES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."UPLOAD_COST_LINES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger UPLOAD_COSTS_BR_TRG
 --------------------------------------------------------
@@ -23193,7 +23193,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."UPLOAD_COSTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."UPLOAD_COSTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger UPLOAD_DOS_DET_LINES_BR_TRG
 --------------------------------------------------------
@@ -23209,7 +23209,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."UPLOAD_DOS_DET_LINES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."UPLOAD_DOS_DET_LINES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger UPLOAD_DOSSIER_DETAILS_BR_TRG
 --------------------------------------------------------
@@ -23230,7 +23230,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."UPLOAD_DOSSIER_DETAILS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."UPLOAD_DOSSIER_DETAILS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger UPLOAD_REVENUE_LINES_BR_TRG
 --------------------------------------------------------
@@ -23246,7 +23246,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."UPLOAD_REVENUE_LINES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."UPLOAD_REVENUE_LINES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger UPLOAD_REVENUES_BR_TRG
 --------------------------------------------------------
@@ -23262,7 +23262,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."UPLOAD_REVENUES_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."UPLOAD_REVENUES_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger USER_CLIENTS_BR_TRG
 --------------------------------------------------------
@@ -23279,7 +23279,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."USER_CLIENTS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."USER_CLIENTS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_USER_CONTROLS
 --------------------------------------------------------
@@ -23296,7 +23296,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_USER_CONTROLS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_USER_CONTROLS";
 --------------------------------------------------------
 --  DDL for Trigger USER_LOGINS_BR_TRG
 --------------------------------------------------------
@@ -23315,7 +23315,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."USER_LOGINS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."USER_LOGINS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger USER_PASSWORD_HISTORY_BR_TRG
 --------------------------------------------------------
@@ -23332,7 +23332,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."USER_PASSWORD_HISTORY_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."USER_PASSWORD_HISTORY_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger USER_SETTINGS_BR_TRG
 --------------------------------------------------------
@@ -23356,7 +23356,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."USER_SETTINGS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."USER_SETTINGS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger BI_VATS
 --------------------------------------------------------
@@ -23374,7 +23374,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."BI_VATS" ENABLE;
+ALTER TRIGGER "TRANSPORT"."BI_VATS";
 --------------------------------------------------------
 --  DDL for Trigger W_BR_TRG
 --------------------------------------------------------
@@ -23390,7 +23390,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."W_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."W_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger WS_SETUP_BR_TRG
 --------------------------------------------------------
@@ -23410,7 +23410,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."WS_SETUP_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."WS_SETUP_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger WS_SETUP_REST_HEADERS_BR_TRG
 --------------------------------------------------------
@@ -23428,7 +23428,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."WS_SETUP_REST_HEADERS_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."WS_SETUP_REST_HEADERS_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger X_BR_TRG
 --------------------------------------------------------
@@ -23444,7 +23444,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."X_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."X_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger XML_BR_TRG
 --------------------------------------------------------
@@ -23462,7 +23462,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."XML_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."XML_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger Y_BR_TRG
 --------------------------------------------------------
@@ -23478,7 +23478,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."Y_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."Y_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger Z00_BR_TRG
 --------------------------------------------------------
@@ -23497,7 +23497,7 @@ END;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."Z00_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."Z00_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger Z00_ENTL512_BR_TRG
 --------------------------------------------------------
@@ -23513,7 +23513,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."Z00_ENTL512_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."Z00_ENTL512_BR_TRG";
 --------------------------------------------------------
 --  DDL for Trigger Z00_STAT512_BR_TRG
 --------------------------------------------------------
@@ -23529,7 +23529,7 @@ end;
 
 
 /
-ALTER TRIGGER "TRANSPORT"."Z00_STAT512_BR_TRG" ENABLE;
+ALTER TRIGGER "TRANSPORT"."Z00_STAT512_BR_TRG";
 --------------------------------------------------------
 --  Constraints for Table A
 --------------------------------------------------------
@@ -23539,45 +23539,45 @@ ALTER TRIGGER "TRANSPORT"."Z00_STAT512_BR_TRG" ENABLE;
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table A00
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."A00" MODIFY ("A00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."A00" MODIFY ("RECORD_TYPE_A00" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."A00" MODIFY ("A00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."A00" MODIFY ("RECORD_TYPE_A00" NOT NULL);
   ALTER TABLE "TRANSPORT"."A00" ADD CONSTRAINT "A00_CON" PRIMARY KEY ("A00_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table A10
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."A10" MODIFY ("A10_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."A10" MODIFY ("A00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."A10" MODIFY ("RECORD_TYPE_A10" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."A10" MODIFY ("A10_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."A10" MODIFY ("A00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."A10" MODIFY ("RECORD_TYPE_A10" NOT NULL);
   ALTER TABLE "TRANSPORT"."A10" ADD CONSTRAINT "A10_PK" PRIMARY KEY ("A10_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table ADDRESS_SERVICE_LEVELS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."ADDRESS_SERVICE_LEVELS" MODIFY ("ADDRESS_SERVICE_LEVEL_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."ADDRESS_SERVICE_LEVELS" MODIFY ("ADDRESS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."ADDRESS_SERVICE_LEVELS" MODIFY ("SERVICE_LEVEL_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."ADDRESS_SERVICE_LEVELS" MODIFY ("ADDRESS_SERVICE_LEVEL_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."ADDRESS_SERVICE_LEVELS" MODIFY ("ADDRESS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."ADDRESS_SERVICE_LEVELS" MODIFY ("SERVICE_LEVEL_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."ADDRESS_SERVICE_LEVELS" ADD CONSTRAINT "ADDRESS_SERVICE_LEVELS_PK" PRIMARY KEY ("ADDRESS_SERVICE_LEVEL_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table ADDRESS_TEMP
 --------------------------------------------------------
@@ -23587,135 +23587,135 @@ ALTER TRIGGER "TRANSPORT"."Z00_STAT512_BR_TRG" ENABLE;
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table ADDRESS_TYPES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."ADDRESS_TYPES" MODIFY ("TYPE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."ADDRESS_TYPES" MODIFY ("OFFICE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."ADDRESS_TYPES" MODIFY ("DESCRIPTION" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."ADDRESS_TYPES" MODIFY ("TYPE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."ADDRESS_TYPES" MODIFY ("OFFICE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."ADDRESS_TYPES" MODIFY ("DESCRIPTION" NOT NULL);
   ALTER TABLE "TRANSPORT"."ADDRESS_TYPES" ADD CONSTRAINT "ADDRESS_TYPES_UK" UNIQUE ("OFFICE_SEQ", "DESCRIPTION")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."ADDRESS_TYPES" ADD CONSTRAINT "ADDRESS_TYPES_PK" PRIMARY KEY ("TYPE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table ADDRESSES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."ADDRESSES" MODIFY ("ADDRESS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."ADDRESSES" MODIFY ("NAME" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."ADDRESSES" MODIFY ("ADDRESS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."ADDRESSES" MODIFY ("NAME" NOT NULL);
   ALTER TABLE "TRANSPORT"."ADDRESSES" ADD CONSTRAINT "ADDRESSES_PK" PRIMARY KEY ("ADDRESS_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table ADHOC_QUOTATIONS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."ADHOC_QUOTATIONS" MODIFY ("QUOTATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."ADHOC_QUOTATIONS" MODIFY ("QUOTATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."ADHOC_QUOTATIONS" ADD CONSTRAINT "ADHOC_QUOTATIONS_PK" PRIMARY KEY ("QUOTATION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table AGENT_MATRIX
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."AGENT_MATRIX" MODIFY ("AGENT_MATRIX_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."AGENT_MATRIX" MODIFY ("AGENT_RELATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."AGENT_MATRIX" MODIFY ("MATRIX_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."AGENT_MATRIX" MODIFY ("AGENT_MATRIX_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."AGENT_MATRIX" MODIFY ("AGENT_RELATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."AGENT_MATRIX" MODIFY ("MATRIX_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."AGENT_MATRIX" ADD CONSTRAINT "AGENT_MATRIX_UK" UNIQUE ("AGENT_RELATION_SEQ", "MATRIX_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."AGENT_MATRIX" ADD CONSTRAINT "AGENT_MATRIX_PK" PRIMARY KEY ("AGENT_MATRIX_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table AGREEMENTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."AGREEMENTS" MODIFY ("AGREEMENTS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."AGREEMENTS" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."AGREEMENTS" MODIFY ("AGREEMENTS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."AGREEMENTS" MODIFY ("RELATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."AGREEMENTS" ADD CONSTRAINT "AGREEMENTS_PK" PRIMARY KEY ("AGREEMENTS_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table AGS_BB_RETURN_MSGS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."AGS_BB_RETURN_MSGS" MODIFY ("AGS_BB_RETURN_MSG_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."AGS_BB_RETURN_MSGS" MODIFY ("AGS_BB_RETURN_MSG_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."AGS_BB_RETURN_MSGS" ADD CONSTRAINT "AGS_BB_RETURN_MSGS_PK" PRIMARY KEY ("AGS_BB_RETURN_MSG_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table AUTH_GROUPS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."AUTH_GROUPS" MODIFY ("AUTH_GROUP_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."AUTH_GROUPS" MODIFY ("AUTH_GROUP_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."AUTH_GROUPS" ADD CONSTRAINT "AUTH_GROUPS_UK" UNIQUE ("OFFICE_SEQ", "GROUP_NAME")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table AUTO_MATCH_COSTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."AUTO_MATCH_COSTS" MODIFY ("AUTO_MATCH_COST_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."AUTO_MATCH_COSTS" MODIFY ("MATCH_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."AUTO_MATCH_COSTS" MODIFY ("AMOUNT" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."AUTO_MATCH_COSTS" MODIFY ("COST_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."AUTO_MATCH_COSTS" MODIFY ("AUTO_MATCH_COST_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."AUTO_MATCH_COSTS" MODIFY ("MATCH_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."AUTO_MATCH_COSTS" MODIFY ("AMOUNT" NOT NULL);
+  ALTER TABLE "TRANSPORT"."AUTO_MATCH_COSTS" MODIFY ("COST_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."AUTO_MATCH_COSTS" ADD CONSTRAINT "AUTO_MATCH_COSTS_PK" PRIMARY KEY ("AUTO_MATCH_COST_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table AUTO_MATCH_INVOICES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."AUTO_MATCH_INVOICES" MODIFY ("MATCH_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."AUTO_MATCH_INVOICES" MODIFY ("INVOICE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."AUTO_MATCH_INVOICES" MODIFY ("MATCH_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."AUTO_MATCH_INVOICES" MODIFY ("INVOICE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."AUTO_MATCH_INVOICES" ADD CONSTRAINT "AUTO_MATCH_INVOICES_PK" PRIMARY KEY ("MATCH_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table AUTO_RESTART_JOB_LIST
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."AUTO_RESTART_JOB_LIST" MODIFY ("JOB_OWNER" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."AUTO_RESTART_JOB_LIST" MODIFY ("JOB_NAME" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."AUTO_RESTART_JOB_LIST" MODIFY ("JOB_MAX_DURATION" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."AUTO_RESTART_JOB_LIST" MODIFY ("JOB_OWNER" NOT NULL);
+  ALTER TABLE "TRANSPORT"."AUTO_RESTART_JOB_LIST" MODIFY ("JOB_NAME" NOT NULL);
+  ALTER TABLE "TRANSPORT"."AUTO_RESTART_JOB_LIST" MODIFY ("JOB_MAX_DURATION" NOT NULL);
 --------------------------------------------------------
 --  Constraints for Table B
 --------------------------------------------------------
@@ -23725,124 +23725,124 @@ ALTER TRIGGER "TRANSPORT"."Z00_STAT512_BR_TRG" ENABLE;
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table B00
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."B00" MODIFY ("B00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."B00" MODIFY ("RECORD_TYPE_B00" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."B00" MODIFY ("A00_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."B00" MODIFY ("B00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."B00" MODIFY ("RECORD_TYPE_B00" NOT NULL);
+  ALTER TABLE "TRANSPORT"."B00" MODIFY ("A00_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."B00" ADD CONSTRAINT "B00_PK" PRIMARY KEY ("B00_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table B10
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."B10" MODIFY ("B10_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."B10" MODIFY ("B00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."B10" MODIFY ("RECORD_TYPE_B10" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."B10" MODIFY ("B10_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."B10" MODIFY ("B00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."B10" MODIFY ("RECORD_TYPE_B10" NOT NULL);
   ALTER TABLE "TRANSPORT"."B10" ADD CONSTRAINT "B10_PK" PRIMARY KEY ("B10_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table B2B_DATA
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."B2B_DATA" MODIFY ("B2B_DATA_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."B2B_DATA" MODIFY ("B2B_DATA_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."B2B_DATA" ADD CONSTRAINT "B2B_DATA_PK" PRIMARY KEY ("B2B_DATA_SEQ")
-  USING INDEX "TRANSPORT"."B2B_DATA_PK"  ENABLE;
+  USING INDEX "TRANSPORT"."B2B_DATA_PK" ;
 --------------------------------------------------------
 --  Constraints for Table B2B_RESULT
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."B2B_RESULT" MODIFY ("B2B_RESULT_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."B2B_RESULT" MODIFY ("B2B_RESULT_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."B2B_RESULT" ADD CONSTRAINT "B2B_RESULT_PK" PRIMARY KEY ("B2B_RESULT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table BARCODE_IN
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."BARCODE_IN" MODIFY ("BARCODE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."BARCODE_IN" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."BARCODE_IN" MODIFY ("BARCODE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."BARCODE_IN" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."BARCODE_IN" ADD CONSTRAINT "BARCODE_IN_PK" PRIMARY KEY ("BARCODE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table BASES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."BASES" MODIFY ("BASE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."BASES" MODIFY ("CODE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."BASES" MODIFY ("BASE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."BASES" MODIFY ("CODE" NOT NULL);
   ALTER TABLE "TRANSPORT"."BASES" ADD CONSTRAINT "BASES_PK" PRIMARY KEY ("BASE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table BORD128_UNITS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."BORD128_UNITS" MODIFY ("BORD128_UNIT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."BORD128_UNITS" MODIFY ("UNIT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."BORD128_UNITS" MODIFY ("CODE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."BORD128_UNITS" MODIFY ("BORD128_UNIT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."BORD128_UNITS" MODIFY ("UNIT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."BORD128_UNITS" MODIFY ("CODE" NOT NULL);
   ALTER TABLE "TRANSPORT"."BORD128_UNITS" ADD CONSTRAINT "BORD128_UNITS_PK" PRIMARY KEY ("BORD128_UNIT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table BORD512_UNITS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."BORD512_UNITS" MODIFY ("BORD512_UNIT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."BORD512_UNITS" MODIFY ("UNIT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."BORD512_UNITS" MODIFY ("CODE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."BORD512_UNITS" MODIFY ("BORD512_UNIT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."BORD512_UNITS" MODIFY ("UNIT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."BORD512_UNITS" MODIFY ("CODE" NOT NULL);
   ALTER TABLE "TRANSPORT"."BORD512_UNITS" ADD CONSTRAINT "BORD512_UNITS_PK" PRIMARY KEY ("BORD512_UNIT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table BVA_ITEM
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."BVA_ITEM" MODIFY ("ITEM_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."BVA_ITEM" MODIFY ("BVA_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."BVA_ITEM" MODIFY ("ITEM_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."BVA_ITEM" MODIFY ("BVA_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."BVA_ITEM" ADD CONSTRAINT "BVA_ITEM_PK" PRIMARY KEY ("ITEM_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table BVAS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."BVAS" MODIFY ("BVA_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."BVAS" MODIFY ("BVA_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."BVAS" ADD CONSTRAINT "BVAS_PK" PRIMARY KEY ("BVA_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table C
 --------------------------------------------------------
@@ -23852,118 +23852,118 @@ ALTER TRIGGER "TRANSPORT"."Z00_STAT512_BR_TRG" ENABLE;
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table C00
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."C00" MODIFY ("C00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."C00" MODIFY ("A00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."C00" MODIFY ("RECORD_TYPE_C00" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."C00" MODIFY ("C00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."C00" MODIFY ("A00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."C00" MODIFY ("RECORD_TYPE_C00" NOT NULL);
   ALTER TABLE "TRANSPORT"."C00" ADD CONSTRAINT "C00_PK" PRIMARY KEY ("C00_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CALCULATION_CRITERIAS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CALCULATION_CRITERIAS" MODIFY ("CRITERIA_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CALCULATION_CRITERIAS" MODIFY ("AGREEMENT_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CALCULATION_CRITERIAS" MODIFY ("CRITERIA_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CALCULATION_CRITERIAS" MODIFY ("AGREEMENT_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."CALCULATION_CRITERIAS" ADD CONSTRAINT "CALCULATION_CRITERIAS_PK" PRIMARY KEY ("CRITERIA_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CARRIER_TYPES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CARRIER_TYPES" MODIFY ("CARRIER_TYPE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CARRIER_TYPES" MODIFY ("CARRIER_TYPE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CARRIER_TYPES" MODIFY ("CARRIER_TYPE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CARRIER_TYPES" MODIFY ("CARRIER_TYPE" NOT NULL);
   ALTER TABLE "TRANSPORT"."CARRIER_TYPES" ADD CONSTRAINT "CARRIER_TYPES_PK" PRIMARY KEY ("CARRIER_TYPE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CITY_COLLECTION_CITIES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CITY_COLLECTION_CITIES" MODIFY ("CITY_COLLECTION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CITY_COLLECTION_CITIES" MODIFY ("COLLECTION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CITY_COLLECTION_CITIES" MODIFY ("CITY_COLLECTION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CITY_COLLECTION_CITIES" MODIFY ("COLLECTION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."CITY_COLLECTION_CITIES" ADD CONSTRAINT "CITY_COLLECTION_CITIES_PK" PRIMARY KEY ("CITY_COLLECTION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CITY_COLLECTIONS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CITY_COLLECTIONS" MODIFY ("COLLECTION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CITY_COLLECTIONS" MODIFY ("OFFICE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CITY_COLLECTIONS" MODIFY ("DESCRIPTION" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CITY_COLLECTIONS" MODIFY ("COUNTRY_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CITY_COLLECTIONS" MODIFY ("COLLECTION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CITY_COLLECTIONS" MODIFY ("OFFICE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CITY_COLLECTIONS" MODIFY ("DESCRIPTION" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CITY_COLLECTIONS" MODIFY ("COUNTRY_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."CITY_COLLECTIONS" ADD CONSTRAINT "CITY_COLLECTIONS_UK" UNIQUE ("COLLECTION_SEQ", "OFFICE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."CITY_COLLECTIONS" ADD CONSTRAINT "CITY_COLLECTIONS_PK" PRIMARY KEY ("COLLECTION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CMR_ITEMS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CMR_ITEMS" MODIFY ("CMR_ITEM_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CMR_ITEMS" MODIFY ("CMR_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CMR_ITEMS" MODIFY ("CMR_ITEM_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CMR_ITEMS" MODIFY ("CMR_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."CMR_ITEMS" ADD CONSTRAINT "CMR_ITEMS_PK" PRIMARY KEY ("CMR_ITEM_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CMRS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CMRS" MODIFY ("CMR_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CMRS" MODIFY ("CMR_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."CMRS" ADD CONSTRAINT "CMRS_PK" PRIMARY KEY ("CMR_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table COLLECT_PARAMETERS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."COLLECT_PARAMETERS" MODIFY ("PARAMETER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."COLLECT_PARAMETERS" MODIFY ("GROUPAGE_DOSSIER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."COLLECT_PARAMETERS" MODIFY ("VALID_UPTO" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."COLLECT_PARAMETERS" MODIFY ("PARAMETER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."COLLECT_PARAMETERS" MODIFY ("GROUPAGE_DOSSIER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."COLLECT_PARAMETERS" MODIFY ("VALID_UPTO" NOT NULL);
   ALTER TABLE "TRANSPORT"."COLLECT_PARAMETERS" ADD CONSTRAINT "COLLECT_PARAMETERS_PK" PRIMARY KEY ("PARAMETER_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table COLLECT_RELATIONS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."COLLECT_RELATIONS" MODIFY ("PARAMETER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."COLLECT_RELATIONS" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."COLLECT_RELATIONS" MODIFY ("PARAMETER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."COLLECT_RELATIONS" MODIFY ("RELATION_SEQ" NOT NULL);
 --------------------------------------------------------
 --  Constraints for Table COLLECTION_TERMS
 --------------------------------------------------------
@@ -23973,252 +23973,252 @@ ALTER TRIGGER "TRANSPORT"."Z00_STAT512_BR_TRG" ENABLE;
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."COLLECTION_TERMS" ADD CONSTRAINT "COLLECTION_TERMS_PK" PRIMARY KEY ("COLLECTION_TERM_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CONTACTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CONTACTS" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CONTACTS" MODIFY ("RELATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."CONTACTS" ADD CONSTRAINT "CONTACTS_PK" PRIMARY KEY ("CONTACT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table COST_REVENUES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."COST_REVENUES" MODIFY ("COST_REVENUE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."COST_REVENUES" MODIFY ("COST_REVENUE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."COST_REVENUES" ADD CONSTRAINT "COST_REVENUES_PK" PRIMARY KEY ("COST_REVENUE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table COUNTRIES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."COUNTRIES" MODIFY ("COUNTRY_CODE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."COUNTRIES" MODIFY ("COUNTRY_CODE" NOT NULL);
   ALTER TABLE "TRANSPORT"."COUNTRIES" ADD CONSTRAINT "COUNTRIES_PK" PRIMARY KEY ("COUNTRY_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table COUNTRY_MATRIX
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."COUNTRY_MATRIX" MODIFY ("COUNTRY_MATRIX_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."COUNTRY_MATRIX" MODIFY ("MATRIX_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."COUNTRY_MATRIX" MODIFY ("COUNTRY_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."COUNTRY_MATRIX" MODIFY ("COUNTRY_MATRIX_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."COUNTRY_MATRIX" MODIFY ("MATRIX_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."COUNTRY_MATRIX" MODIFY ("COUNTRY_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."COUNTRY_MATRIX" ADD CONSTRAINT "COUNTRY_MATRIX_PK" PRIMARY KEY ("COUNTRY_MATRIX_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CRM_CARRIER_TYPES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CRM_CARRIER_TYPES" MODIFY ("CRM_CARRIER_TYPE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CRM_CARRIER_TYPES" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CRM_CARRIER_TYPES" MODIFY ("CARRIER_TYPE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CRM_CARRIER_TYPES" MODIFY ("CRM_CARRIER_TYPE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CRM_CARRIER_TYPES" MODIFY ("RELATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CRM_CARRIER_TYPES" MODIFY ("CARRIER_TYPE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."CRM_CARRIER_TYPES" ADD CONSTRAINT "CRM_CARRIER_TYPES_PK" PRIMARY KEY ("CRM_CARRIER_TYPE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CRM_COMPETITORS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CRM_COMPETITORS" MODIFY ("CRM_COMPETITOR_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CRM_COMPETITORS" MODIFY ("NAME" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CRM_COMPETITORS" MODIFY ("CRM_COMPETITOR_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CRM_COMPETITORS" MODIFY ("NAME" NOT NULL);
   ALTER TABLE "TRANSPORT"."CRM_COMPETITORS" ADD CONSTRAINT "CRM_COMPETITORS_PK" PRIMARY KEY ("CRM_COMPETITOR_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CRM_CONTACTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CRM_CONTACTS" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CRM_CONTACTS" MODIFY ("RELATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."CRM_CONTACTS" ADD CONSTRAINT "CRM_CONTACTS_PK" PRIMARY KEY ("CONTACT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CRM_FROM_TO
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CRM_FROM_TO" MODIFY ("CMR_FROM_TO_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CRM_FROM_TO" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CRM_FROM_TO" MODIFY ("CMR_FROM_TO_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CRM_FROM_TO" MODIFY ("RELATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."CRM_FROM_TO" ADD CONSTRAINT "CRM_FROM_TO_PK" PRIMARY KEY ("CMR_FROM_TO_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CRM_GOOD_TYPES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CRM_GOOD_TYPES" MODIFY ("CRM_GOOD_TYPE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CRM_GOOD_TYPES" MODIFY ("DESCRIPTION" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CRM_GOOD_TYPES" MODIFY ("CRM_GOOD_TYPE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CRM_GOOD_TYPES" MODIFY ("DESCRIPTION" NOT NULL);
   ALTER TABLE "TRANSPORT"."CRM_GOOD_TYPES" ADD CONSTRAINT "CRM_GOOD_TYPES_PK" PRIMARY KEY ("CRM_GOOD_TYPE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CRM_QUOTATION_STATUSES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CRM_QUOTATION_STATUSES" MODIFY ("CRM_QUOTATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CRM_QUOTATION_STATUSES" MODIFY ("SALES_CYCLE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CRM_QUOTATION_STATUSES" MODIFY ("CRM_QUOTATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CRM_QUOTATION_STATUSES" MODIFY ("SALES_CYCLE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."CRM_QUOTATION_STATUSES" ADD CONSTRAINT "CRM_QUOTATION_STATUSES_PK" PRIMARY KEY ("CRM_QUOTATION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CRM_RELATION_COMPETITORS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CRM_RELATION_COMPETITORS" MODIFY ("CRM_RELA_COMP_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CRM_RELATION_COMPETITORS" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CRM_RELATION_COMPETITORS" MODIFY ("RELATION_COMPETITOR_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CRM_RELATION_COMPETITORS" MODIFY ("CRM_RELA_COMP_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CRM_RELATION_COMPETITORS" MODIFY ("RELATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CRM_RELATION_COMPETITORS" MODIFY ("RELATION_COMPETITOR_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."CRM_RELATION_COMPETITORS" ADD CONSTRAINT "CRM_RELATION_COMPETITORS_PK" PRIMARY KEY ("CRM_RELA_COMP_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CRM_RELATION_GOOD_TYPES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CRM_RELATION_GOOD_TYPES" MODIFY ("RELATION_GOOD_TYPE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CRM_RELATION_GOOD_TYPES" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CRM_RELATION_GOOD_TYPES" MODIFY ("GOOD_TYPE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CRM_RELATION_GOOD_TYPES" MODIFY ("RELATION_GOOD_TYPE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CRM_RELATION_GOOD_TYPES" MODIFY ("RELATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CRM_RELATION_GOOD_TYPES" MODIFY ("GOOD_TYPE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."CRM_RELATION_GOOD_TYPES" ADD CONSTRAINT "CRM_RELATION_GOOD_TYPES_PK" PRIMARY KEY ("RELATION_GOOD_TYPE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CRM_RELATIONS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CRM_RELATIONS" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CRM_RELATIONS" MODIFY ("NAME" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CRM_RELATIONS" MODIFY ("RELATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CRM_RELATIONS" MODIFY ("NAME" NOT NULL);
   ALTER TABLE "TRANSPORT"."CRM_RELATIONS" ADD CONSTRAINT "CRM_RELATIONS_PK" PRIMARY KEY ("RELATION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."CRM_RELATIONS" ADD CONSTRAINT "CRM_RELATIONS_UK" UNIQUE ("RELATION_SEQ", "RELATION_ORDER_NUMBER")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CRM_SALES_CYCLE_STATUS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CRM_SALES_CYCLE_STATUS" MODIFY ("CRM_CYCLE_STATUS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CRM_SALES_CYCLE_STATUS" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CRM_SALES_CYCLE_STATUS" MODIFY ("CRM_CYCLE_STATUS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CRM_SALES_CYCLE_STATUS" MODIFY ("STATUS" NOT NULL);
   ALTER TABLE "TRANSPORT"."CRM_SALES_CYCLE_STATUS" ADD CONSTRAINT "CRM_SALES_CYCLE_STATUS_PK" PRIMARY KEY ("CRM_CYCLE_STATUS_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CRM_SALES_CYCLES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CRM_SALES_CYCLES" MODIFY ("CRM_SALES_CYCLE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CRM_SALES_CYCLES" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CRM_SALES_CYCLES" MODIFY ("CRM_SALES_CYCLE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CRM_SALES_CYCLES" MODIFY ("RELATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."CRM_SALES_CYCLES" ADD CONSTRAINT "CRM_SALES_CYCLES_PK" PRIMARY KEY ("CRM_SALES_CYCLE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CROSSDOCK_IN
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CROSSDOCK_IN" MODIFY ("IN_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CROSSDOCK_IN" MODIFY ("DOSSIER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CROSSDOCK_IN" MODIFY ("IN_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CROSSDOCK_IN" MODIFY ("DOSSIER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."CROSSDOCK_IN" ADD CONSTRAINT "CROSSDOCK_IN_PK" PRIMARY KEY ("IN_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CURRENCIES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CURRENCIES" MODIFY ("CURRENCY_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CURRENCIES" MODIFY ("CURRENCY_CODE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CURRENCIES" MODIFY ("CURRENCY_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CURRENCIES" MODIFY ("CURRENCY_CODE" NOT NULL);
   ALTER TABLE "TRANSPORT"."CURRENCIES" ADD CONSTRAINT "CURRENCIES_UK" UNIQUE ("CURRENCY_CODE")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."CURRENCIES" ADD CONSTRAINT "CURRENCIES_PK" PRIMARY KEY ("CURRENCY_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CUSTOMS_DOSSIER_ATTMENTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CUSTOMS_DOSSIER_ATTMENTS" MODIFY ("ATTMENT_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CUSTOMS_DOSSIER_ATTMENTS" MODIFY ("ATTMENT_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."CUSTOMS_DOSSIER_ATTMENTS" ADD CONSTRAINT "CUSTOMS_DOSSIER_ATTMENTS" PRIMARY KEY ("ATTMENT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CUSTOMS_DOSSIER_HISTORY
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CUSTOMS_DOSSIER_HISTORY" MODIFY ("CUSTOMS_DOSSIER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CUSTOMS_DOSSIER_HISTORY" MODIFY ("HISTORY_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CUSTOMS_DOSSIER_HISTORY" MODIFY ("CUSTOMS_DOSSIER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CUSTOMS_DOSSIER_HISTORY" MODIFY ("HISTORY_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."CUSTOMS_DOSSIER_HISTORY" ADD CONSTRAINT "CUSTOMS_DOSSIER_HISTORY_PK" PRIMARY KEY ("HISTORY_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CUSTOMS_DOSSIERS
 --------------------------------------------------------
@@ -24228,785 +24228,785 @@ ALTER TRIGGER "TRANSPORT"."Z00_STAT512_BR_TRG" ENABLE;
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CUSTOMS_GD_LIN_ADD_DOCS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CUSTOMS_GD_LIN_ADD_DOCS" MODIFY ("ADD_DOC_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CUSTOMS_GD_LIN_ADD_DOCS" MODIFY ("GOODS_LINE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CUSTOMS_GD_LIN_ADD_DOCS" MODIFY ("ADD_DOC_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CUSTOMS_GD_LIN_ADD_DOCS" MODIFY ("GOODS_LINE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."CUSTOMS_GD_LIN_ADD_DOCS" ADD CONSTRAINT "CUSTOMS_GD_LIN_ADD_DOCS_PK" PRIMARY KEY ("ADD_DOC_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CUSTOMS_GOODS_LINES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CUSTOMS_GOODS_LINES" MODIFY ("CUSTOMS_LINE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CUSTOMS_GOODS_LINES" MODIFY ("CUSTOMS_DOSSIER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CUSTOMS_GOODS_LINES" MODIFY ("CUSTOMS_LINE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CUSTOMS_GOODS_LINES" MODIFY ("CUSTOMS_DOSSIER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."CUSTOMS_GOODS_LINES" ADD CONSTRAINT "CUSTOMS_GOODS_LINES_PK" PRIMARY KEY ("CUSTOMS_LINE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CUSTOMS_SCENARIOS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CUSTOMS_SCENARIOS" MODIFY ("SCENARIO_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CUSTOMS_SCENARIOS" MODIFY ("STATUS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CUSTOMS_SCENARIOS" MODIFY ("CODE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CUSTOMS_SCENARIOS" MODIFY ("SCENARIO_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CUSTOMS_SCENARIOS" MODIFY ("STATUS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CUSTOMS_SCENARIOS" MODIFY ("CODE" NOT NULL);
   ALTER TABLE "TRANSPORT"."CUSTOMS_SCENARIOS" ADD CONSTRAINT "CUSTOMS_SCENARIOS_PK" PRIMARY KEY ("SCENARIO_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table CUSTOMS_STATUSES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."CUSTOMS_STATUSES" MODIFY ("STATUS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."CUSTOMS_STATUSES" MODIFY ("CODE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."CUSTOMS_STATUSES" MODIFY ("STATUS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."CUSTOMS_STATUSES" MODIFY ("CODE" NOT NULL);
   ALTER TABLE "TRANSPORT"."CUSTOMS_STATUSES" ADD CONSTRAINT "CUSTOMS_STATUSES_PK" PRIMARY KEY ("STATUS_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table D
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."D" MODIFY ("D_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."D" MODIFY ("D_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."D" ADD CONSTRAINT "D_CON" PRIMARY KEY ("D_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table D00
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."D00" MODIFY ("D00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."D00" MODIFY ("A00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."D00" MODIFY ("RECORD_TYPE_D00" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."D00" MODIFY ("D00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."D00" MODIFY ("A00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."D00" MODIFY ("RECORD_TYPE_D00" NOT NULL);
   ALTER TABLE "TRANSPORT"."D00" ADD CONSTRAINT "D00_PK" PRIMARY KEY ("D00_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table D10
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."D10" MODIFY ("D10_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."D10" MODIFY ("D00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."D10" MODIFY ("RECORD_TYPE_D10" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."D10" MODIFY ("D10_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."D10" MODIFY ("D00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."D10" MODIFY ("RECORD_TYPE_D10" NOT NULL);
   ALTER TABLE "TRANSPORT"."D10" ADD CONSTRAINT "D10_PK" PRIMARY KEY ("D10_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table DEBUG_LOG
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DEBUG_LOG" MODIFY ("DEBUG_LOG_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DEBUG_LOG" MODIFY ("PROCEDURE_NAME" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DEBUG_LOG" MODIFY ("PROCEDURE_POINT" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DEBUG_LOG" MODIFY ("MESSAGE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DEBUG_LOG" MODIFY ("DATETIME" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DEBUG_LOG" MODIFY ("DEBUG_LOG_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DEBUG_LOG" MODIFY ("PROCEDURE_NAME" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DEBUG_LOG" MODIFY ("PROCEDURE_POINT" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DEBUG_LOG" MODIFY ("MESSAGE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DEBUG_LOG" MODIFY ("DATETIME" NOT NULL);
   ALTER TABLE "TRANSPORT"."DEBUG_LOG" ADD CONSTRAINT "DEBUG_LOG_PK" PRIMARY KEY ("DEBUG_LOG_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table DEBUG_LOGGING_FLAG
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DEBUG_LOGGING_FLAG" MODIFY ("PLSQL_UNIT_NAME" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DEBUG_LOGGING_FLAG" MODIFY ("DEBUG_LOG_Y_N" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DEBUG_LOGGING_FLAG" MODIFY ("PLSQL_UNIT_NAME" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DEBUG_LOGGING_FLAG" MODIFY ("DEBUG_LOG_Y_N" NOT NULL);
   ALTER TABLE "TRANSPORT"."DEBUG_LOGGING_FLAG" ADD CONSTRAINT "DEBUG_LOGGING_FLAG_PK" PRIMARY KEY ("PLSQL_UNIT_NAME")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
-  ALTER TABLE "TRANSPORT"."DEBUG_LOGGING_FLAG" ADD CONSTRAINT "CHK_DEBUG_LOG_FLAG_Y_N" CHECK (DEBUG_LOG_Y_N in ('Y','N')) ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
+  ALTER TABLE "TRANSPORT"."DEBUG_LOGGING_FLAG" ADD CONSTRAINT "CHK_DEBUG_LOG_FLAG_Y_N" CHECK (DEBUG_LOG_Y_N in ('Y','N'));
 --------------------------------------------------------
 --  Constraints for Table DELIVER_COUNTRY_ZIPCODES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DELIVER_COUNTRY_ZIPCODES" MODIFY ("RELA_COU_ZIPCODE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DELIVER_COUNTRY_ZIPCODES" MODIFY ("RELA_DEL_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DELIVER_COUNTRY_ZIPCODES" MODIFY ("ZIPCODE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DELIVER_COUNTRY_ZIPCODES" MODIFY ("RELA_COU_ZIPCODE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DELIVER_COUNTRY_ZIPCODES" MODIFY ("RELA_DEL_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DELIVER_COUNTRY_ZIPCODES" MODIFY ("ZIPCODE" NOT NULL);
   ALTER TABLE "TRANSPORT"."DELIVER_COUNTRY_ZIPCODES" ADD CONSTRAINT "DELIVER_COUNTRY_ZIPCODES_PK" PRIMARY KEY ("RELA_COU_ZIPCODE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table DELIVERY_TERM_RELATIONS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DELIVERY_TERM_RELATIONS" MODIFY ("DELIVERY_TERM_RELA_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DELIVERY_TERM_RELATIONS" MODIFY ("DELIVERY_TERM_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DELIVERY_TERM_RELATIONS" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DELIVERY_TERM_RELATIONS" MODIFY ("DELIVERY_TERM_RELA_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DELIVERY_TERM_RELATIONS" MODIFY ("DELIVERY_TERM_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DELIVERY_TERM_RELATIONS" MODIFY ("RELATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."DELIVERY_TERM_RELATIONS" ADD CONSTRAINT "DELIVERY_TERM_RELATIONS_PK" PRIMARY KEY ("DELIVERY_TERM_RELA_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table DELIVERY_TERMS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DELIVERY_TERMS" MODIFY ("DELIVERY_TERM_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DELIVERY_TERMS" MODIFY ("DELIVERY_TERM_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."DELIVERY_TERMS" ADD CONSTRAINT "DELIVERY_TERMS_PK" PRIMARY KEY ("DELIVERY_TERM_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."DELIVERY_TERMS" ADD CONSTRAINT "DELIVERY_TERMS_UK1" UNIQUE ("DELIVERY_TERM")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table DEPARTMENTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DEPARTMENTS" MODIFY ("DEPARTMENT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DEPARTMENTS" MODIFY ("DESCRIPTION" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DEPARTMENTS" MODIFY ("DEPARTMENT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DEPARTMENTS" MODIFY ("DESCRIPTION" NOT NULL);
   ALTER TABLE "TRANSPORT"."DEPARTMENTS" ADD CONSTRAINT "DEPARTMENTS_UK1" UNIQUE ("DESCRIPTION")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."DEPARTMENTS" ADD CONSTRAINT "DEPARTMENTS_PK" PRIMARY KEY ("DEPARTMENT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table DEV_MIGRATIE_LOG
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_LOG" MODIFY ("ID" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_LOG" MODIFY ("PROCEDURE_NAME" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_LOG" MODIFY ("MESSAGE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_LOG" MODIFY ("DATETIME" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_LOG" MODIFY ("ID" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_LOG" MODIFY ("PROCEDURE_NAME" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_LOG" MODIFY ("MESSAGE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_LOG" MODIFY ("DATETIME" NOT NULL);
 --------------------------------------------------------
 --  Constraints for Table DEV_MIGRATIE_LOG_20170118_1
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_LOG_20170118_1" MODIFY ("ID" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_LOG_20170118_1" MODIFY ("PROCEDURE_NAME" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_LOG_20170118_1" MODIFY ("MESSAGE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_LOG_20170118_1" MODIFY ("DATETIME" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_LOG_20170118_1" MODIFY ("ID" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_LOG_20170118_1" MODIFY ("PROCEDURE_NAME" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_LOG_20170118_1" MODIFY ("MESSAGE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_LOG_20170118_1" MODIFY ("DATETIME" NOT NULL);
 --------------------------------------------------------
 --  Constraints for Table DEV_MIGRATIE_SOURCE_SCN_TS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_SOURCE_SCN_TS" MODIFY ("SOURCE_AS_OF_SCN" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_SOURCE_SCN_TS" MODIFY ("SOURCE_AS_OF_TIMESTAMP" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_SOURCE_SCN_TS" MODIFY ("SOURCE_AS_OF_SCN" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_SOURCE_SCN_TS" MODIFY ("SOURCE_AS_OF_TIMESTAMP" NOT NULL);
 --------------------------------------------------------
 --  Constraints for Table DEV_MIGRATIE_TABLE_DDL
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_TABLE_DDL" MODIFY ("DDL_SAMPLE_DATE_TIME" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_TABLE_DDL" MODIFY ("VOLGORDE_NR" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_TABLE_DDL" MODIFY ("TABEL_NAAM" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_TABLE_DDL" MODIFY ("DDL_TABLE_DEEL_1" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_TABLE_DDL" MODIFY ("MAX_HIERARCHIE_NIVEAU" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_TABLE_DDL" MODIFY ("SKIP_THIS_TABLE_N_Y" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_TABLE_DDL" MODIFY ("DDL_SAMPLE_DATE_TIME" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_TABLE_DDL" MODIFY ("VOLGORDE_NR" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_TABLE_DDL" MODIFY ("TABEL_NAAM" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_TABLE_DDL" MODIFY ("DDL_TABLE_DEEL_1" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_TABLE_DDL" MODIFY ("MAX_HIERARCHIE_NIVEAU" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DEV_MIGRATIE_TABLE_DDL" MODIFY ("SKIP_THIS_TABLE_N_Y" NOT NULL);
 --------------------------------------------------------
 --  Constraints for Table DISPUTE_REASONS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DISPUTE_REASONS" MODIFY ("REASON_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DISPUTE_REASONS" MODIFY ("CODE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DISPUTE_REASONS" MODIFY ("DESCRIPTION" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DISPUTE_REASONS" MODIFY ("REASON_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DISPUTE_REASONS" MODIFY ("CODE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DISPUTE_REASONS" MODIFY ("DESCRIPTION" NOT NULL);
   ALTER TABLE "TRANSPORT"."DISPUTE_REASONS" ADD CONSTRAINT "DISPUTE_REASONS_UK" UNIQUE ("CODE")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."DISPUTE_REASONS" ADD CONSTRAINT "DISPUTE_REASONS_PK" PRIMARY KEY ("REASON_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table DOCKS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DOCKS" MODIFY ("DOCK_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOCKS" MODIFY ("DOCK_CODE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DOCKS" MODIFY ("DOCK_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOCKS" MODIFY ("DOCK_CODE" NOT NULL);
   ALTER TABLE "TRANSPORT"."DOCKS" ADD CONSTRAINT "DOCKS_UK1" UNIQUE ("DOCK_CODE")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."DOCKS" ADD CONSTRAINT "DOCKS_PK" PRIMARY KEY ("DOCK_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table DOSSIER_ATTMENTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DOSSIER_ATTMENTS" MODIFY ("ATTMENT_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DOSSIER_ATTMENTS" MODIFY ("ATTMENT_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."DOSSIER_ATTMENTS" ADD CONSTRAINT "DOSSIER_ATTMENTS" PRIMARY KEY ("ATTMENT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table DOSSIER_CHATS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DOSSIER_CHATS" MODIFY ("DOSSIER_CHAT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOSSIER_CHATS" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOSSIER_CHATS" MODIFY ("CREATE_DATE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOSSIER_CHATS" MODIFY ("CHAT" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DOSSIER_CHATS" MODIFY ("DOSSIER_CHAT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOSSIER_CHATS" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOSSIER_CHATS" MODIFY ("CREATE_DATE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOSSIER_CHATS" MODIFY ("CHAT" NOT NULL);
   ALTER TABLE "TRANSPORT"."DOSSIER_CHATS" ADD CONSTRAINT "DOSSIER_CHATS_PK" PRIMARY KEY ("DOSSIER_CHAT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table DOSSIER_CMR
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DOSSIER_CMR" MODIFY ("DOSSIER_CMR_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOSSIER_CMR" MODIFY ("DOSSIER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOSSIER_CMR" MODIFY ("CMR_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DOSSIER_CMR" MODIFY ("DOSSIER_CMR_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOSSIER_CMR" MODIFY ("DOSSIER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOSSIER_CMR" MODIFY ("CMR_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."DOSSIER_CMR" ADD CONSTRAINT "DOSSIER_CMR_PK" PRIMARY KEY ("DOSSIER_CMR_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table DOSSIER_GOOD_ITEM_HISTORY
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DOSSIER_GOOD_ITEM_HISTORY" MODIFY ("HISTORY_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOSSIER_GOOD_ITEM_HISTORY" MODIFY ("ITEM_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DOSSIER_GOOD_ITEM_HISTORY" MODIFY ("HISTORY_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOSSIER_GOOD_ITEM_HISTORY" MODIFY ("ITEM_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."DOSSIER_GOOD_ITEM_HISTORY" ADD CONSTRAINT "DOSSIER_GOOD_ITEM_HISTORY_PK" PRIMARY KEY ("HISTORY_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table DOSSIER_GOOD_ITEMS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DOSSIER_GOOD_ITEMS" MODIFY ("ITEM_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOSSIER_GOOD_ITEMS" MODIFY ("EXPORT_DOSSIER_GOOD_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DOSSIER_GOOD_ITEMS" MODIFY ("ITEM_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOSSIER_GOOD_ITEMS" MODIFY ("EXPORT_DOSSIER_GOOD_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."DOSSIER_GOOD_ITEMS" ADD CONSTRAINT "DOSSIER_GOOD_ITEMS_PK" PRIMARY KEY ("ITEM_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table DOSSIER_HISTORY
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DOSSIER_HISTORY" MODIFY ("HISTORY_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOSSIER_HISTORY" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOSSIER_HISTORY" MODIFY ("CREATE_DATE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DOSSIER_HISTORY" MODIFY ("HISTORY_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOSSIER_HISTORY" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOSSIER_HISTORY" MODIFY ("CREATE_DATE" NOT NULL);
   ALTER TABLE "TRANSPORT"."DOSSIER_HISTORY" ADD CONSTRAINT "DOSSIER_HISTORY_PK" PRIMARY KEY ("HISTORY_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table DOSSIER_PRINT_SELECTED
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DOSSIER_PRINT_SELECTED" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOSSIER_PRINT_SELECTED" MODIFY ("CREATED_BY_USER" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOSSIER_PRINT_SELECTED" MODIFY ("REPORT_NAME" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DOSSIER_PRINT_SELECTED" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOSSIER_PRINT_SELECTED" MODIFY ("CREATED_BY_USER" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOSSIER_PRINT_SELECTED" MODIFY ("REPORT_NAME" NOT NULL);
 --------------------------------------------------------
 --  Constraints for Table DOSSIER_REFERENCES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DOSSIER_REFERENCES" MODIFY ("DOSSIER_REFERENCE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOSSIER_REFERENCES" MODIFY ("DOSSIER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOSSIER_REFERENCES" MODIFY ("REFERENCE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DOSSIER_REFERENCES" MODIFY ("DOSSIER_REFERENCE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOSSIER_REFERENCES" MODIFY ("DOSSIER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOSSIER_REFERENCES" MODIFY ("REFERENCE" NOT NULL);
   ALTER TABLE "TRANSPORT"."DOSSIER_REFERENCES" ADD CONSTRAINT "DOSSIER_REFERENCES_PK" PRIMARY KEY ("DOSSIER_REFERENCE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table DOSSIER_REP_ATTRIBS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DOSSIER_REP_ATTRIBS" MODIFY ("ATTRIB_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOSSIER_REP_ATTRIBS" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DOSSIER_REP_ATTRIBS" MODIFY ("ATTRIB_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOSSIER_REP_ATTRIBS" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."DOSSIER_REP_ATTRIBS" ADD CONSTRAINT "DOSSIER_REP_ATTRIBS_PK" PRIMARY KEY ("ATTRIB_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table DOSSIER_SERVICE_LEVELS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DOSSIER_SERVICE_LEVELS" MODIFY ("DOSSIER_SERVICE_LEVEL_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOSSIER_SERVICE_LEVELS" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOSSIER_SERVICE_LEVELS" MODIFY ("SERVICE_LEVEL_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DOSSIER_SERVICE_LEVELS" MODIFY ("DOSSIER_SERVICE_LEVEL_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOSSIER_SERVICE_LEVELS" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOSSIER_SERVICE_LEVELS" MODIFY ("SERVICE_LEVEL_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."DOSSIER_SERVICE_LEVELS" ADD CONSTRAINT "DOSSIER_SERVICE_LEVELS_PK" PRIMARY KEY ("DOSSIER_SERVICE_LEVEL_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table DOSSIER_STATUS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DOSSIER_STATUS" MODIFY ("STATUS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOSSIER_STATUS" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOSSIER_STATUS" MODIFY ("STATUS" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOSSIER_STATUS" MODIFY ("STATUS_DATE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DOSSIER_STATUS" MODIFY ("STATUS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOSSIER_STATUS" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOSSIER_STATUS" MODIFY ("STATUS" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOSSIER_STATUS" MODIFY ("STATUS_DATE" NOT NULL);
   ALTER TABLE "TRANSPORT"."DOSSIER_STATUS" ADD CONSTRAINT "DOSSIER_STATUS_PK" PRIMARY KEY ("STATUS_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table DOSSIER_STATUSES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."DOSSIER_STATUSES" MODIFY ("DOSIER_STATUS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOSSIER_STATUSES" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."DOSSIER_STATUSES" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."DOSSIER_STATUSES" MODIFY ("DOSIER_STATUS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOSSIER_STATUSES" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."DOSSIER_STATUSES" MODIFY ("STATUS" NOT NULL);
   ALTER TABLE "TRANSPORT"."DOSSIER_STATUSES" ADD CONSTRAINT "DOSSIER_STATUSES_PK" PRIMARY KEY ("DOSIER_STATUS_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table E
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."E" MODIFY ("E_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."E" MODIFY ("E_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."E" ADD CONSTRAINT "E_CON" PRIMARY KEY ("E_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table E_DOCUMENTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."E_DOCUMENTS" MODIFY ("DOCUMENT_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."E_DOCUMENTS" MODIFY ("DOCUMENT_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."E_DOCUMENTS" ADD CONSTRAINT "E_DOCUMENTS_PK" PRIMARY KEY ("DOCUMENT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table E00
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."E00" MODIFY ("E00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."E00" MODIFY ("D00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."E00" MODIFY ("RECORD_TYPE_E00" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."E00" MODIFY ("E00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."E00" MODIFY ("D00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."E00" MODIFY ("RECORD_TYPE_E00" NOT NULL);
   ALTER TABLE "TRANSPORT"."E00" ADD CONSTRAINT "E00_PK" PRIMARY KEY ("E00_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_HEADER_COMMON
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_HEADER_COMMON" MODIFY ("HEADER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_HEADER_COMMON" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_HEADER_COMMON" MODIFY ("CREATE_DATE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_HEADER_COMMON" MODIFY ("HEADER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_HEADER_COMMON" MODIFY ("RELATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_HEADER_COMMON" MODIFY ("CREATE_DATE" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_HEADER_COMMON" ADD CONSTRAINT "EDI_HEADER_COMMON_PK" PRIMARY KEY ("HEADER_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_HISTORY
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_HISTORY" MODIFY ("HISTORY_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_HISTORY" MODIFY ("EDI_DATE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_HISTORY" MODIFY ("HISTORY_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_HISTORY" MODIFY ("EDI_DATE" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_HISTORY" ADD CONSTRAINT "EDI_HISTORY_PK" PRIMARY KEY ("HISTORY_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_LINE_COMMON
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_LINE_COMMON" MODIFY ("HEADER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_LINE_COMMON" MODIFY ("LINE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_LINE_COMMON" MODIFY ("HEADER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_LINE_COMMON" MODIFY ("LINE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_LINE_COMMON" ADD CONSTRAINT "EDI_LINE_COMMON_PK" PRIMARY KEY ("LINE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_MESSAGE_PARAMETER
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_MESSAGE_PARAMETER" MODIFY ("EDI_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_MESSAGE_PARAMETER" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_MESSAGE_PARAMETER" MODIFY ("EDI_MESSAGE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_MESSAGE_PARAMETER" MODIFY ("MESSAGE_TYPE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_MESSAGE_PARAMETER" MODIFY ("EDI_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_MESSAGE_PARAMETER" MODIFY ("RELATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_MESSAGE_PARAMETER" MODIFY ("EDI_MESSAGE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_MESSAGE_PARAMETER" MODIFY ("MESSAGE_TYPE" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_MESSAGE_PARAMETER" ADD CONSTRAINT "EDI_MESSAGE_PARAMETER_PK" PRIMARY KEY ("EDI_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_SAMSUMG_AFZ
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_AFZ" MODIFY ("AFZ_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_AFZ" MODIFY ("HEADER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_AFZ" MODIFY ("AFZ_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_AFZ" MODIFY ("HEADER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_AFZ" ADD CONSTRAINT "EDI_SAMSUMG_AFZ_PK" PRIMARY KEY ("AFZ_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_SAMSUMG_DGS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_DGS" MODIFY ("DGS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_DGS" MODIFY ("HEADER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_DGS" MODIFY ("DGS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_DGS" MODIFY ("HEADER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_DGS" ADD CONSTRAINT "EDI_SAMSUMG_DGS_PK" PRIMARY KEY ("DGS_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_SAMSUMG_GEA
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_GEA" MODIFY ("GEA_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_GEA" MODIFY ("HEADER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_GEA" MODIFY ("GEA_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_GEA" MODIFY ("HEADER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_GEA" ADD CONSTRAINT "EDI_SAMSUMG_GEA_PK" PRIMARY KEY ("GEA_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_SAMSUMG_INF
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_INF" MODIFY ("INF_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_INF" MODIFY ("HEADER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_INF" MODIFY ("INF_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_INF" MODIFY ("HEADER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_INF" ADD CONSTRAINT "EDI_SAMSUMG_INF_PK" PRIMARY KEY ("INF_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_SAMSUMG_SHP
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_SHP" MODIFY ("SHP_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_SHP" MODIFY ("HEADER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_SHP" MODIFY ("SHP_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_SHP" MODIFY ("HEADER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_SHP" ADD CONSTRAINT "EDI_SAMSUMG_SHP_PK" PRIMARY KEY ("SHP_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_SAMSUMG_VZE
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_VZE" MODIFY ("VZE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_VZE" MODIFY ("HEADER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_VZE" MODIFY ("VZE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_VZE" MODIFY ("HEADER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_VZE" ADD CONSTRAINT "EDI_SAMSUMG_VZE_PK" PRIMARY KEY ("VZE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_SAMSUNG_HEADER
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_SAMSUNG_HEADER" MODIFY ("HEADER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_SAMSUNG_HEADER" MODIFY ("HEADER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_SAMSUNG_HEADER" ADD CONSTRAINT "EDI_SAMSUNG_HEADER_PK" PRIMARY KEY ("HEADER_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_SHIPMENT_EDI_STATUS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_EDI_STATUS" MODIFY ("STATUS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_EDI_STATUS" MODIFY ("HEADER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_EDI_STATUS" MODIFY ("EVENT_DATE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_EDI_STATUS" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_EDI_STATUS" MODIFY ("STATUS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_EDI_STATUS" MODIFY ("HEADER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_EDI_STATUS" MODIFY ("EVENT_DATE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_EDI_STATUS" MODIFY ("STATUS" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_EDI_STATUS" ADD CONSTRAINT "EDI_SHIPMENT_EDI_STATUS_PK" PRIMARY KEY ("STATUS_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_SHIPMENT_IN_HEADERS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_IN_HEADERS" MODIFY ("HEADER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_IN_HEADERS" MODIFY ("HEADER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_IN_HEADERS" ADD CONSTRAINT "EDI_SHIPMENT_IN_HEADERS_PK" PRIMARY KEY ("HEADER_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_SHIPMENT_IN_LINES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_IN_LINES" MODIFY ("LINE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_IN_LINES" MODIFY ("HEADER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_IN_LINES" MODIFY ("LINE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_IN_LINES" MODIFY ("HEADER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_IN_LINES" ADD CONSTRAINT "EDI_SHIPMENT_IN_LINES_PK" PRIMARY KEY ("LINE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_SHIPMENT_IN_STATUS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_IN_STATUS" MODIFY ("STATUS_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_IN_STATUS" MODIFY ("STATUS_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_IN_STATUS" ADD CONSTRAINT "EDI_SHIPMENT_IN_STATUS_PK" PRIMARY KEY ("STATUS_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_SHIPMENT_LINK
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_LINK" MODIFY ("LINK_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_LINK" MODIFY ("HEADER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_LINK" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_LINK" MODIFY ("LINK_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_LINK" MODIFY ("HEADER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_LINK" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_LINK" ADD CONSTRAINT "EDI_SHIPMENT_LINK_PK" PRIMARY KEY ("LINK_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_SHIPMENTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_SHIPMENTS" MODIFY ("EDI_SHIPMENT_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_SHIPMENTS" MODIFY ("EDI_SHIPMENT_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_SHIPMENTS" ADD CONSTRAINT "EDI_SHIPMENTS_PK" PRIMARY KEY ("EDI_SHIPMENT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_TEMP
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_TEMP" MODIFY ("EDI_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_TEMP" MODIFY ("EDI_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_TEMP" ADD CONSTRAINT "EDI_TEMP_PK" PRIMARY KEY ("EDI_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_VESCOM_F0
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_VESCOM_F0" MODIFY ("F0_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_VESCOM_F0" MODIFY ("F0_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_VESCOM_F0" ADD CONSTRAINT "EDI_VESCOM_F0_PK" PRIMARY KEY ("F0_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_VESCOM_F1
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_VESCOM_F1" MODIFY ("F1_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_VESCOM_F1" MODIFY ("F0_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_VESCOM_F1" MODIFY ("F1_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_VESCOM_F1" MODIFY ("F0_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_VESCOM_F1" ADD CONSTRAINT "EDI_VESCOM_F1_PK" PRIMARY KEY ("F1_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_VESCOM_F2
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_VESCOM_F2" MODIFY ("F2_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_VESCOM_F2" MODIFY ("F1_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_VESCOM_F2" MODIFY ("F2_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_VESCOM_F2" MODIFY ("F1_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_VESCOM_F2" ADD CONSTRAINT "EDI_VESCOM_F2_PK" PRIMARY KEY ("F2_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_VESCOM_F3
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_VESCOM_F3" MODIFY ("F3_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_VESCOM_F3" MODIFY ("F2_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_VESCOM_F3" MODIFY ("F3_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_VESCOM_F3" MODIFY ("F2_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_VESCOM_F3" ADD CONSTRAINT "EDI_VESCOM_F3_PK" PRIMARY KEY ("F3_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDI_VESCOM_F4
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDI_VESCOM_F4" MODIFY ("F4_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDI_VESCOM_F4" MODIFY ("F2_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDI_VESCOM_F4" MODIFY ("F4_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDI_VESCOM_F4" MODIFY ("F2_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDI_VESCOM_F4" ADD CONSTRAINT "EDI_VESCOM_F4_PK" PRIMARY KEY ("F4_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDIFACT
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDIFACT" MODIFY ("EDIFACT_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDIFACT" MODIFY ("EDIFACT_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDIFACT" ADD CONSTRAINT "EDIFACT_PK" PRIMARY KEY ("EDIFACT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EDIFACT_LINES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EDIFACT_LINES" MODIFY ("EDIFACT_LINE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDIFACT_LINES" MODIFY ("EDIFACT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EDIFACT_LINES" MODIFY ("LINE_NO" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EDIFACT_LINES" MODIFY ("EDIFACT_LINE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDIFACT_LINES" MODIFY ("EDIFACT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EDIFACT_LINES" MODIFY ("LINE_NO" NOT NULL);
   ALTER TABLE "TRANSPORT"."EDIFACT_LINES" ADD CONSTRAINT "EDIFACT_LINES_PK" PRIMARY KEY ("EDIFACT_LINE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."EDIFACT_LINES" ADD CONSTRAINT "EDIFACT_LINES_UK" UNIQUE ("EDIFACT_SEQ", "LINE_NO")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EMAIL_BODIES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EMAIL_BODIES" MODIFY ("EMAIL_BODY_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EMAIL_BODIES" MODIFY ("REPORT" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EMAIL_BODIES" MODIFY ("BODY" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EMAIL_BODIES" MODIFY ("EMAIL_BODY_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EMAIL_BODIES" MODIFY ("REPORT" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EMAIL_BODIES" MODIFY ("BODY" NOT NULL);
   ALTER TABLE "TRANSPORT"."EMAIL_BODIES" ADD CONSTRAINT "EMAIL_BODIES_PK" PRIMARY KEY ("EMAIL_BODY_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EMAIL_RELATIONS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EMAIL_RELATIONS" MODIFY ("EMAIL_RELATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EMAIL_RELATIONS" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EMAIL_RELATIONS" MODIFY ("EMAIL" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EMAIL_RELATIONS" MODIFY ("DEPARTMENT" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EMAIL_RELATIONS" MODIFY ("EMAIL_RELATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EMAIL_RELATIONS" MODIFY ("RELATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EMAIL_RELATIONS" MODIFY ("EMAIL" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EMAIL_RELATIONS" MODIFY ("DEPARTMENT" NOT NULL);
   ALTER TABLE "TRANSPORT"."EMAIL_RELATIONS" ADD CONSTRAINT "EMAIL_RELATIONS_PK" PRIMARY KEY ("EMAIL_RELATION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EMPLOYEE_MATRIX
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EMPLOYEE_MATRIX" MODIFY ("EMPLOYEE_MATRIX_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EMPLOYEE_MATRIX" MODIFY ("EMPLOYEE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EMPLOYEE_MATRIX" MODIFY ("MATRIX_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EMPLOYEE_MATRIX" MODIFY ("EMPLOYEE_MATRIX_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EMPLOYEE_MATRIX" MODIFY ("EMPLOYEE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EMPLOYEE_MATRIX" MODIFY ("MATRIX_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EMPLOYEE_MATRIX" ADD CONSTRAINT "EMPLOYEE_MATRIX_UK" UNIQUE ("EMPLOYEE_SEQ", "MATRIX_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."EMPLOYEE_MATRIX" ADD CONSTRAINT "EMPLOYEE_MATRIX_PK" PRIMARY KEY ("EMPLOYEE_MATRIX_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EMPLOYEES
 --------------------------------------------------------
@@ -25016,13 +25016,13 @@ ALTER TRIGGER "TRANSPORT"."Z00_STAT512_BR_TRG" ENABLE;
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."EMPLOYEES" ADD CONSTRAINT "EMPLOYEES_PK" PRIMARY KEY ("EMPLOYEE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table ENTITY_SEQUENCES
 --------------------------------------------------------
@@ -25032,183 +25032,183 @@ ALTER TRIGGER "TRANSPORT"."Z00_STAT512_BR_TRG" ENABLE;
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EORI_VALIDATION_HISTORY
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EORI_VALIDATION_HISTORY" MODIFY ("EORI_VALIDATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EORI_VALIDATION_HISTORY" MODIFY ("REQUESTED_BY_OFFICE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EORI_VALIDATION_HISTORY" MODIFY ("REQUEST_DATE_TIME" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EORI_VALIDATION_HISTORY" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EORI_VALIDATION_HISTORY" MODIFY ("EORI_NO" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EORI_VALIDATION_HISTORY" MODIFY ("VALID_FLAG" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EORI_VALIDATION_HISTORY" MODIFY ("BATCH" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EORI_VALIDATION_HISTORY" MODIFY ("EORI_VALIDATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EORI_VALIDATION_HISTORY" MODIFY ("REQUESTED_BY_OFFICE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EORI_VALIDATION_HISTORY" MODIFY ("REQUEST_DATE_TIME" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EORI_VALIDATION_HISTORY" MODIFY ("RELATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EORI_VALIDATION_HISTORY" MODIFY ("EORI_NO" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EORI_VALIDATION_HISTORY" MODIFY ("VALID_FLAG" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EORI_VALIDATION_HISTORY" MODIFY ("BATCH" NOT NULL);
   ALTER TABLE "TRANSPORT"."EORI_VALIDATION_HISTORY" ADD CONSTRAINT "EORI_VALIDATION_HISTORY_PK" PRIMARY KEY ("EORI_VALIDATION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EXACT_BOOKINGS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EXACT_BOOKINGS" MODIFY ("BOOKING_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EXACT_BOOKINGS" MODIFY ("BOOKING_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EXACT_BOOKINGS" ADD CONSTRAINT "EXACT_BOOKINGS_PK" PRIMARY KEY ("BOOKING_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EXACT_BOOKLINES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EXACT_BOOKLINES" MODIFY ("BOOKLINE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EXACT_BOOKLINES" MODIFY ("BOOKING_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EXACT_BOOKLINES" MODIFY ("BOOKLINE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EXACT_BOOKLINES" MODIFY ("BOOKING_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EXACT_BOOKLINES" ADD CONSTRAINT "EXACT_BOOKINGLINES_PK" PRIMARY KEY ("BOOKLINE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EXACT_ERRORS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EXACT_ERRORS" MODIFY ("EXACT_ERROR_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EXACT_ERRORS" MODIFY ("BOOKING_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EXACT_ERRORS" MODIFY ("EXACT_ERROR_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EXACT_ERRORS" MODIFY ("BOOKING_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EXACT_ERRORS" ADD CONSTRAINT "EXACT_ERRORS_PK" PRIMARY KEY ("EXACT_ERROR_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EXACT_OPEN_DEBTORS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EXACT_OPEN_DEBTORS" MODIFY ("EXACT_OPEN_DEBTOR_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EXACT_OPEN_DEBTORS" MODIFY ("EXACT_OPEN_DEBTOR_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EXACT_OPEN_DEBTORS" ADD CONSTRAINT "EXACT_OPEN_DEBTORS_PK" PRIMARY KEY ("EXACT_OPEN_DEBTOR_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EXPORT_DOSSIER_GOODS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EXPORT_DOSSIER_GOODS" MODIFY ("EXPORT_DOSSIER_GOOD_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."EXPORT_DOSSIER_GOODS" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EXPORT_DOSSIER_GOODS" MODIFY ("EXPORT_DOSSIER_GOOD_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."EXPORT_DOSSIER_GOODS" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EXPORT_DOSSIER_GOODS" ADD CONSTRAINT "EXPORT_DOSSIER_GOODS_PK" PRIMARY KEY ("EXPORT_DOSSIER_GOOD_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EXPORT_DOSSIERS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EXPORT_DOSSIERS" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EXPORT_DOSSIERS" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EXPORT_DOSSIERS" ADD CONSTRAINT "EXPORT_DOSSIERS_PK" PRIMARY KEY ("EXPORT_DOSSIER_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."EXPORT_DOSSIERS" ADD CONSTRAINT "EXPORT_DOSSIERS_UK1" UNIQUE ("DOSSIER_NUMBER")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table EXPORT_INVOICES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."EXPORT_INVOICES" MODIFY ("EXPORT_INVOICE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."EXPORT_INVOICES" MODIFY ("EXPORT_INVOICE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."EXPORT_INVOICES" ADD CONSTRAINT "EXPORT_INVOICES_PK" PRIMARY KEY ("EXPORT_INVOICE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table F
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."F" MODIFY ("F_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."F" MODIFY ("F_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."F" ADD CONSTRAINT "F_CON" PRIMARY KEY ("F_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table F00
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."F00" MODIFY ("F00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."F00" MODIFY ("D00_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."F00" MODIFY ("F00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."F00" MODIFY ("D00_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."F00" ADD CONSTRAINT "F00_PK" PRIMARY KEY ("F00_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table FEATURES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."FEATURES" MODIFY ("FEATURE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FEATURES" MODIFY ("FEATURE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."FEATURES" MODIFY ("FEATURE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FEATURES" MODIFY ("FEATURE" NOT NULL);
   ALTER TABLE "TRANSPORT"."FEATURES" ADD CONSTRAINT "FEATURES_PK" PRIMARY KEY ("FEATURE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table FINANCE_CONTROL_MATRIX
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."FINANCE_CONTROL_MATRIX" MODIFY ("MATRIX_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FINANCE_CONTROL_MATRIX" MODIFY ("INCOTERM_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."FINANCE_CONTROL_MATRIX" MODIFY ("MATRIX_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FINANCE_CONTROL_MATRIX" MODIFY ("INCOTERM_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."FINANCE_CONTROL_MATRIX" ADD CONSTRAINT "FINANCE_CONTROL_MATRIX_PK" PRIMARY KEY ("MATRIX_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table FISFILE_HEADERS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."FISFILE_HEADERS" MODIFY ("IDX" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FISFILE_HEADERS" MODIFY ("FISFILE_HEADER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FISFILE_HEADERS" MODIFY ("FISFILE_HEADER_CONTENT" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."FISFILE_HEADERS" MODIFY ("IDX" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FISFILE_HEADERS" MODIFY ("FISFILE_HEADER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FISFILE_HEADERS" MODIFY ("FISFILE_HEADER_CONTENT" NOT NULL);
   ALTER TABLE "TRANSPORT"."FISFILE_HEADERS" ADD CONSTRAINT "FISFILE_HEADERS_PK" PRIMARY KEY ("FISFILE_HEADER_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table FISFILE_LINES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."FISFILE_LINES" MODIFY ("IDX" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FISFILE_LINES" MODIFY ("FISFILE_LINE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FISFILE_LINES" MODIFY ("FISFILE_LINE_CONTENT" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."FISFILE_LINES" MODIFY ("IDX" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FISFILE_LINES" MODIFY ("FISFILE_LINE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FISFILE_LINES" MODIFY ("FISFILE_LINE_CONTENT" NOT NULL);
   ALTER TABLE "TRANSPORT"."FISFILE_LINES" ADD CONSTRAINT "FISFILE_LINES_PK" PRIMARY KEY ("FISFILE_LINE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table FISFILES
 --------------------------------------------------------
@@ -25218,271 +25218,271 @@ ALTER TRIGGER "TRANSPORT"."Z00_STAT512_BR_TRG" ENABLE;
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table FOC_FILES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."FOC_FILES" MODIFY ("FOC_FILE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FOC_FILES" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."FOC_FILES" MODIFY ("FOC_FILE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FOC_FILES" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."FOC_FILES" ADD CONSTRAINT "FOC_FILES_PK" PRIMARY KEY ("FOC_FILE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table FOC_FILES_ATTACHMENTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."FOC_FILES_ATTACHMENTS" MODIFY ("FOC_FILES_ATTACHMENT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FOC_FILES_ATTACHMENTS" MODIFY ("FOC_FILES_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FOC_FILES_ATTACHMENTS" MODIFY ("ATTACHMENT_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."FOC_FILES_ATTACHMENTS" MODIFY ("FOC_FILES_ATTACHMENT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FOC_FILES_ATTACHMENTS" MODIFY ("FOC_FILES_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FOC_FILES_ATTACHMENTS" MODIFY ("ATTACHMENT_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."FOC_FILES_ATTACHMENTS" ADD CONSTRAINT "FOC_FILES_ATTACHMENTS_PK" PRIMARY KEY ("FOC_FILES_ATTACHMENT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."FOC_FILES_ATTACHMENTS" ADD CONSTRAINT "FOC_FILES_ATTACHMENTS_UK" UNIQUE ("FOC_FILES_SEQ", "ATTACHMENT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table FOC_TEMPLATES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."FOC_TEMPLATES" MODIFY ("TEMPLATE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FOC_TEMPLATES" MODIFY ("OFFICE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FOC_TEMPLATES" MODIFY ("IMPORT_EXPORT_FLAG" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FOC_TEMPLATES" MODIFY ("TEMPLATE_ID" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."FOC_TEMPLATES" MODIFY ("TEMPLATE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FOC_TEMPLATES" MODIFY ("OFFICE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FOC_TEMPLATES" MODIFY ("IMPORT_EXPORT_FLAG" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FOC_TEMPLATES" MODIFY ("TEMPLATE_ID" NOT NULL);
   ALTER TABLE "TRANSPORT"."FOC_TEMPLATES" ADD CONSTRAINT "FOC_TEMPLATES_PK" PRIMARY KEY ("TEMPLATE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table FORM_TRANSLATIONS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."FORM_TRANSLATIONS" MODIFY ("FORM_TRANSLATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FORM_TRANSLATIONS" MODIFY ("FORM_ID" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FORM_TRANSLATIONS" MODIFY ("LABEL_1" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."FORM_TRANSLATIONS" MODIFY ("FORM_TRANSLATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FORM_TRANSLATIONS" MODIFY ("FORM_ID" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FORM_TRANSLATIONS" MODIFY ("LABEL_1" NOT NULL);
   ALTER TABLE "TRANSPORT"."FORM_TRANSLATIONS" ADD CONSTRAINT "FORM_TRANSLATIONS_UK1" UNIQUE ("FORM_ID", "LANGUAGE_SEQ", "OFFICE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."FORM_TRANSLATIONS" ADD CONSTRAINT "FORM_TRANSLATIONS_PK" PRIMARY KEY ("FORM_TRANSLATION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table FTP
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."FTP" MODIFY ("FTP_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."FTP" MODIFY ("FTP_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."FTP" ADD CONSTRAINT "FTP_PK" PRIMARY KEY ("FTP_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table FTP_DEBUGGING
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."FTP_DEBUGGING" MODIFY ("FTP_DEBUGGING_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FTP_DEBUGGING" MODIFY ("PROCEDURE_NAME" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FTP_DEBUGGING" MODIFY ("MESSAGE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FTP_DEBUGGING" MODIFY ("DATETIME" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."FTP_DEBUGGING" MODIFY ("FTP_DEBUGGING_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FTP_DEBUGGING" MODIFY ("PROCEDURE_NAME" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FTP_DEBUGGING" MODIFY ("MESSAGE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FTP_DEBUGGING" MODIFY ("DATETIME" NOT NULL);
   ALTER TABLE "TRANSPORT"."FTP_DEBUGGING" ADD CONSTRAINT "FTP_DEBUGGING_PK" PRIMARY KEY ("FTP_DEBUGGING_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table FTP_DIRECTORIES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."FTP_DIRECTORIES" MODIFY ("DIRECTORY_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FTP_DIRECTORIES" MODIFY ("OFFICE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FTP_DIRECTORIES" MODIFY ("HOST" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FTP_DIRECTORIES" MODIFY ("IN_OUT" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."FTP_DIRECTORIES" MODIFY ("DIRECTORY_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FTP_DIRECTORIES" MODIFY ("OFFICE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FTP_DIRECTORIES" MODIFY ("HOST" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FTP_DIRECTORIES" MODIFY ("IN_OUT" NOT NULL);
   ALTER TABLE "TRANSPORT"."FTP_DIRECTORIES" ADD CONSTRAINT "FTP_DIRECTORIES_PK" PRIMARY KEY ("DIRECTORY_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
-  ALTER TABLE "TRANSPORT"."FTP_DIRECTORIES" ADD CONSTRAINT "CHK_FILENAME_SOURCE" CHECK (FILENAME_SOURCE_PUT IN ('SHIPMENT_ID', 'CUSTOMER_REFERENCE')) ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
+  ALTER TABLE "TRANSPORT"."FTP_DIRECTORIES" ADD CONSTRAINT "CHK_FILENAME_SOURCE" CHECK (FILENAME_SOURCE_PUT IN ('SHIPMENT_ID', 'CUSTOMER_REFERENCE'));
 --------------------------------------------------------
 --  Constraints for Table FTP_GET
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."FTP_GET" MODIFY ("FTP_GET_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FTP_GET" MODIFY ("DIRECTORY_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."FTP_GET" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."FTP_GET" MODIFY ("FTP_GET_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FTP_GET" MODIFY ("DIRECTORY_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."FTP_GET" MODIFY ("STATUS" NOT NULL);
   ALTER TABLE "TRANSPORT"."FTP_GET" ADD CONSTRAINT "FTP_GET_PK" PRIMARY KEY ("FTP_GET_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table G00
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."G00" MODIFY ("G00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."G00" MODIFY ("A00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."G00" MODIFY ("RECORD_TYPE_G00" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."G00" MODIFY ("G00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."G00" MODIFY ("A00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."G00" MODIFY ("RECORD_TYPE_G00" NOT NULL);
   ALTER TABLE "TRANSPORT"."G00" ADD CONSTRAINT "G00_PK" PRIMARY KEY ("G00_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table GASOIL_SURCHARGES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."GASOIL_SURCHARGES" MODIFY ("SURCHARGE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."GASOIL_SURCHARGES" MODIFY ("OFFICE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."GASOIL_SURCHARGES" MODIFY ("SURCHARGE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."GASOIL_SURCHARGES" MODIFY ("OFFICE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."GASOIL_SURCHARGES" ADD CONSTRAINT "GASOIL_SURCHARGES_UK" UNIQUE ("OFFICE_SEQ", "FROM_DATE")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."GASOIL_SURCHARGES" ADD CONSTRAINT "GASOIL_SURCHARGES_PK" PRIMARY KEY ("SURCHARGE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table GOODS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."GOODS" MODIFY ("GOOD_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."GOODS" MODIFY ("GOOD_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."GOODS" ADD CONSTRAINT "GOODS_PK" PRIMARY KEY ("GOOD_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table GROUPAGE_DOSSIER
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."GROUPAGE_DOSSIER" MODIFY ("GROUPAGE_DOSSIER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."GROUPAGE_DOSSIER" MODIFY ("GROUPAGE_DOSSIER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."GROUPAGE_DOSSIER" ADD CONSTRAINT "GROUPAGE_DOSSIER_PK" PRIMARY KEY ("GROUPAGE_DOSSIER_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."GROUPAGE_DOSSIER" ADD CONSTRAINT "GROUPAGE_DOSSIER_UK1" UNIQUE ("DOSSIER_NUMBER")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table GRP_LOCATIONS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."GRP_LOCATIONS" MODIFY ("GRP_LOCATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."GRP_LOCATIONS" MODIFY ("CODE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."GRP_LOCATIONS" MODIFY ("DOCK_FLAG" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."GRP_LOCATIONS" MODIFY ("GRP_LOCATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."GRP_LOCATIONS" MODIFY ("CODE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."GRP_LOCATIONS" MODIFY ("DOCK_FLAG" NOT NULL);
   ALTER TABLE "TRANSPORT"."GRP_LOCATIONS" ADD CONSTRAINT "GRP_LOCATIONS_PK" PRIMARY KEY ("GRP_LOCATION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table H
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."H" MODIFY ("H_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."H" MODIFY ("H_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."H" ADD CONSTRAINT "H_CON" PRIMARY KEY ("H_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table H00
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."H00" MODIFY ("H00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."H00" MODIFY ("A00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."H00" MODIFY ("RECORD_TYPE_H00" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."H00" MODIFY ("H00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."H00" MODIFY ("A00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."H00" MODIFY ("RECORD_TYPE_H00" NOT NULL);
   ALTER TABLE "TRANSPORT"."H00" ADD CONSTRAINT "H00_PK" PRIMARY KEY ("H00_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table H00_RELATIONS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."H00_RELATIONS" MODIFY ("H00_RELATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."H00_RELATIONS" MODIFY ("H00_TEXT_CODE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."H00_RELATIONS" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."H00_RELATIONS" MODIFY ("H00_RELATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."H00_RELATIONS" MODIFY ("H00_TEXT_CODE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."H00_RELATIONS" MODIFY ("RELATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."H00_RELATIONS" ADD CONSTRAINT "H00_RELATIONS_UK1" UNIQUE ("H00_TEXT_CODE_SEQ", "RELATION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."H00_RELATIONS" ADD CONSTRAINT "H00_RELATIONS_PK" PRIMARY KEY ("H00_RELATION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table H00_TEXT_CODES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."H00_TEXT_CODES" MODIFY ("H00_TEXT_CODE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."H00_TEXT_CODES" MODIFY ("CODE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."H00_TEXT_CODES" MODIFY ("TEXT" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."H00_TEXT_CODES" MODIFY ("H00_TEXT_CODE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."H00_TEXT_CODES" MODIFY ("CODE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."H00_TEXT_CODES" MODIFY ("TEXT" NOT NULL);
   ALTER TABLE "TRANSPORT"."H00_TEXT_CODES" ADD CONSTRAINT "H00_TEXT_CODES_UK1" UNIQUE ("CODE")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."H00_TEXT_CODES" ADD CONSTRAINT "H00_TEXT_CODES_PK" PRIMARY KEY ("H00_TEXT_CODE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table H10
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."H10" MODIFY ("H10_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."H10" MODIFY ("A00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."H10" MODIFY ("RECORD_TYPE_H10" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."H10" MODIFY ("H10_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."H10" MODIFY ("A00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."H10" MODIFY ("RECORD_TYPE_H10" NOT NULL);
   ALTER TABLE "TRANSPORT"."H10" ADD CONSTRAINT "H10_PK" PRIMARY KEY ("H10_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table HTTP_BLOB_TEST
 --------------------------------------------------------
@@ -25492,19 +25492,19 @@ ALTER TRIGGER "TRANSPORT"."Z00_STAT512_BR_TRG" ENABLE;
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table HTTP_STATUS_CODES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."HTTP_STATUS_CODES" MODIFY ("SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."HTTP_STATUS_CODES" MODIFY ("CODE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."HTTP_STATUS_CODES" MODIFY ("SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."HTTP_STATUS_CODES" MODIFY ("CODE" NOT NULL);
   ALTER TABLE "TRANSPORT"."HTTP_STATUS_CODES" ADD CONSTRAINT "HTTP_STATUS_CODES_PK" PRIMARY KEY ("SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table I
 --------------------------------------------------------
@@ -25514,129 +25514,129 @@ ALTER TRIGGER "TRANSPORT"."Z00_STAT512_BR_TRG" ENABLE;
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table I00
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."I00" MODIFY ("I00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."I00" MODIFY ("A00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."I00" MODIFY ("RECORD_TYPE_I00" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."I00" MODIFY ("I00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."I00" MODIFY ("A00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."I00" MODIFY ("RECORD_TYPE_I00" NOT NULL);
   ALTER TABLE "TRANSPORT"."I00" ADD CONSTRAINT "I00_PK" PRIMARY KEY ("I00_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table INCOMING_INVOICE_ATTMENTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."INCOMING_INVOICE_ATTMENTS" MODIFY ("ATTMENT_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."INCOMING_INVOICE_ATTMENTS" MODIFY ("ATTMENT_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."INCOMING_INVOICE_ATTMENTS" ADD CONSTRAINT "INCOMING_INVOICE_ATTMENTS" PRIMARY KEY ("ATTMENT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table INCOMING_INVOICES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."INCOMING_INVOICES" MODIFY ("INCOMING_INVOICE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."INCOMING_INVOICES" MODIFY ("INVOICE_NR" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."INCOMING_INVOICES" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."INCOMING_INVOICES" MODIFY ("INCOMING_INVOICE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."INCOMING_INVOICES" MODIFY ("INVOICE_NR" NOT NULL);
+  ALTER TABLE "TRANSPORT"."INCOMING_INVOICES" MODIFY ("RELATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."INCOMING_INVOICES" ADD CONSTRAINT "INCOMING_INVOICES_UK" UNIQUE ("INVOICE_NR", "RELATION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."INCOMING_INVOICES" ADD CONSTRAINT "INCOMING_INVOICES_PK" PRIMARY KEY ("INCOMING_INVOICE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table INTEGERS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."INTEGERS" MODIFY ("I" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."INTEGERS" MODIFY ("I" NOT NULL);
   ALTER TABLE "TRANSPORT"."INTEGERS" ADD CONSTRAINT "INTEGERS_PK" PRIMARY KEY ("I")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table INTERVALS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."INTERVALS" MODIFY ("AGREEMENT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."INTERVALS" MODIFY ("INTERVAL_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."INTERVALS" MODIFY ("INTERVAL_TILL" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."INTERVALS" MODIFY ("PRICE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."INTERVALS" MODIFY ("AGREEMENT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."INTERVALS" MODIFY ("INTERVAL_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."INTERVALS" MODIFY ("INTERVAL_TILL" NOT NULL);
+  ALTER TABLE "TRANSPORT"."INTERVALS" MODIFY ("PRICE" NOT NULL);
   ALTER TABLE "TRANSPORT"."INTERVALS" ADD CONSTRAINT "INTERVALS_PK" PRIMARY KEY ("INTERVAL_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table INVOICE_ATTMENTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."INVOICE_ATTMENTS" MODIFY ("ATTMENT_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."INVOICE_ATTMENTS" MODIFY ("ATTMENT_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."INVOICE_ATTMENTS" ADD CONSTRAINT "INVOICE_ATTMENTS" PRIMARY KEY ("ATTMENT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table INVOICE_DESCRIPTION
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."INVOICE_DESCRIPTION" MODIFY ("INVOICE_DESCRIPTION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."INVOICE_DESCRIPTION" MODIFY ("DESCRIPTION" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."INVOICE_DESCRIPTION" MODIFY ("INVOICE_DESCRIPTION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."INVOICE_DESCRIPTION" MODIFY ("DESCRIPTION" NOT NULL);
   ALTER TABLE "TRANSPORT"."INVOICE_DESCRIPTION" ADD CONSTRAINT "INVOICE_DESCRIPTION_PK" PRIMARY KEY ("INVOICE_DESCRIPTION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."INVOICE_DESCRIPTION" ADD CONSTRAINT "INVOICE_DESCRIPTION_UK" UNIQUE ("DESCRIPTION", "LANGUAGE_SEQ", "LEDGER_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table INVOICE_FORMATS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."INVOICE_FORMATS" MODIFY ("INVOICE_FORMAT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."INVOICE_FORMATS" MODIFY ("FORMAT" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."INVOICE_FORMATS" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."INVOICE_FORMATS" MODIFY ("INVOICE_FORMAT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."INVOICE_FORMATS" MODIFY ("FORMAT" NOT NULL);
+  ALTER TABLE "TRANSPORT"."INVOICE_FORMATS" MODIFY ("RELATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."INVOICE_FORMATS" ADD CONSTRAINT "INVOICE_FORMATS_PK" PRIMARY KEY ("INVOICE_FORMAT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table INVOICES_COLLECTIONS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."INVOICES_COLLECTIONS" MODIFY ("INVOICES_COLLECTIONS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."INVOICES_COLLECTIONS" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."INVOICES_COLLECTIONS" MODIFY ("INVOICES_COLLECTIONS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."INVOICES_COLLECTIONS" MODIFY ("RELATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."INVOICES_COLLECTIONS" ADD CONSTRAINT "INVOICES_COLLECTIONS_PK" PRIMARY KEY ("INVOICES_COLLECTIONS_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table J
 --------------------------------------------------------
@@ -25646,33 +25646,33 @@ ALTER TRIGGER "TRANSPORT"."Z00_STAT512_BR_TRG" ENABLE;
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table J00
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."J00" MODIFY ("J00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."J00" MODIFY ("A00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."J00" MODIFY ("RECORD_TYPE_J00" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."J00" MODIFY ("J00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."J00" MODIFY ("A00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."J00" MODIFY ("RECORD_TYPE_J00" NOT NULL);
   ALTER TABLE "TRANSPORT"."J00" ADD CONSTRAINT "J00_PK" PRIMARY KEY ("J00_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table K
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."K" MODIFY ("K_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."K" MODIFY ("K_RECORD" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."K" MODIFY ("B_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."K" MODIFY ("K_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."K" MODIFY ("K_RECORD" NOT NULL);
+  ALTER TABLE "TRANSPORT"."K" MODIFY ("B_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."K" ADD CONSTRAINT "K_PK" PRIMARY KEY ("K_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table L
 --------------------------------------------------------
@@ -25682,440 +25682,440 @@ ALTER TRIGGER "TRANSPORT"."Z00_STAT512_BR_TRG" ENABLE;
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table LANGUAGES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."LANGUAGES" MODIFY ("LANGUAGE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."LANGUAGES" MODIFY ("CODE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."LANGUAGES" MODIFY ("OFFICE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."LANGUAGES" MODIFY ("LANGUAGE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."LANGUAGES" MODIFY ("CODE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."LANGUAGES" MODIFY ("OFFICE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."LANGUAGES" ADD CONSTRAINT "LANGUAGES_PK" PRIMARY KEY ("LANGUAGE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."LANGUAGES" ADD CONSTRAINT "LANGUAGES_UK" UNIQUE ("OFFICE_SEQ", "CODE")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table LEAD_TIME_ZIPCODES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."LEAD_TIME_ZIPCODES" MODIFY ("LEAD_TIME_ZIPCODE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."LEAD_TIME_ZIPCODES" MODIFY ("LEAD_TIME_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."LEAD_TIME_ZIPCODES" MODIFY ("ZIPCODE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."LEAD_TIME_ZIPCODES" MODIFY ("LEAD_TIME_ZIPCODE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."LEAD_TIME_ZIPCODES" MODIFY ("LEAD_TIME_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."LEAD_TIME_ZIPCODES" MODIFY ("ZIPCODE" NOT NULL);
   ALTER TABLE "TRANSPORT"."LEAD_TIME_ZIPCODES" ADD CONSTRAINT "LEAD_TIME_ZIPCODES_UK1" UNIQUE ("LEAD_TIME_SEQ", "ZIPCODE")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."LEAD_TIME_ZIPCODES" ADD CONSTRAINT "LEAD_TIME_ZIPCODES_PK" PRIMARY KEY ("LEAD_TIME_ZIPCODE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table LEAD_TIMES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."LEAD_TIMES" MODIFY ("LEAD_TIME_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."LEAD_TIMES" MODIFY ("COUNTRY_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."LEAD_TIMES" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."LEAD_TIMES" MODIFY ("LEAD_TIME_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."LEAD_TIMES" MODIFY ("COUNTRY_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."LEAD_TIMES" MODIFY ("RELATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."LEAD_TIMES" ADD CONSTRAINT "LEAD_TIMES_PK" PRIMARY KEY ("LEAD_TIME_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table LEDGERS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."LEDGERS" MODIFY ("LEDGER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."LEDGERS" MODIFY ("LEDGER_CODE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."LEDGERS" MODIFY ("LEDGER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."LEDGERS" MODIFY ("LEDGER_CODE" NOT NULL);
   ALTER TABLE "TRANSPORT"."LEDGERS" ADD CONSTRAINT "LEDGERS_UK" UNIQUE ("LEDGER_CODE")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."LEDGERS" ADD CONSTRAINT "LEDGERS_PK" PRIMARY KEY ("LEDGER_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table M
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."M" MODIFY ("M_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."M" MODIFY ("M_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."M" ADD CONSTRAINT "M_PK" PRIMARY KEY ("M_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table M_ENTL128_L1
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."M_ENTL128_L1" MODIFY ("M_ENTL128_L1_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."M_ENTL128_L1" MODIFY ("M_ENTL128_L1_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."M_ENTL128_L1" ADD CONSTRAINT "M_ENTL128_L1_PK" PRIMARY KEY ("M_ENTL128_L1_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table M_ENTL128_L2
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."M_ENTL128_L2" MODIFY ("M_ENTL128_L2_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."M_ENTL128_L2" MODIFY ("M_ENTL128_L2_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."M_ENTL128_L2" ADD CONSTRAINT "M_ENTL128_L2_PK" PRIMARY KEY ("M_ENTL128_L2_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table M_ENTL128_L3
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."M_ENTL128_L3" MODIFY ("M_ENTL128_L3_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."M_ENTL128_L3" MODIFY ("M_ENTL128_L3_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."M_ENTL128_L3" ADD CONSTRAINT "M_ENTL128_L3_PK" PRIMARY KEY ("M_ENTL128_L3_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table M00
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."M00" MODIFY ("M00_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."M00" MODIFY ("M00_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."M00" ADD CONSTRAINT "M00_PK" PRIMARY KEY ("M00_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table M10
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."M10" MODIFY ("M10_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."M10" MODIFY ("M00_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."M10" MODIFY ("M10_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."M10" MODIFY ("M00_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."M10" ADD CONSTRAINT "M10_PK" PRIMARY KEY ("M10_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table M20
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."M20" MODIFY ("M20_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."M20" MODIFY ("M00_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."M20" MODIFY ("M20_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."M20" MODIFY ("M00_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."M20" ADD CONSTRAINT "M20_PK" PRIMARY KEY ("M20_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table MAILING_LETTERS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."MAILING_LETTERS" MODIFY ("MAILING_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."MAILING_LETTERS" MODIFY ("MAILING_LETTER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."MAILING_LETTERS" MODIFY ("LETTER" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."MAILING_LETTERS" MODIFY ("MAILING_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."MAILING_LETTERS" MODIFY ("MAILING_LETTER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."MAILING_LETTERS" MODIFY ("LETTER" NOT NULL);
   ALTER TABLE "TRANSPORT"."MAILING_LETTERS" ADD CONSTRAINT "MAILING_LETTERS_PK" PRIMARY KEY ("MAILING_LETTER_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table MAILING_RELATIONS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."MAILING_RELATIONS" MODIFY ("MAILING_RELATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."MAILING_RELATIONS" MODIFY ("MAILING_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."MAILING_RELATIONS" MODIFY ("CRM_RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."MAILING_RELATIONS" MODIFY ("MAILING_RELATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."MAILING_RELATIONS" MODIFY ("MAILING_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."MAILING_RELATIONS" MODIFY ("CRM_RELATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."MAILING_RELATIONS" ADD CONSTRAINT "MAILING_RELATIONS_PK" PRIMARY KEY ("MAILING_RELATION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table MAILINGS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."MAILINGS" MODIFY ("MAILING_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."MAILINGS" MODIFY ("MAILING_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."MAILINGS" ADD CONSTRAINT "MAILINGS_PK" PRIMARY KEY ("MAILING_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table MASTER_QUOTATION
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."MASTER_QUOTATION" MODIFY ("MASTER_QUOTATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."MASTER_QUOTATION" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."MASTER_QUOTATION" MODIFY ("MASTER_QUOTATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."MASTER_QUOTATION" MODIFY ("RELATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."MASTER_QUOTATION" ADD CONSTRAINT "MASTER_QUOTATION_PK" PRIMARY KEY ("MASTER_QUOTATION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table MK_STYLES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."MK_STYLES" MODIFY ("STYLE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."MK_STYLES" MODIFY ("STYLE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."MK_STYLES" ADD CONSTRAINT "MK_STYLES_PK" PRIMARY KEY ("STYLE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table MODALITIES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."MODALITIES" MODIFY ("MODALITY_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."MODALITIES" MODIFY ("DESCRIPTION" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."MODALITIES" MODIFY ("MODALITY_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."MODALITIES" MODIFY ("DESCRIPTION" NOT NULL);
   ALTER TABLE "TRANSPORT"."MODALITIES" ADD CONSTRAINT "MODALITIES_UK1" UNIQUE ("DESCRIPTION")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."MODALITIES" ADD CONSTRAINT "MODALITIES_PK" PRIMARY KEY ("MODALITY_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table N
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."N" MODIFY ("N_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."N" MODIFY ("N_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."N" ADD CONSTRAINT "N_PK" PRIMARY KEY ("N_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table N_ENTL128_PACKING_TYPE
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."N_ENTL128_PACKING_TYPE" MODIFY ("N_ENTL128_PACKING_TYPE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."N_ENTL128_PACKING_TYPE" MODIFY ("N_ENTL128_PACKING_TYPE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."N_ENTL128_PACKING_TYPE" ADD CONSTRAINT "N_ENTL128_PACKING_TYPE_PK" PRIMARY KEY ("N_ENTL128_PACKING_TYPE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table N_ENTL128_PROBLEM_CODE
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."N_ENTL128_PROBLEM_CODE" MODIFY ("N_ENTL128_PROBLEM_CODE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."N_ENTL128_PROBLEM_CODE" MODIFY ("N_ENTL128_PROBLEM_CODE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."N_ENTL128_PROBLEM_CODE" ADD CONSTRAINT "N_ENTL128_PROBLEM_CODE_PK" PRIMARY KEY ("N_ENTL128_PROBLEM_CODE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table N00
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."N00" MODIFY ("N00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."N00" MODIFY ("M20_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."N00" MODIFY ("N00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."N00" MODIFY ("M20_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."N00" ADD CONSTRAINT "N00_PK" PRIMARY KEY ("N00_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table NCF_REASONS_ACTIONS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."NCF_REASONS_ACTIONS" MODIFY ("NCF_REASON_ACTION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."NCF_REASONS_ACTIONS" MODIFY ("NCF_REASON_ACTION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."NCF_REASONS_ACTIONS" ADD CONSTRAINT "NCF_REASONS_ACTIONS_PK" PRIMARY KEY ("NCF_REASON_ACTION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table NON_CONFORMITIES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."NON_CONFORMITIES" MODIFY ("NCF_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."NON_CONFORMITIES" MODIFY ("DESCRIPTION" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."NON_CONFORMITIES" MODIFY ("NCF_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."NON_CONFORMITIES" MODIFY ("DESCRIPTION" NOT NULL);
   ALTER TABLE "TRANSPORT"."NON_CONFORMITIES" ADD CONSTRAINT "NON_CONFORMITIES_PK" PRIMARY KEY ("NCF_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table NON_CONFORMITY_REGS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."NON_CONFORMITY_REGS" MODIFY ("NCF_REG_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."NON_CONFORMITY_REGS" MODIFY ("COMPLAIN_DATE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."NON_CONFORMITY_REGS" MODIFY ("NCF_REG_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."NON_CONFORMITY_REGS" MODIFY ("COMPLAIN_DATE" NOT NULL);
   ALTER TABLE "TRANSPORT"."NON_CONFORMITY_REGS" ADD CONSTRAINT "NON_CONFORMITY_REGS_PK" PRIMARY KEY ("NCF_REG_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table O
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."O" MODIFY ("O_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."O" MODIFY ("O_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."O" ADD CONSTRAINT "O_PK" PRIMARY KEY ("O_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table O00
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."O00" MODIFY ("O00_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."O00" MODIFY ("O00_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."O00" ADD CONSTRAINT "O00_PK" PRIMARY KEY ("O00_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table O10
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."O10" MODIFY ("O10_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."O10" MODIFY ("O00_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."O10" MODIFY ("O10_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."O10" MODIFY ("O00_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."O10" ADD CONSTRAINT "O10_PK" PRIMARY KEY ("O10_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table O20
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."O20" MODIFY ("O20_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."O20" MODIFY ("O00_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."O20" MODIFY ("O20_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."O20" MODIFY ("O00_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."O20" ADD CONSTRAINT "O20_PK" PRIMARY KEY ("O20_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table OFFICE_PASSWORD_POLICIES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."OFFICE_PASSWORD_POLICIES" MODIFY ("POLICY_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."OFFICE_PASSWORD_POLICIES" MODIFY ("OFFICE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."OFFICE_PASSWORD_POLICIES" MODIFY ("POLICY_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."OFFICE_PASSWORD_POLICIES" MODIFY ("OFFICE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."OFFICE_PASSWORD_POLICIES" ADD CONSTRAINT "OFFICE_PASSWORD_POLICIES_PK" PRIMARY KEY ("POLICY_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table OFFICES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."OFFICES" MODIFY ("OFFICE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."OFFICES" MODIFY ("OFFICE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."OFFICES" ADD CONSTRAINT "OFFICES_PK" PRIMARY KEY ("OFFICE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table OPEN_DEBTORS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."OPEN_DEBTORS" MODIFY ("OPEN_DEBTOR_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."OPEN_DEBTORS" MODIFY ("OPEN_DEBTOR_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."OPEN_DEBTORS" ADD CONSTRAINT "OPEN_DEBTORS_PK" PRIMARY KEY ("OPEN_DEBTOR_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table OUTGOING_INVOICE_HIS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."OUTGOING_INVOICE_HIS" MODIFY ("HISTORY_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."OUTGOING_INVOICE_HIS" MODIFY ("OUTGOING_INVOICE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."OUTGOING_INVOICE_HIS" MODIFY ("HISTORY_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."OUTGOING_INVOICE_HIS" MODIFY ("OUTGOING_INVOICE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."OUTGOING_INVOICE_HIS" ADD CONSTRAINT "OUTGOING_INVOICE_HIS_PK" PRIMARY KEY ("HISTORY_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table OUTGOING_INVOICES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."OUTGOING_INVOICES" MODIFY ("OUTGOING_INVOICE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."OUTGOING_INVOICES" MODIFY ("INVOICE_NR" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."OUTGOING_INVOICES" MODIFY ("INVOICE_DATE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."OUTGOING_INVOICES" MODIFY ("OUTGOING_INVOICE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."OUTGOING_INVOICES" MODIFY ("INVOICE_NR" NOT NULL);
+  ALTER TABLE "TRANSPORT"."OUTGOING_INVOICES" MODIFY ("INVOICE_DATE" NOT NULL);
   ALTER TABLE "TRANSPORT"."OUTGOING_INVOICES" ADD CONSTRAINT "OUTGOING_INVOICES_PK" PRIMARY KEY ("OUTGOING_INVOICE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table P
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."P" MODIFY ("O_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."P" MODIFY ("O_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."P" ADD CONSTRAINT "P_PK" PRIMARY KEY ("P_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PACKAGES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PACKAGES" MODIFY ("PACKAGE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PACKAGES" MODIFY ("PACKAGE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."PACKAGES" ADD CONSTRAINT "PACKAGES_PK" PRIMARY KEY ("PACKAGE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PAGE_CONTROL
 --------------------------------------------------------
@@ -26125,652 +26125,652 @@ ALTER TRIGGER "TRANSPORT"."Z00_STAT512_BR_TRG" ENABLE;
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PARAMETER_APPLICATION
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PARAMETER_APPLICATION" MODIFY ("PARAMETER_APPLICATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PARAMETER_APPLICATION" MODIFY ("PARAMETER_APPLICATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."PARAMETER_APPLICATION" ADD CONSTRAINT "PARAMETER_APPLICATION_PK" PRIMARY KEY ("PARAMETER_APPLICATION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PARAMETER_APPLICATION_HIS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PARAMETER_APPLICATION_HIS" MODIFY ("PARAMETER_APPLICATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PARAMETER_APPLICATION_HIS" MODIFY ("PARAMETER_APPLICATION_SEQ" NOT NULL);
 --------------------------------------------------------
 --  Constraints for Table PARAMETER_EMAIL
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PARAMETER_EMAIL" MODIFY ("PARAMETER_EMAIL_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PARAMETER_EMAIL" MODIFY ("PARAMETER_EMAIL_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."PARAMETER_EMAIL" ADD CONSTRAINT "PARAMETER_EMAIL_PK" PRIMARY KEY ("PARAMETER_EMAIL_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PAYMENT_TERMS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PAYMENT_TERMS" MODIFY ("PAYMENT_TERM_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PAYMENT_TERMS" MODIFY ("PAYMENT_TERM" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PAYMENT_TERMS" MODIFY ("PAYMENT_TERM_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PAYMENT_TERMS" MODIFY ("PAYMENT_TERM" NOT NULL);
   ALTER TABLE "TRANSPORT"."PAYMENT_TERMS" ADD CONSTRAINT "PAYMENT_TERMS_PK" PRIMARY KEY ("PAYMENT_TERM_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."PAYMENT_TERMS" ADD CONSTRAINT "PAYMENT_TERMS_UK1" UNIQUE ("PAYMENT_TERM")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PICKUP_DELIVERY
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PICKUP_DELIVERY" MODIFY ("PICKUP_DELIVERY_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PICKUP_DELIVERY" MODIFY ("PICKUP_DELIVERY_NO" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PICKUP_DELIVERY" MODIFY ("PICKUP_DELIVERY_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PICKUP_DELIVERY" MODIFY ("PICKUP_DELIVERY_NO" NOT NULL);
   ALTER TABLE "TRANSPORT"."PICKUP_DELIVERY" ADD CONSTRAINT "PICKUP_DELIVERY_PK" PRIMARY KEY ("PICKUP_DELIVERY_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PLAN_CONTROL_MATRIX
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PLAN_CONTROL_MATRIX" MODIFY ("MATRIX_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PLAN_CONTROL_MATRIX" MODIFY ("SCENARIO" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PLAN_CONTROL_MATRIX" MODIFY ("PLAN_STATUS" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PLAN_CONTROL_MATRIX" MODIFY ("MATRIX_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PLAN_CONTROL_MATRIX" MODIFY ("SCENARIO" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PLAN_CONTROL_MATRIX" MODIFY ("PLAN_STATUS" NOT NULL);
   ALTER TABLE "TRANSPORT"."PLAN_CONTROL_MATRIX" ADD CONSTRAINT "PLAN_CONTROL_MATRIX_PK" PRIMARY KEY ("MATRIX_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table POD_LINKS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."POD_LINKS" MODIFY ("POD_LINK_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."POD_LINKS" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."POD_LINKS" MODIFY ("LINK" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."POD_LINKS" MODIFY ("POD_LINK_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."POD_LINKS" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."POD_LINKS" MODIFY ("LINK" NOT NULL);
   ALTER TABLE "TRANSPORT"."POD_LINKS" ADD CONSTRAINT "POD_LINKS_PK" PRIMARY KEY ("POD_LINK_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PORTAL_ADDRESSES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PORTAL_ADDRESSES" MODIFY ("PORTAL_ADDRESS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PORTAL_ADDRESSES" MODIFY ("USER_NAME" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PORTAL_ADDRESSES" MODIFY ("ADDRESS_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PORTAL_ADDRESSES" MODIFY ("PORTAL_ADDRESS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PORTAL_ADDRESSES" MODIFY ("USER_NAME" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PORTAL_ADDRESSES" MODIFY ("ADDRESS_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."PORTAL_ADDRESSES" ADD CONSTRAINT "PORTAL_ADDRESSES_PK" PRIMARY KEY ("PORTAL_ADDRESS_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."PORTAL_ADDRESSES" ADD CONSTRAINT "PORTAL_ADDRESSES_UK" UNIQUE ("USER_NAME", "ADDRESS_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PORTAL_COUNTRIES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PORTAL_COUNTRIES" MODIFY ("USER_NAME" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PORTAL_COUNTRIES" MODIFY ("COUNTRY_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PORTAL_COUNTRIES" MODIFY ("USER_NAME" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PORTAL_COUNTRIES" MODIFY ("COUNTRY_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."PORTAL_COUNTRIES" ADD CONSTRAINT "PORTAL_COUNTRIES_UK1" UNIQUE ("USER_NAME", "COUNTRY_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PORTAL_DEPOTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PORTAL_DEPOTS" MODIFY ("DEPOT_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PORTAL_DEPOTS" MODIFY ("DEPOT_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."PORTAL_DEPOTS" ADD CONSTRAINT "PORTAL_DEPOTS_PK" PRIMARY KEY ("DEPOT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PORTAL_DOSSIER_ATTMENTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PORTAL_DOSSIER_ATTMENTS" MODIFY ("ATTMENT_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PORTAL_DOSSIER_ATTMENTS" MODIFY ("ATTMENT_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."PORTAL_DOSSIER_ATTMENTS" ADD CONSTRAINT "PORTAL_DOSSIER_ATTMENTS" PRIMARY KEY ("ATTMENT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PORTAL_DOSSIER_DETAILS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PORTAL_DOSSIER_DETAILS" MODIFY ("PORTAL_DOSSIER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PORTAL_DOSSIER_DETAILS" MODIFY ("DETAIL_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PORTAL_DOSSIER_DETAILS" MODIFY ("PORTAL_DOSSIER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PORTAL_DOSSIER_DETAILS" MODIFY ("DETAIL_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."PORTAL_DOSSIER_DETAILS" ADD CONSTRAINT "PORTAL_DOSSIER_DETAILS_PK" PRIMARY KEY ("DETAIL_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PORTAL_DOSSIERS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PORTAL_DOSSIERS" MODIFY ("PORTAL_DOSSIER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PORTAL_DOSSIERS" MODIFY ("PORTAL_DOSSIER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."PORTAL_DOSSIERS" ADD CONSTRAINT "PORTAL_DOSSIERS_PK" PRIMARY KEY ("PORTAL_DOSSIER_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PORTAL_RELATIONS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PORTAL_RELATIONS" MODIFY ("USER_NAME" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PORTAL_RELATIONS" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PORTAL_RELATIONS" MODIFY ("USER_NAME" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PORTAL_RELATIONS" MODIFY ("RELATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."PORTAL_RELATIONS" ADD CONSTRAINT "PORTAL_RELATIONS_UK" UNIQUE ("USER_NAME", "RELATION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PUR_AGR_ADD_SURCHARGES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PUR_AGR_ADD_SURCHARGES" MODIFY ("ADD_SURCHARGE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_ADD_SURCHARGES" MODIFY ("AGREEMENT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_ADD_SURCHARGES" MODIFY ("LEDGER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_ADD_SURCHARGES" MODIFY ("DESCRIPTION" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_ADD_SURCHARGES" MODIFY ("PRICE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_ADD_SURCHARGES" MODIFY ("ADD_SURCHARGE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_ADD_SURCHARGES" MODIFY ("AGREEMENT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_ADD_SURCHARGES" MODIFY ("LEDGER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_ADD_SURCHARGES" MODIFY ("DESCRIPTION" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_ADD_SURCHARGES" MODIFY ("PRICE" NOT NULL);
   ALTER TABLE "TRANSPORT"."PUR_AGR_ADD_SURCHARGES" ADD CONSTRAINT "PUR_AGR_ADD_SURCHARGES_PK" PRIMARY KEY ("ADD_SURCHARGE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PUR_AGR_CITY_COLS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_COLS" MODIFY ("COLLECTION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_COLS" MODIFY ("AGREEMENT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_COLS" MODIFY ("CITY_COLLECTION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_COLS" MODIFY ("COLLECTION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_COLS" MODIFY ("AGREEMENT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_COLS" MODIFY ("CITY_COLLECTION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_COLS" ADD CONSTRAINT "PUR_AGR_CITY_COLS_PK" PRIMARY KEY ("COLLECTION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_COLS" ADD CONSTRAINT "PUR_AGR_CITY_COLS_UK" UNIQUE ("CALCULATION_TYPE", "AGREEMENT_SEQ", "CITY_COLLECTION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PUR_AGR_CITY_INTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_INTS" MODIFY ("INTERVAL_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_INTS" MODIFY ("COLLECTION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_INTS" MODIFY ("INTERVAL" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_INTS" MODIFY ("PRICE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_INTS" MODIFY ("INTERVAL_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_INTS" MODIFY ("COLLECTION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_INTS" MODIFY ("INTERVAL" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_INTS" MODIFY ("PRICE" NOT NULL);
   ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_INTS" ADD CONSTRAINT "PUR_AGR_CITY_INTS_PK" PRIMARY KEY ("INTERVAL_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PUR_AGR_CITY_TERMS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_TERMS" MODIFY ("CITY_TERMS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_TERMS" MODIFY ("AGREEMENT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_TERMS" MODIFY ("DELIVERY_TERMS_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_TERMS" MODIFY ("CITY_TERMS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_TERMS" MODIFY ("AGREEMENT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_TERMS" MODIFY ("DELIVERY_TERMS_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_TERMS" ADD CONSTRAINT "PUR_AGR_CITY_TERMS_PK" PRIMARY KEY ("CITY_TERMS_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PUR_AGR_DEP_DEP_INTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PUR_AGR_DEP_DEP_INTS" MODIFY ("INTERVAL_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_DEP_DEP_INTS" MODIFY ("DEPOT_DEPOT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_DEP_DEP_INTS" MODIFY ("INTERVAL" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_DEP_DEP_INTS" MODIFY ("PRICE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_DEP_DEP_INTS" MODIFY ("INTERVAL_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_DEP_DEP_INTS" MODIFY ("DEPOT_DEPOT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_DEP_DEP_INTS" MODIFY ("INTERVAL" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_DEP_DEP_INTS" MODIFY ("PRICE" NOT NULL);
   ALTER TABLE "TRANSPORT"."PUR_AGR_DEP_DEP_INTS" ADD CONSTRAINT "PUR_AGR_DEP_DEP_INTS_PK" PRIMARY KEY ("INTERVAL_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PUR_AGR_DEP_DEP_TERMS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PUR_AGR_DEP_DEP_TERMS" MODIFY ("DEP_DEP_TERMS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_DEP_DEP_TERMS" MODIFY ("AGREEMENT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_DEP_DEP_TERMS" MODIFY ("DELIVERY_TERMS_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_DEP_DEP_TERMS" MODIFY ("DEP_DEP_TERMS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_DEP_DEP_TERMS" MODIFY ("AGREEMENT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_DEP_DEP_TERMS" MODIFY ("DELIVERY_TERMS_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."PUR_AGR_DEP_DEP_TERMS" ADD CONSTRAINT "PUR_AGR_DEP_DEP_TERMS_PK" PRIMARY KEY ("DEP_DEP_TERMS_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PUR_AGR_DEPOT_DEPOT
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PUR_AGR_DEPOT_DEPOT" MODIFY ("DEPOT_DEPOT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_DEPOT_DEPOT" MODIFY ("AGREEMENT_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_DEPOT_DEPOT" MODIFY ("DEPOT_DEPOT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_DEPOT_DEPOT" MODIFY ("AGREEMENT_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."PUR_AGR_DEPOT_DEPOT" ADD CONSTRAINT "PUR_AGR_DEPOT_DEPOT_PK" PRIMARY KEY ("DEPOT_DEPOT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PUR_AGR_SURCH_INTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PUR_AGR_SURCH_INTS" MODIFY ("INTERVAL_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_SURCH_INTS" MODIFY ("INTERVAL" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_SURCH_INTS" MODIFY ("PRICE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_SURCH_INTS" MODIFY ("SURCHARGE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_SURCH_INTS" MODIFY ("INTERVAL_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_SURCH_INTS" MODIFY ("INTERVAL" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_SURCH_INTS" MODIFY ("PRICE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_SURCH_INTS" MODIFY ("SURCHARGE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."PUR_AGR_SURCH_INTS" ADD CONSTRAINT "PUR_AGR_SURCH_INTS_PK" PRIMARY KEY ("INTERVAL_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."PUR_AGR_SURCH_INTS" ADD CONSTRAINT "PUR_AGR_SURCH_INTS_UK1" UNIQUE ("INTERVAL_SEQ", "INTERVAL")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PUR_AGR_SURCHARGES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PUR_AGR_SURCHARGES" MODIFY ("SURCHARGE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_SURCHARGES" MODIFY ("AGREEMENT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_SURCHARGES" MODIFY ("LEDGER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_AGR_SURCHARGES" MODIFY ("PRICE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_SURCHARGES" MODIFY ("SURCHARGE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_SURCHARGES" MODIFY ("AGREEMENT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_SURCHARGES" MODIFY ("LEDGER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_AGR_SURCHARGES" MODIFY ("PRICE" NOT NULL);
   ALTER TABLE "TRANSPORT"."PUR_AGR_SURCHARGES" ADD CONSTRAINT "PUR_AGR_SURCHARGES_PK" PRIMARY KEY ("SURCHARGE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PUR_GASOIL_SURCHARGES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PUR_GASOIL_SURCHARGES" MODIFY ("PUR_GASOIL_SUR_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_GASOIL_SURCHARGES" MODIFY ("AGREEMENT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_GASOIL_SURCHARGES" MODIFY ("FROM_DATE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PUR_GASOIL_SURCHARGES" MODIFY ("PERCENTAGE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PUR_GASOIL_SURCHARGES" MODIFY ("PUR_GASOIL_SUR_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_GASOIL_SURCHARGES" MODIFY ("AGREEMENT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_GASOIL_SURCHARGES" MODIFY ("FROM_DATE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PUR_GASOIL_SURCHARGES" MODIFY ("PERCENTAGE" NOT NULL);
   ALTER TABLE "TRANSPORT"."PUR_GASOIL_SURCHARGES" ADD CONSTRAINT "PUR_GASOIL_SURCHARGES_PK" PRIMARY KEY ("PUR_GASOIL_SUR_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table PURCHASE_AGREEMENTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."PURCHASE_AGREEMENTS" MODIFY ("AGREEMENT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."PURCHASE_AGREEMENTS" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."PURCHASE_AGREEMENTS" MODIFY ("AGREEMENT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."PURCHASE_AGREEMENTS" MODIFY ("RELATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."PURCHASE_AGREEMENTS" ADD CONSTRAINT "PURCHASE_AGREEMENTS_PK" PRIMARY KEY ("AGREEMENT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table Q
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."Q" MODIFY ("Q_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."Q" MODIFY ("Q_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."Q" ADD CONSTRAINT "Q_PK" PRIMARY KEY ("Q_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table Q_STAT128_ERRORCODE
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."Q_STAT128_ERRORCODE" MODIFY ("Q_STAT128_ERRORCODE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."Q_STAT128_ERRORCODE" MODIFY ("Q_STAT128_ERRORCODE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."Q_STAT128_ERRORCODE" ADD CONSTRAINT "Q_STAT128_ERRORCODE_PK" PRIMARY KEY ("Q_STAT128_ERRORCODE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table Q_STAT128_STATCODE_RELATIONS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."Q_STAT128_STATCODE_RELATIONS" MODIFY ("STATCODE_RELATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."Q_STAT128_STATCODE_RELATIONS" MODIFY ("STATUSCODE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."Q_STAT128_STATCODE_RELATIONS" MODIFY ("CODE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."Q_STAT128_STATCODE_RELATIONS" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."Q_STAT128_STATCODE_RELATIONS" MODIFY ("STATCODE_RELATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."Q_STAT128_STATCODE_RELATIONS" MODIFY ("STATUSCODE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."Q_STAT128_STATCODE_RELATIONS" MODIFY ("CODE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."Q_STAT128_STATCODE_RELATIONS" MODIFY ("RELATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."Q_STAT128_STATCODE_RELATIONS" ADD CONSTRAINT "Q_STAT128_STATCODE_RELATIO_PK" PRIMARY KEY ("STATCODE_RELATION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table Q_STAT128_STATUSCODE
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."Q_STAT128_STATUSCODE" MODIFY ("Q_STAT128_STATUSCODE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."Q_STAT128_STATUSCODE" MODIFY ("Q_STAT128_STATUSCODE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."Q_STAT128_STATUSCODE" ADD CONSTRAINT "Q_STAT128_STATUSCODE_PK" PRIMARY KEY ("Q_STAT128_STATUSCODE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table Q00
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."Q00" MODIFY ("Q00_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."Q00" MODIFY ("Q00_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."Q00" ADD CONSTRAINT "Q00_PK" PRIMARY KEY ("Q00_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table Q10
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."Q10" MODIFY ("Q10_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."Q10" MODIFY ("Q00_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."Q10" MODIFY ("Q10_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."Q10" MODIFY ("Q00_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."Q10" ADD CONSTRAINT "Q10_PK" PRIMARY KEY ("Q10_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table Q11
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."Q11" MODIFY ("Q11_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."Q11" MODIFY ("Q10_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."Q11" MODIFY ("Q11_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."Q11" MODIFY ("Q10_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."Q11" ADD CONSTRAINT "Q11_PK" PRIMARY KEY ("Q11_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table Q20
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."Q20" MODIFY ("Q20_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."Q20" MODIFY ("Q00_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."Q20" MODIFY ("Q20_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."Q20" MODIFY ("Q00_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."Q20" ADD CONSTRAINT "Q20_PK" PRIMARY KEY ("Q20_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table Q30
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."Q30" MODIFY ("Q30_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."Q30" MODIFY ("Q20_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."Q30" MODIFY ("Q30_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."Q30" MODIFY ("Q20_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."Q30" ADD CONSTRAINT "Q30_PK" PRIMARY KEY ("Q30_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table QUOTATION
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."QUOTATION" MODIFY ("QUOTATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."QUOTATION" MODIFY ("QUOTATION_NR" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."QUOTATION" MODIFY ("QUOTATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."QUOTATION" MODIFY ("QUOTATION_NR" NOT NULL);
   ALTER TABLE "TRANSPORT"."QUOTATION" ADD CONSTRAINT "OFFERTE_PK" PRIMARY KEY ("QUOTATION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table QUOTATION_COUNTRIES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."QUOTATION_COUNTRIES" MODIFY ("QUOTATION_COUNTRY_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."QUOTATION_COUNTRIES" MODIFY ("QUOTATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."QUOTATION_COUNTRIES" MODIFY ("QUOTATION_COUNTRY_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."QUOTATION_COUNTRIES" MODIFY ("QUOTATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."QUOTATION_COUNTRIES" ADD CONSTRAINT "QUOTATION_COUNTRIES_PK" PRIMARY KEY ("QUOTATION_COUNTRY_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table QUOTATION_FEATURES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."QUOTATION_FEATURES" MODIFY ("QUOTATION_FEATURE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."QUOTATION_FEATURES" MODIFY ("FEATURE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."QUOTATION_FEATURES" MODIFY ("QUOTATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."QUOTATION_FEATURES" MODIFY ("QUOTATION_FEATURE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."QUOTATION_FEATURES" MODIFY ("FEATURE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."QUOTATION_FEATURES" MODIFY ("QUOTATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."QUOTATION_FEATURES" ADD CONSTRAINT "QUOTATION_FEATURES_PK" PRIMARY KEY ("QUOTATION_FEATURE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table QUOTATION_INTERVALS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."QUOTATION_INTERVALS" MODIFY ("QUOTATION_INTERVAL_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."QUOTATION_INTERVALS" MODIFY ("QUOTATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."QUOTATION_INTERVALS" MODIFY ("QUANTITY" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."QUOTATION_INTERVALS" MODIFY ("QUOTATION_INTERVAL_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."QUOTATION_INTERVALS" MODIFY ("QUOTATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."QUOTATION_INTERVALS" MODIFY ("QUANTITY" NOT NULL);
   ALTER TABLE "TRANSPORT"."QUOTATION_INTERVALS" ADD CONSTRAINT "QUOTATION_INTERVALS_PK" PRIMARY KEY ("QUOTATION_INTERVAL_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table QUOTATION_LINES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."QUOTATION_LINES" MODIFY ("QUOTATION_LINE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."QUOTATION_LINES" MODIFY ("BASE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."QUOTATION_LINES" MODIFY ("AMOUNT" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."QUOTATION_LINES" MODIFY ("QUOTATION_LINE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."QUOTATION_LINES" MODIFY ("BASE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."QUOTATION_LINES" MODIFY ("AMOUNT" NOT NULL);
   ALTER TABLE "TRANSPORT"."QUOTATION_LINES" ADD CONSTRAINT "QUOTATION_LINES_PK" PRIMARY KEY ("QUOTATION_LINE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table QUOTATION_SURCHARGES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."QUOTATION_SURCHARGES" MODIFY ("QUOTATION_SURCHARGE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."QUOTATION_SURCHARGES" MODIFY ("QUOTATION_SURCHARGE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."QUOTATION_SURCHARGES" ADD CONSTRAINT "QUOTATION_SURCHARGES_PK" PRIMARY KEY ("QUOTATION_SURCHARGE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table QUOTATION_ZIPCODES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."QUOTATION_ZIPCODES" MODIFY ("QUOTATION_ZIPCODE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."QUOTATION_ZIPCODES" MODIFY ("QUOTATION_COUNTRY_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."QUOTATION_ZIPCODES" MODIFY ("ZIPCODE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."QUOTATION_ZIPCODES" MODIFY ("QUOTATION_ZIPCODE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."QUOTATION_ZIPCODES" MODIFY ("QUOTATION_COUNTRY_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."QUOTATION_ZIPCODES" MODIFY ("ZIPCODE" NOT NULL);
   ALTER TABLE "TRANSPORT"."QUOTATION_ZIPCODES" ADD CONSTRAINT "QUOTATION_ZIPCODES_PK" PRIMARY KEY ("QUOTATION_ZIPCODE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table RELATION_ADDRESSES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."RELATION_ADDRESSES" MODIFY ("RELATION_ADDRESS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RELATION_ADDRESSES" MODIFY ("ADDRESS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RELATION_ADDRESSES" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."RELATION_ADDRESSES" MODIFY ("RELATION_ADDRESS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RELATION_ADDRESSES" MODIFY ("ADDRESS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RELATION_ADDRESSES" MODIFY ("RELATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."RELATION_ADDRESSES" ADD CONSTRAINT "RELATION_ADDRESSES_PK" PRIMARY KEY ("RELATION_ADDRESS_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table RELATION_ATTMENTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."RELATION_ATTMENTS" MODIFY ("ATTMENT_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."RELATION_ATTMENTS" MODIFY ("ATTMENT_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."RELATION_ATTMENTS" ADD CONSTRAINT "RELATION_ATTMENTS" PRIMARY KEY ("ATTMENT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table RELATION_DELIVERY_COUNTRIES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."RELATION_DELIVERY_COUNTRIES" MODIFY ("RELA_DEL_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RELATION_DELIVERY_COUNTRIES" MODIFY ("COUNTRY_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RELATION_DELIVERY_COUNTRIES" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."RELATION_DELIVERY_COUNTRIES" MODIFY ("RELA_DEL_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RELATION_DELIVERY_COUNTRIES" MODIFY ("COUNTRY_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RELATION_DELIVERY_COUNTRIES" MODIFY ("RELATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."RELATION_DELIVERY_COUNTRIES" ADD CONSTRAINT "RELATION_DELIVERY_COUNTRIE_UK1" UNIQUE ("COUNTRY_SEQ", "RELATION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."RELATION_DELIVERY_COUNTRIES" ADD CONSTRAINT "RELATION_DELIVERY_COUNTRIE_PK" PRIMARY KEY ("RELA_DEL_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table RELATION_FOLLOW_UPS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."RELATION_FOLLOW_UPS" MODIFY ("FOLLOW_UP_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."RELATION_FOLLOW_UPS" MODIFY ("FOLLOW_UP_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."RELATION_FOLLOW_UPS" ADD CONSTRAINT "RELATION_FOLLOW_UPS_PK" PRIMARY KEY ("FOLLOW_UP_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table RELATION_HISTORY
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."RELATION_HISTORY" MODIFY ("RELATION_HISTORY_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RELATION_HISTORY" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RELATION_HISTORY" MODIFY ("REMARKS" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."RELATION_HISTORY" MODIFY ("RELATION_HISTORY_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RELATION_HISTORY" MODIFY ("RELATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RELATION_HISTORY" MODIFY ("REMARKS" NOT NULL);
   ALTER TABLE "TRANSPORT"."RELATION_HISTORY" ADD CONSTRAINT "RELATION_HISTORY_PK" PRIMARY KEY ("RELATION_HISTORY_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table RELATION_NON_CONFORMITIES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."RELATION_NON_CONFORMITIES" MODIFY ("RELATION_NCF_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RELATION_NON_CONFORMITIES" MODIFY ("NCF_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RELATION_NON_CONFORMITIES" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RELATION_NON_CONFORMITIES" MODIFY ("CODE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."RELATION_NON_CONFORMITIES" MODIFY ("RELATION_NCF_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RELATION_NON_CONFORMITIES" MODIFY ("NCF_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RELATION_NON_CONFORMITIES" MODIFY ("RELATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RELATION_NON_CONFORMITIES" MODIFY ("CODE" NOT NULL);
   ALTER TABLE "TRANSPORT"."RELATION_NON_CONFORMITIES" ADD CONSTRAINT "RELATION_NON_CONFORMITIES_PK" PRIMARY KEY ("RELATION_NCF_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."RELATION_NON_CONFORMITIES" ADD CONSTRAINT "RELATION_NON_CONFORMITIES_UK1" UNIQUE ("NCF_SEQ", "RELATION_SEQ", "CODE")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table RELATION_STATUSES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."RELATION_STATUSES" MODIFY ("RELATION_STATUS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RELATION_STATUSES" MODIFY ("STATUS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RELATION_STATUSES" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RELATION_STATUSES" MODIFY ("ACTIVE_FROM_DATE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RELATION_STATUSES" MODIFY ("FORMAT" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."RELATION_STATUSES" MODIFY ("RELATION_STATUS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RELATION_STATUSES" MODIFY ("STATUS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RELATION_STATUSES" MODIFY ("RELATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RELATION_STATUSES" MODIFY ("ACTIVE_FROM_DATE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RELATION_STATUSES" MODIFY ("FORMAT" NOT NULL);
   ALTER TABLE "TRANSPORT"."RELATION_STATUSES" ADD CONSTRAINT "RELATION_STATUSES_UK" UNIQUE ("STATUS_SEQ", "RELATION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table RELATIONS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."RELATIONS" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RELATIONS" MODIFY ("NAME" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."RELATIONS" MODIFY ("RELATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RELATIONS" MODIFY ("NAME" NOT NULL);
   ALTER TABLE "TRANSPORT"."RELATIONS" ADD CONSTRAINT "RELATIONS_UK" UNIQUE ("RELATION_SEQ", "RELATION_ORDER_NUMBER")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."RELATIONS" ADD CONSTRAINT "RELATIONS_PK" PRIMARY KEY ("RELATION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
-  ALTER TABLE "TRANSPORT"."RELATIONS" ADD CHECK (xml_outgoing_invoice_layout IN ('SHIPMENT_CENTRIC', 'INVOICELINE_CENTRIC')) ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
+  ALTER TABLE "TRANSPORT"."RELATIONS" ADD CHECK (xml_outgoing_invoice_layout IN ('SHIPMENT_CENTRIC', 'INVOICELINE_CENTRIC'));
 --------------------------------------------------------
 --  Constraints for Table REPLACE_MULTIBYTES
 --------------------------------------------------------
@@ -26780,481 +26780,481 @@ ALTER TRIGGER "TRANSPORT"."Z00_STAT512_BR_TRG" ENABLE;
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
-  ALTER TABLE "TRANSPORT"."REPLACE_MULTIBYTES" ADD CONSTRAINT "CHK_MULTIBYTE_COLS" CHECK (( MULTIBYTE_ASCII IS NOT NULL AND MULTIBYTE_CHAR IS NOT NULL ) OR ( MULTIBYTE_ASCII IS NULL AND MULTIBYTE_CHAR IS NOT NULL ) OR ( MULTIBYTE_ASCII IS NOT NULL AND MULTIBYTE_CHAR IS NULL )) ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
+  ALTER TABLE "TRANSPORT"."REPLACE_MULTIBYTES" ADD CONSTRAINT "CHK_MULTIBYTE_COLS" CHECK (( MULTIBYTE_ASCII IS NOT NULL AND MULTIBYTE_CHAR IS NOT NULL ) OR ( MULTIBYTE_ASCII IS NULL AND MULTIBYTE_CHAR IS NOT NULL ) OR ( MULTIBYTE_ASCII IS NOT NULL AND MULTIBYTE_CHAR IS NULL ));
 --------------------------------------------------------
 --  Constraints for Table REPORT_ATTACHMENTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."REPORT_ATTACHMENTS" MODIFY ("ATTACHMENT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."REPORT_ATTACHMENTS" MODIFY ("REPORT_LAYOUT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."REPORT_ATTACHMENTS" MODIFY ("LANGUAGE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."REPORT_ATTACHMENTS" MODIFY ("ATTACHMENT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."REPORT_ATTACHMENTS" MODIFY ("REPORT_LAYOUT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."REPORT_ATTACHMENTS" MODIFY ("LANGUAGE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."REPORT_ATTACHMENTS" ADD CONSTRAINT "REPORT_ATTACHMENTS_PK" PRIMARY KEY ("ATTACHMENT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table REPORT_LAYOUTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."REPORT_LAYOUTS" MODIFY ("LAYOUT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."REPORT_LAYOUTS" MODIFY ("REPORT_NAME" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."REPORT_LAYOUTS" MODIFY ("LAYOUT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."REPORT_LAYOUTS" MODIFY ("REPORT_NAME" NOT NULL);
   ALTER TABLE "TRANSPORT"."REPORT_LAYOUTS" ADD CONSTRAINT "REPORT_LAYOUTS_PK" PRIMARY KEY ("LAYOUT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table REPORT_QUERIES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."REPORT_QUERIES" MODIFY ("QUERY_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."REPORT_QUERIES" MODIFY ("LAYOUT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."REPORT_QUERIES" MODIFY ("QUERY_NAME" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."REPORT_QUERIES" MODIFY ("QUERY_TEXT" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."REPORT_QUERIES" MODIFY ("OUTPUT_FORMAT" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."REPORT_QUERIES" MODIFY ("DISPOSITION" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."REPORT_QUERIES" MODIFY ("VARIABLE_NAME" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."REPORT_QUERIES" MODIFY ("QUERY_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."REPORT_QUERIES" MODIFY ("LAYOUT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."REPORT_QUERIES" MODIFY ("QUERY_NAME" NOT NULL);
+  ALTER TABLE "TRANSPORT"."REPORT_QUERIES" MODIFY ("QUERY_TEXT" NOT NULL);
+  ALTER TABLE "TRANSPORT"."REPORT_QUERIES" MODIFY ("OUTPUT_FORMAT" NOT NULL);
+  ALTER TABLE "TRANSPORT"."REPORT_QUERIES" MODIFY ("DISPOSITION" NOT NULL);
+  ALTER TABLE "TRANSPORT"."REPORT_QUERIES" MODIFY ("VARIABLE_NAME" NOT NULL);
   ALTER TABLE "TRANSPORT"."REPORT_QUERIES" ADD CONSTRAINT "REPORT_QUERIES_PK" PRIMARY KEY ("QUERY_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."REPORT_QUERIES" ADD CONSTRAINT "REPORT_QUERIES_UK" UNIQUE ("QUERY_NAME")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table REPORT_SCHEDULER
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."REPORT_SCHEDULER" MODIFY ("SCHEDULER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."REPORT_SCHEDULER" MODIFY ("START_DATE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."REPORT_SCHEDULER" MODIFY ("QUERY_NAME" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."REPORT_SCHEDULER" MODIFY ("VALUE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."REPORT_SCHEDULER" MODIFY ("SCHEDULER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."REPORT_SCHEDULER" MODIFY ("START_DATE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."REPORT_SCHEDULER" MODIFY ("QUERY_NAME" NOT NULL);
+  ALTER TABLE "TRANSPORT"."REPORT_SCHEDULER" MODIFY ("VALUE" NOT NULL);
   ALTER TABLE "TRANSPORT"."REPORT_SCHEDULER" ADD CONSTRAINT "REPORT_SCHEDULER_PK" PRIMARY KEY ("SCHEDULER_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table REPORT_SCHEDULER_ATTMENTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."REPORT_SCHEDULER_ATTMENTS" MODIFY ("ATTMENT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."REPORT_SCHEDULER_ATTMENTS" MODIFY ("SCHEDULER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."REPORT_SCHEDULER_ATTMENTS" MODIFY ("QUERY_NAME" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."REPORT_SCHEDULER_ATTMENTS" MODIFY ("VALUE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."REPORT_SCHEDULER_ATTMENTS" MODIFY ("ATTMENT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."REPORT_SCHEDULER_ATTMENTS" MODIFY ("SCHEDULER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."REPORT_SCHEDULER_ATTMENTS" MODIFY ("QUERY_NAME" NOT NULL);
+  ALTER TABLE "TRANSPORT"."REPORT_SCHEDULER_ATTMENTS" MODIFY ("VALUE" NOT NULL);
   ALTER TABLE "TRANSPORT"."REPORT_SCHEDULER_ATTMENTS" ADD CONSTRAINT "REPORT_SCHEDULER_ATTMENTS_PK" PRIMARY KEY ("ATTMENT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table RFQ_ASSISTANCES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."RFQ_ASSISTANCES" MODIFY ("ASSISTANCE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RFQ_ASSISTANCES" MODIFY ("RFQ_DOSSIER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."RFQ_ASSISTANCES" MODIFY ("ASSISTANCE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RFQ_ASSISTANCES" MODIFY ("RFQ_DOSSIER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."RFQ_ASSISTANCES" ADD CONSTRAINT "RFQ_ASSISTANCES_PK" PRIMARY KEY ("ASSISTANCE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table RFQ_DOSSIER_DETAILS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."RFQ_DOSSIER_DETAILS" MODIFY ("RFQ_DOSSIER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RFQ_DOSSIER_DETAILS" MODIFY ("DETAIL_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."RFQ_DOSSIER_DETAILS" MODIFY ("RFQ_DOSSIER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RFQ_DOSSIER_DETAILS" MODIFY ("DETAIL_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."RFQ_DOSSIER_DETAILS" ADD CONSTRAINT "RFQ_DOSSIER_DETAILS_PK" PRIMARY KEY ("DETAIL_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table RFQ_DOSSIERS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."RFQ_DOSSIERS" MODIFY ("RFQ_DOSSIER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."RFQ_DOSSIERS" MODIFY ("RFQ_DOSSIER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."RFQ_DOSSIERS" ADD CONSTRAINT "RFQ_DOSSIERS_PK" PRIMARY KEY ("RFQ_DOSSIER_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table RFQ_REVENUES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."RFQ_REVENUES" MODIFY ("REVENUE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RFQ_REVENUES" MODIFY ("RFQ_DOSSIER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."RFQ_REVENUES" MODIFY ("REVENUE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RFQ_REVENUES" MODIFY ("RFQ_DOSSIER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."RFQ_REVENUES" ADD CONSTRAINT "RFQ_REVENUES_PK" PRIMARY KEY ("REVENUE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table RFS_HISTORY
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."RFS_HISTORY" MODIFY ("RFS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RFS_HISTORY" MODIFY ("CREATE_DATE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RFS_HISTORY" MODIFY ("CREATED_BY" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RFS_HISTORY" MODIFY ("REPORT" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RFS_HISTORY" MODIFY ("STATUS" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."RFS_HISTORY" MODIFY ("CONTACT_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."RFS_HISTORY" MODIFY ("RFS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RFS_HISTORY" MODIFY ("CREATE_DATE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RFS_HISTORY" MODIFY ("CREATED_BY" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RFS_HISTORY" MODIFY ("REPORT" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RFS_HISTORY" MODIFY ("STATUS" NOT NULL);
+  ALTER TABLE "TRANSPORT"."RFS_HISTORY" MODIFY ("CONTACT_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."RFS_HISTORY" ADD CONSTRAINT "RFS_HISTORY_PK" PRIMARY KEY ("RFS_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SAL_AGR_ADD_SURCHARGES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SAL_AGR_ADD_SURCHARGES" MODIFY ("ADD_SURCHARGE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_ADD_SURCHARGES" MODIFY ("AGREEMENT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_ADD_SURCHARGES" MODIFY ("LEDGER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_ADD_SURCHARGES" MODIFY ("DESCRIPTION" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_ADD_SURCHARGES" MODIFY ("PRICE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_ADD_SURCHARGES" MODIFY ("ADD_SURCHARGE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_ADD_SURCHARGES" MODIFY ("AGREEMENT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_ADD_SURCHARGES" MODIFY ("LEDGER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_ADD_SURCHARGES" MODIFY ("DESCRIPTION" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_ADD_SURCHARGES" MODIFY ("PRICE" NOT NULL);
   ALTER TABLE "TRANSPORT"."SAL_AGR_ADD_SURCHARGES" ADD CONSTRAINT "SAL_AGR_ADD_SURCHARGES_PK" PRIMARY KEY ("ADD_SURCHARGE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SAL_AGR_CITY_COLS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_COLS" MODIFY ("COLLECTION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_COLS" MODIFY ("AGREEMENT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_COLS" MODIFY ("CITY_COLLECTION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_COLS" MODIFY ("COLLECTION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_COLS" MODIFY ("AGREEMENT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_COLS" MODIFY ("CITY_COLLECTION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_COLS" ADD CONSTRAINT "SAL_AGR_CITY_COLS_PK" PRIMARY KEY ("COLLECTION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SAL_AGR_CITY_INTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_INTS" MODIFY ("INTERVAL_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_INTS" MODIFY ("COLLECTION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_INTS" MODIFY ("INTERVAL" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_INTS" MODIFY ("PRICE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_INTS" MODIFY ("INTERVAL_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_INTS" MODIFY ("COLLECTION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_INTS" MODIFY ("INTERVAL" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_INTS" MODIFY ("PRICE" NOT NULL);
   ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_INTS" ADD CONSTRAINT "SAL_AGR_CITY_INTS_PK" PRIMARY KEY ("INTERVAL_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SAL_AGR_CITY_MAUT_INTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_MAUT_INTS" MODIFY ("INTERVAL_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_MAUT_INTS" MODIFY ("COLLECTION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_MAUT_INTS" MODIFY ("INTERVAL" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_MAUT_INTS" MODIFY ("PRICE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_MAUT_INTS" MODIFY ("INTERVAL_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_MAUT_INTS" MODIFY ("COLLECTION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_MAUT_INTS" MODIFY ("INTERVAL" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_MAUT_INTS" MODIFY ("PRICE" NOT NULL);
   ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_MAUT_INTS" ADD CONSTRAINT "SAL_AGR_CITY_MAUT_INTS_PK" PRIMARY KEY ("INTERVAL_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SAL_AGR_DEPOT_DEPOT
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SAL_AGR_DEPOT_DEPOT" MODIFY ("DEPOT_DEPOT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_DEPOT_DEPOT" MODIFY ("AGREEMENT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_DEPOT_DEPOT" MODIFY ("CBM_KG_CALC" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_DEPOT_DEPOT" MODIFY ("LDM_KG_CALC" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_DEPOT_DEPOT" MODIFY ("DEPOT_DEPOT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_DEPOT_DEPOT" MODIFY ("AGREEMENT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_DEPOT_DEPOT" MODIFY ("CBM_KG_CALC" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_DEPOT_DEPOT" MODIFY ("LDM_KG_CALC" NOT NULL);
   ALTER TABLE "TRANSPORT"."SAL_AGR_DEPOT_DEPOT" ADD CONSTRAINT "SAL_AGR_DEPOT_DEPOT_PK" PRIMARY KEY ("DEPOT_DEPOT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SAL_AGR_DEPOT_DEPOT_INTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SAL_AGR_DEPOT_DEPOT_INTS" MODIFY ("INTERVAL_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_DEPOT_DEPOT_INTS" MODIFY ("DEPOT_DEPOT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_DEPOT_DEPOT_INTS" MODIFY ("INTERVAL" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_DEPOT_DEPOT_INTS" MODIFY ("PRICE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_DEPOT_DEPOT_INTS" MODIFY ("INTERVAL_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_DEPOT_DEPOT_INTS" MODIFY ("DEPOT_DEPOT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_DEPOT_DEPOT_INTS" MODIFY ("INTERVAL" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_DEPOT_DEPOT_INTS" MODIFY ("PRICE" NOT NULL);
   ALTER TABLE "TRANSPORT"."SAL_AGR_DEPOT_DEPOT_INTS" ADD CONSTRAINT "SAL_AGR_DEPOT_DEPOT_INTS_PK" PRIMARY KEY ("INTERVAL_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SAL_AGR_MAUT_INTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SAL_AGR_MAUT_INTS" MODIFY ("SAL_MAUT_SUR_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_MAUT_INTS" MODIFY ("INTERVAL_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_MAUT_INTS" MODIFY ("INTERVAL" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_MAUT_INTS" MODIFY ("PERCENTAGE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_MAUT_INTS" MODIFY ("SAL_MAUT_SUR_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_MAUT_INTS" MODIFY ("INTERVAL_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_MAUT_INTS" MODIFY ("INTERVAL" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_MAUT_INTS" MODIFY ("PERCENTAGE" NOT NULL);
   ALTER TABLE "TRANSPORT"."SAL_AGR_MAUT_INTS" ADD CONSTRAINT "SAL_AGR_MAUT_INTS_PK" PRIMARY KEY ("INTERVAL_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."SAL_AGR_MAUT_INTS" ADD CONSTRAINT "SAL_AGR_MAUT_INTS_UK1" UNIQUE ("SAL_MAUT_SUR_SEQ", "INTERVAL")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SAL_AGR_SURCH_INTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SAL_AGR_SURCH_INTS" MODIFY ("INTERVAL_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_SURCH_INTS" MODIFY ("INTERVAL" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_SURCH_INTS" MODIFY ("PRICE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_SURCH_INTS" MODIFY ("SURCHARGE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_SURCH_INTS" MODIFY ("INTERVAL_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_SURCH_INTS" MODIFY ("INTERVAL" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_SURCH_INTS" MODIFY ("PRICE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_SURCH_INTS" MODIFY ("SURCHARGE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."SAL_AGR_SURCH_INTS" ADD CONSTRAINT "SAL_AGR_SURCH_INTS_PK" PRIMARY KEY ("INTERVAL_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."SAL_AGR_SURCH_INTS" ADD CONSTRAINT "SAL_AGR_SURCH_INTS_UK1" UNIQUE ("INTERVAL_SEQ", "INTERVAL")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SAL_AGR_SURCHARGES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SAL_AGR_SURCHARGES" MODIFY ("SURCHARGE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_SURCHARGES" MODIFY ("AGREEMENT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_SURCHARGES" MODIFY ("LEDGER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_AGR_SURCHARGES" MODIFY ("PRICE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_SURCHARGES" MODIFY ("SURCHARGE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_SURCHARGES" MODIFY ("AGREEMENT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_SURCHARGES" MODIFY ("LEDGER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_AGR_SURCHARGES" MODIFY ("PRICE" NOT NULL);
   ALTER TABLE "TRANSPORT"."SAL_AGR_SURCHARGES" ADD CONSTRAINT "SAL_AGR_SURCHARGES_PK" PRIMARY KEY ("SURCHARGE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SAL_GASOIL_SURCHARGES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SAL_GASOIL_SURCHARGES" MODIFY ("SAL_GASOIL_SUR_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_GASOIL_SURCHARGES" MODIFY ("AGREEMENT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_GASOIL_SURCHARGES" MODIFY ("FROM_DATE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_GASOIL_SURCHARGES" MODIFY ("PERCENTAGE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SAL_GASOIL_SURCHARGES" MODIFY ("SAL_GASOIL_SUR_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_GASOIL_SURCHARGES" MODIFY ("AGREEMENT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_GASOIL_SURCHARGES" MODIFY ("FROM_DATE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_GASOIL_SURCHARGES" MODIFY ("PERCENTAGE" NOT NULL);
   ALTER TABLE "TRANSPORT"."SAL_GASOIL_SURCHARGES" ADD CONSTRAINT "SAL_GASOIL_SURCHARGES_PK" PRIMARY KEY ("SAL_GASOIL_SUR_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SAL_MAUT_SURCHARGES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SAL_MAUT_SURCHARGES" MODIFY ("SAL_MAUT_SUR_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_MAUT_SURCHARGES" MODIFY ("AGREEMENT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_MAUT_SURCHARGES" MODIFY ("FROM_DATE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SAL_MAUT_SURCHARGES" MODIFY ("PERCENTAGE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SAL_MAUT_SURCHARGES" MODIFY ("SAL_MAUT_SUR_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_MAUT_SURCHARGES" MODIFY ("AGREEMENT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_MAUT_SURCHARGES" MODIFY ("FROM_DATE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SAL_MAUT_SURCHARGES" MODIFY ("PERCENTAGE" NOT NULL);
   ALTER TABLE "TRANSPORT"."SAL_MAUT_SURCHARGES" ADD CONSTRAINT "SAL_MAUT_SURCHARGES_PK" PRIMARY KEY ("SAL_MAUT_SUR_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SALES_AGREEMENTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SALES_AGREEMENTS" MODIFY ("AGREEMENT_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SALES_AGREEMENTS" MODIFY ("AGREEMENT_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."SALES_AGREEMENTS" ADD CONSTRAINT "SALES_AGREEMENTS_PK" PRIMARY KEY ("AGREEMENT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SERVICE_LEVELS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SERVICE_LEVELS" MODIFY ("SERVICE_LEVEL_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SERVICE_LEVELS" MODIFY ("DESCRIPTION" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SERVICE_LEVELS" MODIFY ("SERVICE_LEVEL_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SERVICE_LEVELS" MODIFY ("DESCRIPTION" NOT NULL);
   ALTER TABLE "TRANSPORT"."SERVICE_LEVELS" ADD CONSTRAINT "SERVICE_LEVELS_PK" PRIMARY KEY ("SERVICE_LEVEL_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."SERVICE_LEVELS" ADD CONSTRAINT "SERVICE_LEVELS_UK" UNIQUE ("DESCRIPTION")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SFTP_LOG_XML
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SFTP_LOG_XML" ADD UNIQUE ("SYS_NC_OID$") RELY ENABLE;
+  ALTER TABLE "TRANSPORT"."SFTP_LOG_XML" ADD UNIQUE ("SYS_NC_OID$") RELY;
 --------------------------------------------------------
 --  Constraints for Table SHIPMENT_CHANGES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SHIPMENT_CHANGES" MODIFY ("CHANGE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SHIPMENT_CHANGES" MODIFY ("BOOKING_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."SHIPMENT_CHANGES" MODIFY ("CREATE_DATE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SHIPMENT_CHANGES" MODIFY ("CHANGE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SHIPMENT_CHANGES" MODIFY ("BOOKING_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."SHIPMENT_CHANGES" MODIFY ("CREATE_DATE" NOT NULL);
   ALTER TABLE "TRANSPORT"."SHIPMENT_CHANGES" ADD CONSTRAINT "SHIPMENT_CHANGES_PK" PRIMARY KEY ("CHANGE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SHPLAD
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SHPLAD" MODIFY ("SHPLAD_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SHPLAD" MODIFY ("SHPLAD_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."SHPLAD" ADD CONSTRAINT "SHPLAD_PK" PRIMARY KEY ("SHPLAD_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SHPLAD_PLAN
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SHPLAD_PLAN" MODIFY ("SHPLAD_PLAN_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SHPLAD_PLAN" MODIFY ("SHPLAD_PLAN_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."SHPLAD_PLAN" ADD CONSTRAINT "SHPLAD_PLAN_PK" PRIMARY KEY ("SHPLAD_PLAN_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SHPLOS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SHPLOS" MODIFY ("SHPLOS_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SHPLOS" MODIFY ("SHPLOS_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."SHPLOS" ADD CONSTRAINT "SHPLOS_PK" PRIMARY KEY ("SHPLOS_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SHPLOS_PLAN
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SHPLOS_PLAN" MODIFY ("SHPLOS_PLAN_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SHPLOS_PLAN" MODIFY ("SHPLOS_PLAN_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."SHPLOS_PLAN" ADD CONSTRAINT "SHPLOS_PLAN_PK" PRIMARY KEY ("SHPLOS_PLAN_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SHPORD
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SHPORD" MODIFY ("SHPORD_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SHPORD" MODIFY ("SHPORD_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."SHPORD" ADD CONSTRAINT "SHPORD_PK" PRIMARY KEY ("SHPORD_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SHPORD_OB
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SHPORD_OB" MODIFY ("SHPORD_OB_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SHPORD_OB" MODIFY ("SHPORD_OB_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."SHPORD_OB" ADD CONSTRAINT "SHPORD_OB_PK" PRIMARY KEY ("SHPORD_OB_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SHPORD_PLAN
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SHPORD_PLAN" MODIFY ("SHPORD_PLAN_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SHPORD_PLAN" MODIFY ("SHPORD_PLAN_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."SHPORD_PLAN" ADD CONSTRAINT "SHPORD_PLAN_PK" PRIMARY KEY ("SHPORD_PLAN_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SHPORD_STATUS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SHPORD_STATUS" MODIFY ("SHPORD_STATUS_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SHPORD_STATUS" MODIFY ("SHPORD_STATUS_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."SHPORD_STATUS" ADD CONSTRAINT "SHPORD_STATUS_PK" PRIMARY KEY ("SHPORD_STATUS_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table STAT512_STATUSCODES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."STAT512_STATUSCODES" MODIFY ("STATUSCODE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."STAT512_STATUSCODES" MODIFY ("STATUSCODE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."STAT512_STATUSCODES" MODIFY ("DESCRIPTION" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."STAT512_STATUSCODES" MODIFY ("STATUSCODE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."STAT512_STATUSCODES" MODIFY ("STATUSCODE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."STAT512_STATUSCODES" MODIFY ("DESCRIPTION" NOT NULL);
   ALTER TABLE "TRANSPORT"."STAT512_STATUSCODES" ADD CONSTRAINT "STAT512_STATUSCODES_UK" UNIQUE ("STATUSCODE")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."STAT512_STATUSCODES" ADD CONSTRAINT "STAT512_STATUSCODES_PK" PRIMARY KEY ("STATUSCODE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table STAT512_STATUSCODES_RELATIONS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."STAT512_STATUSCODES_RELATIONS" MODIFY ("STATCODE_RELATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."STAT512_STATUSCODES_RELATIONS" MODIFY ("STATUSCODE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."STAT512_STATUSCODES_RELATIONS" MODIFY ("CODE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."STAT512_STATUSCODES_RELATIONS" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."STAT512_STATUSCODES_RELATIONS" MODIFY ("STATCODE_RELATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."STAT512_STATUSCODES_RELATIONS" MODIFY ("STATUSCODE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."STAT512_STATUSCODES_RELATIONS" MODIFY ("CODE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."STAT512_STATUSCODES_RELATIONS" MODIFY ("RELATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."STAT512_STATUSCODES_RELATIONS" ADD CONSTRAINT "STAT512_STATUSCODES_RELATI_PK" PRIMARY KEY ("STATCODE_RELATION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table STATUS
 --------------------------------------------------------
@@ -27264,1729 +27264,1729 @@ ALTER TRIGGER "TRANSPORT"."Z00_STAT512_BR_TRG" ENABLE;
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table STD_EDI_FORMAT_DETAILS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."STD_EDI_FORMAT_DETAILS" MODIFY ("SHIPMENT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."STD_EDI_FORMAT_DETAILS" MODIFY ("DETAILS_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."STD_EDI_FORMAT_DETAILS" MODIFY ("SHIPMENT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."STD_EDI_FORMAT_DETAILS" MODIFY ("DETAILS_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."STD_EDI_FORMAT_DETAILS" ADD CONSTRAINT "STD_EDI_FORMAT_DETAILS_PK" PRIMARY KEY ("DETAILS_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table STD_EDI_FORMAT_SHIPMENTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."STD_EDI_FORMAT_SHIPMENTS" MODIFY ("SHIPMENT_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."STD_EDI_FORMAT_SHIPMENTS" MODIFY ("SHIPMENT_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."STD_EDI_FORMAT_SHIPMENTS" ADD CONSTRAINT "STD_EDI_FORMAT_SHIPMENTS_PK" PRIMARY KEY ("SHIPMENT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table STD_EDI_FORMAT_TRANSPORTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."STD_EDI_FORMAT_TRANSPORTS" MODIFY ("TRANSPORT_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."STD_EDI_FORMAT_TRANSPORTS" MODIFY ("TRANSPORT_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."STD_EDI_FORMAT_TRANSPORTS" ADD CONSTRAINT "STD_EDI_FORMAT_TRANSPORTS_PK" PRIMARY KEY ("TRANSPORT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table SYSTEM_LOG
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."SYSTEM_LOG" MODIFY ("SYSTEM_LOG_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."SYSTEM_LOG" MODIFY ("SYSTEM_LOG_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."SYSTEM_LOG" ADD CONSTRAINT "SYSTEM_LOG_PK" PRIMARY KEY ("SYSTEM_LOG_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table TASK_LOGGINGS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."TASK_LOGGINGS" MODIFY ("LOGING_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."TASK_LOGGINGS" MODIFY ("DATE_TIME" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."TASK_LOGGINGS" MODIFY ("USER_NAME" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."TASK_LOGGINGS" MODIFY ("LOGING_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."TASK_LOGGINGS" MODIFY ("DATE_TIME" NOT NULL);
+  ALTER TABLE "TRANSPORT"."TASK_LOGGINGS" MODIFY ("USER_NAME" NOT NULL);
   ALTER TABLE "TRANSPORT"."TASK_LOGGINGS" ADD CONSTRAINT "TASK_LOGGINGS_PK" PRIMARY KEY ("LOGING_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table TT_EXCEPTIONS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."TT_EXCEPTIONS" MODIFY ("EXCEPTION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."TT_EXCEPTIONS" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."TT_EXCEPTIONS" MODIFY ("EXCEPTION" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."TT_EXCEPTIONS" MODIFY ("EXCEPTION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."TT_EXCEPTIONS" MODIFY ("EXPORT_DOSSIER_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."TT_EXCEPTIONS" MODIFY ("EXCEPTION" NOT NULL);
   ALTER TABLE "TRANSPORT"."TT_EXCEPTIONS" ADD CONSTRAINT "TT_EXCEPTIONS_PK" PRIMARY KEY ("EXCEPTION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table TT_STATUS_EXCEPTIONS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."TT_STATUS_EXCEPTIONS" MODIFY ("EXCEPTION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."TT_STATUS_EXCEPTIONS" MODIFY ("STATUS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."TT_STATUS_EXCEPTIONS" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."TT_STATUS_EXCEPTIONS" MODIFY ("DESCRIPTION" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."TT_STATUS_EXCEPTIONS" MODIFY ("EXCEPTION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."TT_STATUS_EXCEPTIONS" MODIFY ("STATUS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."TT_STATUS_EXCEPTIONS" MODIFY ("RELATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."TT_STATUS_EXCEPTIONS" MODIFY ("DESCRIPTION" NOT NULL);
   ALTER TABLE "TRANSPORT"."TT_STATUS_EXCEPTIONS" ADD CONSTRAINT "TT_STATUS_EXCEPTIONS_PK" PRIMARY KEY ("EXCEPTION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table TT_STATUSSES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."TT_STATUSSES" MODIFY ("STATUS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."TT_STATUSSES" MODIFY ("CODE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."TT_STATUSSES" MODIFY ("STATUS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."TT_STATUSSES" MODIFY ("CODE" NOT NULL);
   ALTER TABLE "TRANSPORT"."TT_STATUSSES" ADD CONSTRAINT "TT_STATUSSES_UK1" UNIQUE ("CODE")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."TT_STATUSSES" ADD CONSTRAINT "TT_STATUSSES_PK" PRIMARY KEY ("STATUS_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table TURNOVER_STATISTICS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."TURNOVER_STATISTICS" MODIFY ("STATISTIC_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."TURNOVER_STATISTICS" MODIFY ("YEAR" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."TURNOVER_STATISTICS" MODIFY ("DEBTOR_RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."TURNOVER_STATISTICS" MODIFY ("STATISTIC_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."TURNOVER_STATISTICS" MODIFY ("YEAR" NOT NULL);
+  ALTER TABLE "TRANSPORT"."TURNOVER_STATISTICS" MODIFY ("DEBTOR_RELATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."TURNOVER_STATISTICS" ADD CONSTRAINT "TURNOVER_STATISTICS_UK" UNIQUE ("DEBTOR_RELATION_SEQ", "YEAR")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."TURNOVER_STATISTICS" ADD CONSTRAINT "TURNOVER_STATISTICS_PK" PRIMARY KEY ("STATISTIC_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table UNIT_TYPE_CONVERSIONS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."UNIT_TYPE_CONVERSIONS" MODIFY ("CONVERSION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."UNIT_TYPE_CONVERSIONS" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."UNIT_TYPE_CONVERSIONS" MODIFY ("CODE" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."UNIT_TYPE_CONVERSIONS" MODIFY ("TYPE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."UNIT_TYPE_CONVERSIONS" MODIFY ("CONVERSION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."UNIT_TYPE_CONVERSIONS" MODIFY ("RELATION_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."UNIT_TYPE_CONVERSIONS" MODIFY ("CODE" NOT NULL);
+  ALTER TABLE "TRANSPORT"."UNIT_TYPE_CONVERSIONS" MODIFY ("TYPE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."UNIT_TYPE_CONVERSIONS" ADD CONSTRAINT "UNIT_TYPE_CONVERSIONS_PK" PRIMARY KEY ("CONVERSION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."UNIT_TYPE_CONVERSIONS" ADD CONSTRAINT "UNIT_TYPE_CONVERSIONS_UK1" UNIQUE ("RELATION_SEQ", "CODE", "TYPE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table UPLOAD_COST_LINES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."UPLOAD_COST_LINES" MODIFY ("LINE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."UPLOAD_COST_LINES" MODIFY ("UPLOAD_COST_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."UPLOAD_COST_LINES" MODIFY ("LINE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."UPLOAD_COST_LINES" MODIFY ("UPLOAD_COST_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."UPLOAD_COST_LINES" ADD CONSTRAINT "UPLOAD_COST_LINES_PK" PRIMARY KEY ("LINE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table UPLOAD_COSTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."UPLOAD_COSTS" MODIFY ("UPLOAD_COST_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."UPLOAD_COSTS" MODIFY ("UPLOAD_COST_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."UPLOAD_COSTS" ADD CONSTRAINT "UPLOAD_COSTS_PK" PRIMARY KEY ("UPLOAD_COST_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table UPLOAD_DOSSIER_DETAIL_LINES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."UPLOAD_DOSSIER_DETAIL_LINES" MODIFY ("LINE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."UPLOAD_DOSSIER_DETAIL_LINES" MODIFY ("UPLOAD_DETAIL_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."UPLOAD_DOSSIER_DETAIL_LINES" MODIFY ("LINE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."UPLOAD_DOSSIER_DETAIL_LINES" MODIFY ("UPLOAD_DETAIL_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."UPLOAD_DOSSIER_DETAIL_LINES" ADD CONSTRAINT "UPLOAD_DOSSIER_DETAIL_LINES_PK" PRIMARY KEY ("LINE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table UPLOAD_DOSSIER_DETAILS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."UPLOAD_DOSSIER_DETAILS" MODIFY ("UPLOAD_DETAIL_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."UPLOAD_DOSSIER_DETAILS" MODIFY ("UPLOAD_DETAIL_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."UPLOAD_DOSSIER_DETAILS" ADD CONSTRAINT "UPLOAD_DETAILS_PK" PRIMARY KEY ("UPLOAD_DETAIL_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table UPLOAD_REVENUE_LINES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."UPLOAD_REVENUE_LINES" MODIFY ("LINE_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."UPLOAD_REVENUE_LINES" MODIFY ("UPLOAD_REVENUE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."UPLOAD_REVENUE_LINES" MODIFY ("LINE_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."UPLOAD_REVENUE_LINES" MODIFY ("UPLOAD_REVENUE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."UPLOAD_REVENUE_LINES" ADD CONSTRAINT "UPLOAD_REVENUE_LINES_PK" PRIMARY KEY ("LINE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table UPLOAD_REVENUES
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."UPLOAD_REVENUES" MODIFY ("UPLOAD_REVENUE_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."UPLOAD_REVENUES" MODIFY ("UPLOAD_REVENUE_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."UPLOAD_REVENUES" ADD CONSTRAINT "UPLOAD_REVENUES_PK" PRIMARY KEY ("UPLOAD_REVENUE_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table USER_CLIENTS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."USER_CLIENTS" MODIFY ("USER_NAME" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."USER_CLIENTS" MODIFY ("RELATION_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."USER_CLIENTS" MODIFY ("USER_NAME" NOT NULL);
+  ALTER TABLE "TRANSPORT"."USER_CLIENTS" MODIFY ("RELATION_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."USER_CLIENTS" ADD CONSTRAINT "USER_CLIENTS_UK1" UNIQUE ("USER_NAME", "RELATION_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."USER_CLIENTS" ADD CONSTRAINT "USER_CLIENTS_PK" PRIMARY KEY ("USER_CLIENT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table USER_CONTROLS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."USER_CONTROLS" MODIFY ("USER_CONTROLS" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."USER_CONTROLS" MODIFY ("PORTAL_USER_NAME" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."USER_CONTROLS" MODIFY ("USER_CONTROLS" NOT NULL);
+  ALTER TABLE "TRANSPORT"."USER_CONTROLS" MODIFY ("PORTAL_USER_NAME" NOT NULL);
   ALTER TABLE "TRANSPORT"."USER_CONTROLS" ADD CONSTRAINT "USER_CONTROLS_PK" PRIMARY KEY ("USER_CONTROLS")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."USER_CONTROLS" ADD CONSTRAINT "USER_CONTROLS_UK1" UNIQUE ("PORTAL_USER_NAME")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table USER_LOGINS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."USER_LOGINS" MODIFY ("LOGIN_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."USER_LOGINS" MODIFY ("LOGIN_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."USER_LOGINS" ADD CONSTRAINT "USER_LOGINS_PK" PRIMARY KEY ("LOGIN_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table USER_PASSWORD_HISTORY
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."USER_PASSWORD_HISTORY" MODIFY ("HISTORY_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."USER_PASSWORD_HISTORY" MODIFY ("USER_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."USER_PASSWORD_HISTORY" MODIFY ("HISTORY_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."USER_PASSWORD_HISTORY" MODIFY ("USER_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."USER_PASSWORD_HISTORY" ADD CONSTRAINT "USER_PASSWORD_HISTORY_PK" PRIMARY KEY ("HISTORY_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table USER_SETTINGS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."USER_SETTINGS" MODIFY ("USER_NAME" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."USER_SETTINGS" MODIFY ("USER_NAME" NOT NULL);
   ALTER TABLE "TRANSPORT"."USER_SETTINGS" ADD CONSTRAINT "USER_SETTINGS_UK" UNIQUE ("OFFICE_SEQ", "USER_NAME")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table VATS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."VATS" MODIFY ("VAT_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."VATS" MODIFY ("VAT_CODE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."VATS" MODIFY ("VAT_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."VATS" MODIFY ("VAT_CODE" NOT NULL);
   ALTER TABLE "TRANSPORT"."VATS" ADD CONSTRAINT "DCT_VAT_PK" PRIMARY KEY ("VAT_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
   ALTER TABLE "TRANSPORT"."VATS" ADD CONSTRAINT "DCT_VAT_UK" UNIQUE ("VAT_CODE")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table W
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."W" MODIFY ("W_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."W" MODIFY ("A_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."W" MODIFY ("W_RECORD" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."W" MODIFY ("W_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."W" MODIFY ("A_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."W" MODIFY ("W_RECORD" NOT NULL);
   ALTER TABLE "TRANSPORT"."W" ADD CONSTRAINT "W_PK" PRIMARY KEY ("W_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table WS_SETUP
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."WS_SETUP" MODIFY ("WS_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."WS_SETUP" MODIFY ("WS_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."WS_SETUP" ADD CONSTRAINT "WS_SETUP_UK" UNIQUE ("USER_NAME")
-  USING INDEX "TRANSPORT"."WS_SETUP_UK"  ENABLE;
+  USING INDEX "TRANSPORT"."WS_SETUP_UK" ;
   ALTER TABLE "TRANSPORT"."WS_SETUP" ADD CONSTRAINT "WS_SETUP_PK" PRIMARY KEY ("WS_SEQ")
-  USING INDEX "TRANSPORT"."WS_SETUP_PK"  ENABLE;
+  USING INDEX "TRANSPORT"."WS_SETUP_PK" ;
 --------------------------------------------------------
 --  Constraints for Table WS_SETUP_REST_HEADERS
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."WS_SETUP_REST_HEADERS" MODIFY ("WS_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."WS_SETUP_REST_HEADERS" MODIFY ("HEADER" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."WS_SETUP_REST_HEADERS" MODIFY ("VALUE" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."WS_SETUP_REST_HEADERS" MODIFY ("WS_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."WS_SETUP_REST_HEADERS" MODIFY ("HEADER" NOT NULL);
+  ALTER TABLE "TRANSPORT"."WS_SETUP_REST_HEADERS" MODIFY ("VALUE" NOT NULL);
   ALTER TABLE "TRANSPORT"."WS_SETUP_REST_HEADERS" ADD CONSTRAINT "WS_SETUP_REST_HEADERS_PK" PRIMARY KEY ("WS_SETUP_REST_HEADER_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table X
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."X" MODIFY ("X_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."X" MODIFY ("X_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."X" ADD CONSTRAINT "X_PK" PRIMARY KEY ("X_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table XML
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."XML" MODIFY ("XML_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."XML" MODIFY ("XML_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."XML" ADD CONSTRAINT "XML_PK" PRIMARY KEY ("XML_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table Y
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."Y" MODIFY ("Y_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."Y" MODIFY ("F_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."Y" MODIFY ("Y_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."Y" MODIFY ("F_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."Y" ADD CONSTRAINT "Y_PK" PRIMARY KEY ("Y_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table Z00
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."Z00" MODIFY ("Z00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."Z00" MODIFY ("A00_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."Z00" MODIFY ("RECORD_TYPE_Z00" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."Z00" MODIFY ("Z00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."Z00" MODIFY ("A00_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."Z00" MODIFY ("RECORD_TYPE_Z00" NOT NULL);
   ALTER TABLE "TRANSPORT"."Z00" ADD CONSTRAINT "Z00_PK" PRIMARY KEY ("Z00_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table Z00_ENTL512
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."Z00_ENTL512" MODIFY ("Z00_ENTL512_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."Z00_ENTL512" MODIFY ("M00_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."Z00_ENTL512" MODIFY ("Z00_ENTL512_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."Z00_ENTL512" MODIFY ("M00_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."Z00_ENTL512" ADD CONSTRAINT "Z00_ENTL512_PK" PRIMARY KEY ("Z00_ENTL512_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Constraints for Table Z00_STAT512
 --------------------------------------------------------
 
-  ALTER TABLE "TRANSPORT"."Z00_STAT512" MODIFY ("Z00_STAT512_SEQ" NOT NULL ENABLE);
-  ALTER TABLE "TRANSPORT"."Z00_STAT512" MODIFY ("Q00_SEQ" NOT NULL ENABLE);
+  ALTER TABLE "TRANSPORT"."Z00_STAT512" MODIFY ("Z00_STAT512_SEQ" NOT NULL);
+  ALTER TABLE "TRANSPORT"."Z00_STAT512" MODIFY ("Q00_SEQ" NOT NULL);
   ALTER TABLE "TRANSPORT"."Z00_STAT512" ADD CONSTRAINT "Z00_STAT512_PK" PRIMARY KEY ("Z00_STAT512_SEQ")
   USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS NOLOGGING 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
-  TABLESPACE "FITONITY_DATA"  ENABLE;
+  TABLESPACE "FITONITY_DATA" ;
 --------------------------------------------------------
 --  Ref Constraints for Table A10
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."A10" ADD CONSTRAINT "A10_A00_FK" FOREIGN KEY ("A00_SEQ")
-	  REFERENCES "TRANSPORT"."A00" ("A00_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."A00" ("A00_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table ADDRESS_SERVICE_LEVELS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."ADDRESS_SERVICE_LEVELS" ADD CONSTRAINT "ADSELE_ADDR_FK" FOREIGN KEY ("ADDRESS_SEQ")
-	  REFERENCES "TRANSPORT"."ADDRESSES" ("ADDRESS_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."ADDRESSES" ("ADDRESS_SEQ") ON DELETE CASCADE;
   ALTER TABLE "TRANSPORT"."ADDRESS_SERVICE_LEVELS" ADD CONSTRAINT "ASSELE_SELE_FK" FOREIGN KEY ("SERVICE_LEVEL_SEQ")
-	  REFERENCES "TRANSPORT"."SERVICE_LEVELS" ("SERVICE_LEVEL_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."SERVICE_LEVELS" ("SERVICE_LEVEL_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table ADDRESS_TYPES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."ADDRESS_TYPES" ADD CONSTRAINT "ADTY_OFFI_FK" FOREIGN KEY ("OFFICE_SEQ")
-	  REFERENCES "TRANSPORT"."OFFICES" ("OFFICE_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."OFFICES" ("OFFICE_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table AGENT_MATRIX
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."AGENT_MATRIX" ADD CONSTRAINT "AGENT_MATRIX_FK" FOREIGN KEY ("AGENT_RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ");
   ALTER TABLE "TRANSPORT"."AGENT_MATRIX" ADD CONSTRAINT "AGENT_MATRIX_FK2" FOREIGN KEY ("MATRIX_SEQ")
-	  REFERENCES "TRANSPORT"."PLAN_CONTROL_MATRIX" ("MATRIX_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."PLAN_CONTROL_MATRIX" ("MATRIX_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table AGREEMENTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."AGREEMENTS" ADD CONSTRAINT "AGRE_CURR_FK" FOREIGN KEY ("CURRENCY_SEQ")
-	  REFERENCES "TRANSPORT"."CURRENCIES" ("CURRENCY_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."CURRENCIES" ("CURRENCY_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table AUTO_MATCH_COSTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."AUTO_MATCH_COSTS" ADD CONSTRAINT "AUMACO_AUMAIN_FK" FOREIGN KEY ("MATCH_SEQ")
-	  REFERENCES "TRANSPORT"."AUTO_MATCH_INVOICES" ("MATCH_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."AUTO_MATCH_INVOICES" ("MATCH_SEQ") ON DELETE CASCADE;
   ALTER TABLE "TRANSPORT"."AUTO_MATCH_COSTS" ADD CONSTRAINT "AUMACO_COST_FK" FOREIGN KEY ("COST_SEQ")
-	  REFERENCES "TRANSPORT"."COST_REVENUES" ("COST_REVENUE_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."COST_REVENUES" ("COST_REVENUE_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table AUTO_MATCH_INVOICES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."AUTO_MATCH_INVOICES" ADD CONSTRAINT "AUMAIN_ININ_FK" FOREIGN KEY ("INVOICE_SEQ")
-	  REFERENCES "TRANSPORT"."INCOMING_INVOICES" ("INCOMING_INVOICE_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."INCOMING_INVOICES" ("INCOMING_INVOICE_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table B
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."B" ADD CONSTRAINT "BA_FK" FOREIGN KEY ("A_SEQ")
-	  REFERENCES "TRANSPORT"."A" ("A_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."A" ("A_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table B00
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."B00" ADD CONSTRAINT "B00_A00_FK" FOREIGN KEY ("A00_SEQ")
-	  REFERENCES "TRANSPORT"."A00" ("A00_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."A00" ("A00_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table B10
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."B10" ADD CONSTRAINT "B10_B00_FK" FOREIGN KEY ("B00_SEQ")
-	  REFERENCES "TRANSPORT"."B00" ("B00_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."B00" ("B00_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table B2B_RESULT
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."B2B_RESULT" ADD CONSTRAINT "B2B_RESULT_FK2" FOREIGN KEY ("FOC_FILE_SEQ")
-	  REFERENCES "TRANSPORT"."FOC_FILES" ("FOC_FILE_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."FOC_FILES" ("FOC_FILE_SEQ");
   ALTER TABLE "TRANSPORT"."B2B_RESULT" ADD CONSTRAINT "B2B_RESULT_FK1" FOREIGN KEY ("B2B_DATA_SEQ")
-	  REFERENCES "TRANSPORT"."B2B_DATA" ("B2B_DATA_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."B2B_DATA" ("B2B_DATA_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table BARCODE_IN
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."BARCODE_IN" ADD CONSTRAINT "BARCODE_IN_FK" FOREIGN KEY ("EXPORT_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table BORD128_UNITS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."BORD128_UNITS" ADD CONSTRAINT "BORD128_UNITS_FK" FOREIGN KEY ("UNIT_SEQ")
-	  REFERENCES "TRANSPORT"."CARRIER_TYPES" ("CARRIER_TYPE_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."CARRIER_TYPES" ("CARRIER_TYPE_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table BORD512_UNITS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."BORD512_UNITS" ADD CONSTRAINT "BORD512_UNITS_FK" FOREIGN KEY ("UNIT_SEQ")
-	  REFERENCES "TRANSPORT"."CARRIER_TYPES" ("CARRIER_TYPE_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."CARRIER_TYPES" ("CARRIER_TYPE_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table BVA_ITEM
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."BVA_ITEM" ADD CONSTRAINT "BVA_ITEM_FK" FOREIGN KEY ("BVA_SEQ")
-	  REFERENCES "TRANSPORT"."BVAS" ("BVA_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."BVAS" ("BVA_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table BVAS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."BVAS" ADD CONSTRAINT "BVAS_OFFI_FK" FOREIGN KEY ("OFFICE_SEQ")
-	  REFERENCES "TRANSPORT"."OFFICES" ("OFFICE_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."OFFICES" ("OFFICE_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table C
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."C" ADD CONSTRAINT "CB_FK" FOREIGN KEY ("B_SEQ")
-	  REFERENCES "TRANSPORT"."B" ("B_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."B" ("B_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table C00
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."C00" ADD CONSTRAINT "C00_A00_A00_FK" FOREIGN KEY ("A00_SEQ")
-	  REFERENCES "TRANSPORT"."A00" ("A00_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."A00" ("A00_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table CALCULATION_CRITERIAS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."CALCULATION_CRITERIAS" ADD CONSTRAINT "CACR_SAAG_FK" FOREIGN KEY ("AGREEMENT_SEQ")
-	  REFERENCES "TRANSPORT"."SALES_AGREEMENTS" ("AGREEMENT_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."SALES_AGREEMENTS" ("AGREEMENT_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table CITY_COLLECTION_CITIES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."CITY_COLLECTION_CITIES" ADD CONSTRAINT "CICOCI_CICO_FK" FOREIGN KEY ("COLLECTION_SEQ")
-	  REFERENCES "TRANSPORT"."CITY_COLLECTIONS" ("COLLECTION_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."CITY_COLLECTIONS" ("COLLECTION_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table CITY_COLLECTIONS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."CITY_COLLECTIONS" ADD CONSTRAINT "CICO_OFFI_FK" FOREIGN KEY ("OFFICE_SEQ")
-	  REFERENCES "TRANSPORT"."OFFICES" ("OFFICE_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."OFFICES" ("OFFICE_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table CMR_ITEMS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."CMR_ITEMS" ADD CONSTRAINT "CMRI_CMRS_FK" FOREIGN KEY ("CMR_SEQ")
-	  REFERENCES "TRANSPORT"."CMRS" ("CMR_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."CMRS" ("CMR_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table CMRS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."CMRS" ADD CONSTRAINT "CMRS_OFFI_FK" FOREIGN KEY ("OFFICE_SEQ")
-	  REFERENCES "TRANSPORT"."OFFICES" ("OFFICE_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."OFFICES" ("OFFICE_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table COLLECT_PARAMETERS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."COLLECT_PARAMETERS" ADD CONSTRAINT "COLLECT_PARAMETERS_FK" FOREIGN KEY ("GROUPAGE_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."GROUPAGE_DOSSIER" ("GROUPAGE_DOSSIER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."GROUPAGE_DOSSIER" ("GROUPAGE_DOSSIER_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table COLLECT_RELATIONS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."COLLECT_RELATIONS" ADD CONSTRAINT "COLLECT_RELATIONS_FK" FOREIGN KEY ("PARAMETER_SEQ")
-	  REFERENCES "TRANSPORT"."COLLECT_PARAMETERS" ("PARAMETER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."COLLECT_PARAMETERS" ("PARAMETER_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table CONTACTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."CONTACTS" ADD CONSTRAINT "CONT_RELA_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table COST_REVENUES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."COST_REVENUES" ADD CONSTRAINT "COST_CURR_FK" FOREIGN KEY ("CURRENCY_SEQ")
-	  REFERENCES "TRANSPORT"."CURRENCIES" ("CURRENCY_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."CURRENCIES" ("CURRENCY_SEQ");
   ALTER TABLE "TRANSPORT"."COST_REVENUES" ADD CONSTRAINT "COST_GROUP_FK" FOREIGN KEY ("GROUPAGE_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."GROUPAGE_DOSSIER" ("GROUPAGE_DOSSIER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."GROUPAGE_DOSSIER" ("GROUPAGE_DOSSIER_SEQ");
   ALTER TABLE "TRANSPORT"."COST_REVENUES" ADD CONSTRAINT "COST_VAT_SEQ" FOREIGN KEY ("VAT_SEQ")
-	  REFERENCES "TRANSPORT"."VATS" ("VAT_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."VATS" ("VAT_SEQ");
   ALTER TABLE "TRANSPORT"."COST_REVENUES" ADD CONSTRAINT "COST_EXPO_FK" FOREIGN KEY ("EXPORT_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table COUNTRY_MATRIX
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."COUNTRY_MATRIX" ADD CONSTRAINT "COUNTRY_MATRIX_FK2" FOREIGN KEY ("COUNTRY_SEQ")
-	  REFERENCES "TRANSPORT"."COUNTRIES" ("COUNTRY_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."COUNTRIES" ("COUNTRY_SEQ");
   ALTER TABLE "TRANSPORT"."COUNTRY_MATRIX" ADD CONSTRAINT "COUNTRY_MATRIX_FK" FOREIGN KEY ("MATRIX_SEQ")
-	  REFERENCES "TRANSPORT"."PLAN_CONTROL_MATRIX" ("MATRIX_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."PLAN_CONTROL_MATRIX" ("MATRIX_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table CRM_CARRIER_TYPES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."CRM_CARRIER_TYPES" ADD CONSTRAINT "CRM_CARR_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."CRM_RELATIONS" ("RELATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."CRM_RELATIONS" ("RELATION_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table CRM_CONTACTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."CRM_CONTACTS" ADD CONSTRAINT "CRMCONT_RELA_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."CRM_RELATIONS" ("RELATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."CRM_RELATIONS" ("RELATION_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table CRM_QUOTATION_STATUSES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."CRM_QUOTATION_STATUSES" ADD CONSTRAINT "CRM_QUOTATION_STATUSES_FK" FOREIGN KEY ("SALES_CYCLE_SEQ")
-	  REFERENCES "TRANSPORT"."CRM_SALES_CYCLES" ("CRM_SALES_CYCLE_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."CRM_SALES_CYCLES" ("CRM_SALES_CYCLE_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table CRM_RELATIONS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."CRM_RELATIONS" ADD CONSTRAINT "CRM_COUN" FOREIGN KEY ("COUNTRY_SEQ")
-	  REFERENCES "TRANSPORT"."COUNTRIES" ("COUNTRY_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."COUNTRIES" ("COUNTRY_SEQ");
   ALTER TABLE "TRANSPORT"."CRM_RELATIONS" ADD CONSTRAINT "CRM_COUN_2_FK" FOREIGN KEY ("COR_COUNTRY_SEQ")
-	  REFERENCES "TRANSPORT"."COUNTRIES" ("COUNTRY_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."COUNTRIES" ("COUNTRY_SEQ");
   ALTER TABLE "TRANSPORT"."CRM_RELATIONS" ADD CONSTRAINT "CMR_PAYM_FK" FOREIGN KEY ("PAYMENT_TERM_SEQ")
-	  REFERENCES "TRANSPORT"."PAYMENT_TERMS" ("PAYMENT_TERM_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."PAYMENT_TERMS" ("PAYMENT_TERM_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table CROSSDOCK_IN
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."CROSSDOCK_IN" ADD CONSTRAINT "CROSSDOCK_IN_FK" FOREIGN KEY ("DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table CUSTOMS_DOSSIER_ATTMENTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."CUSTOMS_DOSSIER_ATTMENTS" ADD CONSTRAINT "CUDOAT_CUDO_FK" FOREIGN KEY ("CUSTOMS_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."CUSTOMS_DOSSIERS" ("CUSTOMS_DOSSIER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."CUSTOMS_DOSSIERS" ("CUSTOMS_DOSSIER_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table CUSTOMS_DOSSIER_HISTORY
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."CUSTOMS_DOSSIER_HISTORY" ADD CONSTRAINT "CUSTOMS_DOSSIER_HISTORY_FK" FOREIGN KEY ("CUSTOMS_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."CUSTOMS_DOSSIERS" ("CUSTOMS_DOSSIER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."CUSTOMS_DOSSIERS" ("CUSTOMS_DOSSIER_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table CUSTOMS_DOSSIERS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."CUSTOMS_DOSSIERS" ADD CONSTRAINT "CUSTOMS_DOSSIERS_FK" FOREIGN KEY ("EXPORT_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table CUSTOMS_GD_LIN_ADD_DOCS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."CUSTOMS_GD_LIN_ADD_DOCS" ADD CONSTRAINT "CUSTOMS_GD_LIN_ADD_DOCS_FK" FOREIGN KEY ("GOODS_LINE_SEQ")
-	  REFERENCES "TRANSPORT"."CUSTOMS_GOODS_LINES" ("CUSTOMS_LINE_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."CUSTOMS_GOODS_LINES" ("CUSTOMS_LINE_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table CUSTOMS_GOODS_LINES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."CUSTOMS_GOODS_LINES" ADD CONSTRAINT "CUSTOMS_GOODS_LINES_FK" FOREIGN KEY ("GOOD_LINE_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIER_GOODS" ("EXPORT_DOSSIER_GOOD_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIER_GOODS" ("EXPORT_DOSSIER_GOOD_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table CUSTOMS_SCENARIOS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."CUSTOMS_SCENARIOS" ADD CONSTRAINT "CUSTOMS_SCENARIOS_FK1" FOREIGN KEY ("STATUS_SEQ")
-	  REFERENCES "TRANSPORT"."CUSTOMS_STATUSES" ("STATUS_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."CUSTOMS_STATUSES" ("STATUS_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table D
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."D" ADD CONSTRAINT "DB_FK" FOREIGN KEY ("B_SEQ")
-	  REFERENCES "TRANSPORT"."B" ("B_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."B" ("B_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table D00
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."D00" ADD CONSTRAINT "D00_A00_FK" FOREIGN KEY ("A00_SEQ")
-	  REFERENCES "TRANSPORT"."A00" ("A00_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."A00" ("A00_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table D10
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."D10" ADD CONSTRAINT "D10_D00_FK" FOREIGN KEY ("D00_SEQ")
-	  REFERENCES "TRANSPORT"."D00" ("D00_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."D00" ("D00_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table DELIVER_COUNTRY_ZIPCODES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."DELIVER_COUNTRY_ZIPCODES" ADD CONSTRAINT "DELIVER_COUNTRY_ZIPCODES_FK" FOREIGN KEY ("RELA_DEL_SEQ")
-	  REFERENCES "TRANSPORT"."RELATION_DELIVERY_COUNTRIES" ("RELA_DEL_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."RELATION_DELIVERY_COUNTRIES" ("RELA_DEL_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table DELIVERY_TERM_RELATIONS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."DELIVERY_TERM_RELATIONS" ADD CONSTRAINT "DELIVERY_TERM_RELATIONS_FK" FOREIGN KEY ("DELIVERY_TERM_SEQ")
-	  REFERENCES "TRANSPORT"."DELIVERY_TERMS" ("DELIVERY_TERM_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."DELIVERY_TERMS" ("DELIVERY_TERM_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table DOSSIER_ATTMENTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."DOSSIER_ATTMENTS" ADD CONSTRAINT "DOAT_EDDO_FK" FOREIGN KEY ("EXPORT_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table DOSSIER_CHATS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."DOSSIER_CHATS" ADD CONSTRAINT "DOCH_EXDO_FK" FOREIGN KEY ("EXPORT_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table DOSSIER_CMR
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."DOSSIER_CMR" ADD CONSTRAINT "DOSSIER_CMR_FK2" FOREIGN KEY ("CMR_SEQ")
-	  REFERENCES "TRANSPORT"."CMRS" ("CMR_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."CMRS" ("CMR_SEQ") ON DELETE CASCADE;
   ALTER TABLE "TRANSPORT"."DOSSIER_CMR" ADD CONSTRAINT "DOSSIER_CMR_FK" FOREIGN KEY ("DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table DOSSIER_GOOD_ITEM_HISTORY
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."DOSSIER_GOOD_ITEM_HISTORY" ADD CONSTRAINT "DOGOITHI_DOGOIT" FOREIGN KEY ("ITEM_SEQ")
-	  REFERENCES "TRANSPORT"."DOSSIER_GOOD_ITEMS" ("ITEM_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."DOSSIER_GOOD_ITEMS" ("ITEM_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table DOSSIER_GOOD_ITEMS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."DOSSIER_GOOD_ITEMS" ADD CONSTRAINT "GOIT_CARR" FOREIGN KEY ("PALLET_TYPE")
-	  REFERENCES "TRANSPORT"."CARRIER_TYPES" ("CARRIER_TYPE_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."CARRIER_TYPES" ("CARRIER_TYPE_SEQ");
   ALTER TABLE "TRANSPORT"."DOSSIER_GOOD_ITEMS" ADD CONSTRAINT "GOIT_EXDOGO_FK" FOREIGN KEY ("EXPORT_DOSSIER_GOOD_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIER_GOODS" ("EXPORT_DOSSIER_GOOD_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIER_GOODS" ("EXPORT_DOSSIER_GOOD_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table DOSSIER_HISTORY
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."DOSSIER_HISTORY" ADD CONSTRAINT "EDH_ED_FK" FOREIGN KEY ("EXPORT_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table DOSSIER_REFERENCES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."DOSSIER_REFERENCES" ADD CONSTRAINT "DOSSIER_REFERENCES_FK" FOREIGN KEY ("DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table DOSSIER_REP_ATTRIBS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."DOSSIER_REP_ATTRIBS" ADD CONSTRAINT "DOSSIER_REP_ATTRIBS_FK" FOREIGN KEY ("EXPORT_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table DOSSIER_SERVICE_LEVELS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."DOSSIER_SERVICE_LEVELS" ADD CONSTRAINT "DOSELE_EXDO_FK" FOREIGN KEY ("EXPORT_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE;
   ALTER TABLE "TRANSPORT"."DOSSIER_SERVICE_LEVELS" ADD CONSTRAINT "DOSELE_SELE_FK" FOREIGN KEY ("SERVICE_LEVEL_SEQ")
-	  REFERENCES "TRANSPORT"."SERVICE_LEVELS" ("SERVICE_LEVEL_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."SERVICE_LEVELS" ("SERVICE_LEVEL_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table DOSSIER_STATUS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."DOSSIER_STATUS" ADD CONSTRAINT "DOSSIER_STATUS_FK" FOREIGN KEY ("EXPORT_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table DOSSIER_STATUSES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."DOSSIER_STATUSES" ADD CONSTRAINT "DOSSIER_STATUSES_FK" FOREIGN KEY ("EXPORT_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table E
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."E" ADD CONSTRAINT "EB_FK" FOREIGN KEY ("B_SEQ")
-	  REFERENCES "TRANSPORT"."B" ("B_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."B" ("B_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table E_DOCUMENTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."E_DOCUMENTS" ADD CONSTRAINT "E_DOC_BOOK_FK" FOREIGN KEY ("BOOKING_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table E00
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."E00" ADD CONSTRAINT "E00_D00_FK" FOREIGN KEY ("D00_SEQ")
-	  REFERENCES "TRANSPORT"."D00" ("D00_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."D00" ("D00_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table EDI_HEADER_COMMON
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EDI_HEADER_COMMON" ADD CONSTRAINT "EDHECO_RELA_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ");
   ALTER TABLE "TRANSPORT"."EDI_HEADER_COMMON" ADD CONSTRAINT "EDHECO_FTP_FK" FOREIGN KEY ("FTP_SEQ")
-	  REFERENCES "TRANSPORT"."FTP" ("FTP_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."FTP" ("FTP_SEQ");
   ALTER TABLE "TRANSPORT"."EDI_HEADER_COMMON" ADD CONSTRAINT "EDHECO_EXDO_FK" FOREIGN KEY ("BOOKING_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table EDI_HISTORY
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EDI_HISTORY" ADD CONSTRAINT "EDHI_PIDE_FK" FOREIGN KEY ("PICKUP_DELIVERY_SEQ")
-	  REFERENCES "TRANSPORT"."PICKUP_DELIVERY" ("PICKUP_DELIVERY_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."PICKUP_DELIVERY" ("PICKUP_DELIVERY_SEQ") ON DELETE CASCADE;
   ALTER TABLE "TRANSPORT"."EDI_HISTORY" ADD CONSTRAINT "EDHI_GRDO_FK" FOREIGN KEY ("GROUPAGE_SEQ")
-	  REFERENCES "TRANSPORT"."GROUPAGE_DOSSIER" ("GROUPAGE_DOSSIER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."GROUPAGE_DOSSIER" ("GROUPAGE_DOSSIER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table EDI_LINE_COMMON
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EDI_LINE_COMMON" ADD CONSTRAINT "EDLICO_EDHECOM_FK" FOREIGN KEY ("HEADER_SEQ")
-	  REFERENCES "TRANSPORT"."EDI_HEADER_COMMON" ("HEADER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."EDI_HEADER_COMMON" ("HEADER_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table EDI_MESSAGE_PARAMETER
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EDI_MESSAGE_PARAMETER" ADD CONSTRAINT "EDI_MESSAGE_PARAMETER_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table EDI_SAMSUMG_AFZ
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_AFZ" ADD CONSTRAINT "EDSAAF_EDSAHE_FK" FOREIGN KEY ("HEADER_SEQ")
-	  REFERENCES "TRANSPORT"."EDI_SAMSUNG_HEADER" ("HEADER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EDI_SAMSUNG_HEADER" ("HEADER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table EDI_SAMSUMG_DGS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_DGS" ADD CONSTRAINT "EDSADG_EDSAHE_FK" FOREIGN KEY ("HEADER_SEQ")
-	  REFERENCES "TRANSPORT"."EDI_SAMSUNG_HEADER" ("HEADER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EDI_SAMSUNG_HEADER" ("HEADER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table EDI_SAMSUMG_GEA
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_GEA" ADD CONSTRAINT "EDSAGE_EDSAHE_FK" FOREIGN KEY ("HEADER_SEQ")
-	  REFERENCES "TRANSPORT"."EDI_SAMSUNG_HEADER" ("HEADER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EDI_SAMSUNG_HEADER" ("HEADER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table EDI_SAMSUMG_INF
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_INF" ADD CONSTRAINT "EDSAIN_EDSAHE_FK" FOREIGN KEY ("HEADER_SEQ")
-	  REFERENCES "TRANSPORT"."EDI_SAMSUNG_HEADER" ("HEADER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EDI_SAMSUNG_HEADER" ("HEADER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table EDI_SAMSUMG_SHP
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_SHP" ADD CONSTRAINT "EDSASH_EDSAHE_FK" FOREIGN KEY ("HEADER_SEQ")
-	  REFERENCES "TRANSPORT"."EDI_SAMSUNG_HEADER" ("HEADER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EDI_SAMSUNG_HEADER" ("HEADER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table EDI_SAMSUMG_VZE
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EDI_SAMSUMG_VZE" ADD CONSTRAINT "EDSAVZ_EDSAHE_FK" FOREIGN KEY ("HEADER_SEQ")
-	  REFERENCES "TRANSPORT"."EDI_SAMSUNG_HEADER" ("HEADER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EDI_SAMSUNG_HEADER" ("HEADER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table EDI_SHIPMENT_EDI_STATUS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_EDI_STATUS" ADD CONSTRAINT "EDI_SHIPMENT_EDI_STATUS_FK" FOREIGN KEY ("HEADER_SEQ")
-	  REFERENCES "TRANSPORT"."EDI_SHIPMENT_IN_HEADERS" ("HEADER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."EDI_SHIPMENT_IN_HEADERS" ("HEADER_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table EDI_SHIPMENT_IN_LINES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_IN_LINES" ADD CONSTRAINT "EDI_SHIPMENT_IN_LINES_FK" FOREIGN KEY ("HEADER_SEQ")
-	  REFERENCES "TRANSPORT"."EDI_SHIPMENT_IN_HEADERS" ("HEADER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EDI_SHIPMENT_IN_HEADERS" ("HEADER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table EDI_SHIPMENT_LINK
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EDI_SHIPMENT_LINK" ADD CONSTRAINT "EDI_SHIPMENT_LINK_FK" FOREIGN KEY ("EXPORT_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table EDI_VESCOM_F1
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EDI_VESCOM_F1" ADD CONSTRAINT "EDI_VESCOM_F1_FK" FOREIGN KEY ("F0_SEQ")
-	  REFERENCES "TRANSPORT"."EDI_VESCOM_F0" ("F0_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EDI_VESCOM_F0" ("F0_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table EDI_VESCOM_F2
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EDI_VESCOM_F2" ADD CONSTRAINT "EDI_VESCOM_F2_FK" FOREIGN KEY ("F1_SEQ")
-	  REFERENCES "TRANSPORT"."EDI_VESCOM_F1" ("F1_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EDI_VESCOM_F1" ("F1_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table EDI_VESCOM_F3
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EDI_VESCOM_F3" ADD CONSTRAINT "EDI_VESCOM_F3_FK" FOREIGN KEY ("F2_SEQ")
-	  REFERENCES "TRANSPORT"."EDI_VESCOM_F2" ("F2_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EDI_VESCOM_F2" ("F2_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table EDI_VESCOM_F4
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EDI_VESCOM_F4" ADD CONSTRAINT "EDI_VESCOM_F4_FK" FOREIGN KEY ("F2_SEQ")
-	  REFERENCES "TRANSPORT"."EDI_VESCOM_F2" ("F2_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EDI_VESCOM_F2" ("F2_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table EDIFACT
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EDIFACT" ADD CONSTRAINT "EDIF_FTP_FK" FOREIGN KEY ("FTP_SEQ")
-	  REFERENCES "TRANSPORT"."FTP" ("FTP_SEQ") ON DELETE SET NULL ENABLE;
+	  REFERENCES "TRANSPORT"."FTP" ("FTP_SEQ") ON DELETE SET NULL;
 --------------------------------------------------------
 --  Ref Constraints for Table EDIFACT_LINES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EDIFACT_LINES" ADD CONSTRAINT "EDLI_EDIF_FK" FOREIGN KEY ("EDIFACT_SEQ")
-	  REFERENCES "TRANSPORT"."EDIFACT" ("EDIFACT_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EDIFACT" ("EDIFACT_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table EMPLOYEE_MATRIX
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EMPLOYEE_MATRIX" ADD CONSTRAINT "EMPLOYEE_MATRIX_FK" FOREIGN KEY ("MATRIX_SEQ")
-	  REFERENCES "TRANSPORT"."PLAN_CONTROL_MATRIX" ("MATRIX_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."PLAN_CONTROL_MATRIX" ("MATRIX_SEQ");
   ALTER TABLE "TRANSPORT"."EMPLOYEE_MATRIX" ADD CONSTRAINT "EMPLOYEE_MATRIX_FK2" FOREIGN KEY ("EMPLOYEE_SEQ")
-	  REFERENCES "TRANSPORT"."EMPLOYEES" ("EMPLOYEE_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."EMPLOYEES" ("EMPLOYEE_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table EORI_VALIDATION_HISTORY
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EORI_VALIDATION_HISTORY" ADD CONSTRAINT "EORI_VAL_REL_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table EXACT_BOOKLINES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EXACT_BOOKLINES" ADD CONSTRAINT "EXACTLINES_EXACTBOOK_FK" FOREIGN KEY ("BOOKING_SEQ")
-	  REFERENCES "TRANSPORT"."EXACT_BOOKINGS" ("BOOKING_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EXACT_BOOKINGS" ("BOOKING_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table EXACT_ERRORS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EXACT_ERRORS" ADD CONSTRAINT "EXACTERROR_EXACTBOOK_FK" FOREIGN KEY ("BOOKING_SEQ")
-	  REFERENCES "TRANSPORT"."EXACT_BOOKINGS" ("BOOKING_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EXACT_BOOKINGS" ("BOOKING_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table EXPORT_DOSSIER_GOODS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EXPORT_DOSSIER_GOODS" ADD CONSTRAINT "GOOD_CARR" FOREIGN KEY ("PALLET_TYPE")
-	  REFERENCES "TRANSPORT"."CARRIER_TYPES" ("CARRIER_TYPE_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."CARRIER_TYPES" ("CARRIER_TYPE_SEQ");
   ALTER TABLE "TRANSPORT"."EXPORT_DOSSIER_GOODS" ADD CONSTRAINT "GOOD_EXPO_FK" FOREIGN KEY ("EXPORT_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table EXPORT_DOSSIERS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EXPORT_DOSSIERS" ADD CONSTRAINT "EXPO_CURR" FOREIGN KEY ("CURRENCY_SEQ")
-	  REFERENCES "TRANSPORT"."CURRENCIES" ("CURRENCY_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."CURRENCIES" ("CURRENCY_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table EXPORT_INVOICES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."EXPORT_INVOICES" ADD CONSTRAINT "EXPO_EXPO_FK" FOREIGN KEY ("EXPORT_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ");
   ALTER TABLE "TRANSPORT"."EXPORT_INVOICES" ADD CONSTRAINT "EXPO_OUTI_FK" FOREIGN KEY ("OUTGOING_INVOICE_SEQ")
-	  REFERENCES "TRANSPORT"."OUTGOING_INVOICES" ("OUTGOING_INVOICE_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."OUTGOING_INVOICES" ("OUTGOING_INVOICE_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table F
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."F" ADD CONSTRAINT "FB_FK" FOREIGN KEY ("B_SEQ")
-	  REFERENCES "TRANSPORT"."B" ("B_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."B" ("B_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table F00
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."F00" ADD CONSTRAINT "F00_D00_FK" FOREIGN KEY ("D00_SEQ")
-	  REFERENCES "TRANSPORT"."D00" ("D00_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."D00" ("D00_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table FISFILE_HEADERS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."FISFILE_HEADERS" ADD CONSTRAINT "FISFH_FISF_FK" FOREIGN KEY ("IDX")
-	  REFERENCES "TRANSPORT"."FISFILES" ("IDX") ENABLE;
+	  REFERENCES "TRANSPORT"."FISFILES" ("IDX");
 --------------------------------------------------------
 --  Ref Constraints for Table FISFILE_LINES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."FISFILE_LINES" ADD CONSTRAINT "FISF_FISF_FK" FOREIGN KEY ("FISFILE_HEADER_SEQ")
-	  REFERENCES "TRANSPORT"."FISFILE_HEADERS" ("FISFILE_HEADER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."FISFILE_HEADERS" ("FISFILE_HEADER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table FOC_FILES_ATTACHMENTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."FOC_FILES_ATTACHMENTS" ADD CONSTRAINT "FOC_FILES_ATTACHMENTS_FK" FOREIGN KEY ("FOC_FILES_SEQ")
-	  REFERENCES "TRANSPORT"."FOC_FILES" ("FOC_FILE_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."FOC_FILES" ("FOC_FILE_SEQ");
   ALTER TABLE "TRANSPORT"."FOC_FILES_ATTACHMENTS" ADD CONSTRAINT "FOC_FILES_ATT_FK" FOREIGN KEY ("ATTACHMENT_SEQ")
-	  REFERENCES "TRANSPORT"."DOSSIER_ATTMENTS" ("ATTMENT_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."DOSSIER_ATTMENTS" ("ATTMENT_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table FOC_TEMPLATES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."FOC_TEMPLATES" ADD CONSTRAINT "FOTE_OFFI_FK" FOREIGN KEY ("OFFICE_SEQ")
-	  REFERENCES "TRANSPORT"."OFFICES" ("OFFICE_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."OFFICES" ("OFFICE_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table FTP_DIRECTORIES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."FTP_DIRECTORIES" ADD CONSTRAINT "FTDI_OFFI_FK" FOREIGN KEY ("OFFICE_SEQ")
-	  REFERENCES "TRANSPORT"."OFFICES" ("OFFICE_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."OFFICES" ("OFFICE_SEQ") ON DELETE CASCADE;
   ALTER TABLE "TRANSPORT"."FTP_DIRECTORIES" ADD CONSTRAINT "FTDI_RELA_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table G00
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."G00" ADD CONSTRAINT "G00_A00_FK" FOREIGN KEY ("A00_SEQ")
-	  REFERENCES "TRANSPORT"."A00" ("A00_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."A00" ("A00_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table GASOIL_SURCHARGES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."GASOIL_SURCHARGES" ADD CONSTRAINT "GASU_SITE_FK" FOREIGN KEY ("OFFICE_SEQ")
-	  REFERENCES "TRANSPORT"."OFFICES" ("OFFICE_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."OFFICES" ("OFFICE_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table H
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."H" ADD CONSTRAINT "HB_FK" FOREIGN KEY ("B_SEQ")
-	  REFERENCES "TRANSPORT"."B" ("B_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."B" ("B_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table H00
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."H00" ADD CONSTRAINT "H00_A00_FK" FOREIGN KEY ("A00_SEQ")
-	  REFERENCES "TRANSPORT"."A00" ("A00_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."A00" ("A00_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table H00_RELATIONS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."H00_RELATIONS" ADD CONSTRAINT "H00_RELATIONS_FK" FOREIGN KEY ("H00_TEXT_CODE_SEQ")
-	  REFERENCES "TRANSPORT"."H00_TEXT_CODES" ("H00_TEXT_CODE_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."H00_TEXT_CODES" ("H00_TEXT_CODE_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table H10
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."H10" ADD CONSTRAINT "H10_A00_FK" FOREIGN KEY ("A00_SEQ")
-	  REFERENCES "TRANSPORT"."A00" ("A00_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."A00" ("A00_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table I
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."I" ADD CONSTRAINT "IB_FK" FOREIGN KEY ("B_SEQ")
-	  REFERENCES "TRANSPORT"."B" ("B_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."B" ("B_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table I00
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."I00" ADD CONSTRAINT "I00_A00_FK" FOREIGN KEY ("A00_SEQ")
-	  REFERENCES "TRANSPORT"."A00" ("A00_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."A00" ("A00_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table INCOMING_INVOICE_ATTMENTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."INCOMING_INVOICE_ATTMENTS" ADD CONSTRAINT "ININAT_ININ_FK" FOREIGN KEY ("INCOMING_INVOICE_SEQ")
-	  REFERENCES "TRANSPORT"."INCOMING_INVOICES" ("INCOMING_INVOICE_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."INCOMING_INVOICES" ("INCOMING_INVOICE_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table INTERVALS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."INTERVALS" ADD CONSTRAINT "INTE_AGRE_FK" FOREIGN KEY ("AGREEMENT_SEQ")
-	  REFERENCES "TRANSPORT"."AGREEMENTS" ("AGREEMENTS_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."AGREEMENTS" ("AGREEMENTS_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table INVOICE_ATTMENTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."INVOICE_ATTMENTS" ADD CONSTRAINT "INAT_OUIN_FK" FOREIGN KEY ("OUTGOING_INVOICE_SEQ")
-	  REFERENCES "TRANSPORT"."OUTGOING_INVOICES" ("OUTGOING_INVOICE_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."OUTGOING_INVOICES" ("OUTGOING_INVOICE_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table INVOICE_DESCRIPTION
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."INVOICE_DESCRIPTION" ADD CONSTRAINT "INDE_LEDG_FK" FOREIGN KEY ("LEDGER_SEQ")
-	  REFERENCES "TRANSPORT"."LEDGERS" ("LEDGER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."LEDGERS" ("LEDGER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table J
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."J" ADD CONSTRAINT "JB_FK" FOREIGN KEY ("B_SEQ")
-	  REFERENCES "TRANSPORT"."B" ("B_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."B" ("B_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table J00
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."J00" ADD CONSTRAINT "J00_A00_FK" FOREIGN KEY ("A00_SEQ")
-	  REFERENCES "TRANSPORT"."A00" ("A00_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."A00" ("A00_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table K
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."K" ADD CONSTRAINT "K_FK" FOREIGN KEY ("B_SEQ")
-	  REFERENCES "TRANSPORT"."B" ("B_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."B" ("B_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table L
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."L" ADD CONSTRAINT "IL_FK" FOREIGN KEY ("A_SEQ")
-	  REFERENCES "TRANSPORT"."A" ("A_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."A" ("A_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table LEAD_TIME_ZIPCODES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."LEAD_TIME_ZIPCODES" ADD CONSTRAINT "LEAD_TIME_ZIPCODES_FK" FOREIGN KEY ("LEAD_TIME_SEQ")
-	  REFERENCES "TRANSPORT"."LEAD_TIMES" ("LEAD_TIME_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."LEAD_TIMES" ("LEAD_TIME_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table LEDGERS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."LEDGERS" ADD CONSTRAINT "LEDG_VAT_SEQ" FOREIGN KEY ("VAT_SEQ")
-	  REFERENCES "TRANSPORT"."VATS" ("VAT_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."VATS" ("VAT_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table M
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."M" ADD CONSTRAINT "M_A_FK" FOREIGN KEY ("A_SEQ")
-	  REFERENCES "TRANSPORT"."A" ("A_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."A" ("A_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table M00
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."M00" ADD CONSTRAINT "M00_FTP_FK" FOREIGN KEY ("FTP_SEQ")
-	  REFERENCES "TRANSPORT"."FTP" ("FTP_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."FTP" ("FTP_SEQ") ON DELETE CASCADE;
   ALTER TABLE "TRANSPORT"."M00" ADD CONSTRAINT "M00_RELATIONS_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table M10
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."M10" ADD CONSTRAINT "M10_M00_FK" FOREIGN KEY ("M00_SEQ")
-	  REFERENCES "TRANSPORT"."M00" ("M00_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."M00" ("M00_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table M20
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."M20" ADD CONSTRAINT "M20_M00_FK" FOREIGN KEY ("M00_SEQ")
-	  REFERENCES "TRANSPORT"."M00" ("M00_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."M00" ("M00_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table MASTER_QUOTATION
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."MASTER_QUOTATION" ADD CONSTRAINT "MAQU_RELA_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table N
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."N" ADD CONSTRAINT "N_M_FK" FOREIGN KEY ("M_SEQ")
-	  REFERENCES "TRANSPORT"."M" ("M_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."M" ("M_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table N00
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."N00" ADD CONSTRAINT "N00_M20_FK" FOREIGN KEY ("M20_SEQ")
-	  REFERENCES "TRANSPORT"."M20" ("M20_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."M20" ("M20_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table NCF_REASONS_ACTIONS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."NCF_REASONS_ACTIONS" ADD CONSTRAINT "NCF_REASONS_ACTIONS_FK" FOREIGN KEY ("DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE;
   ALTER TABLE "TRANSPORT"."NCF_REASONS_ACTIONS" ADD CONSTRAINT "NCF_REASONS_ACTIONS_FK2" FOREIGN KEY ("NCF_SEQ")
-	  REFERENCES "TRANSPORT"."NON_CONFORMITIES" ("NCF_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."NON_CONFORMITIES" ("NCF_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table NON_CONFORMITY_REGS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."NON_CONFORMITY_REGS" ADD CONSTRAINT "NOCONRE_GRDO_FK" FOREIGN KEY ("GROUPAGE_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."GROUPAGE_DOSSIER" ("GROUPAGE_DOSSIER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."GROUPAGE_DOSSIER" ("GROUPAGE_DOSSIER_SEQ");
   ALTER TABLE "TRANSPORT"."NON_CONFORMITY_REGS" ADD CONSTRAINT "NOCONRE_DEPA_FK" FOREIGN KEY ("ACCUSER_DEPARTMENT_SEQ")
-	  REFERENCES "TRANSPORT"."DEPARTMENTS" ("DEPARTMENT_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."DEPARTMENTS" ("DEPARTMENT_SEQ");
   ALTER TABLE "TRANSPORT"."NON_CONFORMITY_REGS" ADD CONSTRAINT "NOCONRE_NCF_FK" FOREIGN KEY ("NCF_SEQ")
-	  REFERENCES "TRANSPORT"."NON_CONFORMITIES" ("NCF_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."NON_CONFORMITIES" ("NCF_SEQ");
   ALTER TABLE "TRANSPORT"."NON_CONFORMITY_REGS" ADD CONSTRAINT "NOCONRE_EXDO_FK" FOREIGN KEY ("EXPORT_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table O
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."O" ADD CONSTRAINT "O_M_FK" FOREIGN KEY ("M_SEQ")
-	  REFERENCES "TRANSPORT"."M" ("M_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."M" ("M_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table O00
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."O00" ADD CONSTRAINT "O00_M20_FK" FOREIGN KEY ("M20_SEQ")
-	  REFERENCES "TRANSPORT"."M20" ("M20_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."M20" ("M20_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table OFFICE_PASSWORD_POLICIES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."OFFICE_PASSWORD_POLICIES" ADD CONSTRAINT "OFFICE_PASSWORD_POLICIES_OF_FK" FOREIGN KEY ("OFFICE_SEQ")
-	  REFERENCES "TRANSPORT"."OFFICES" ("OFFICE_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."OFFICES" ("OFFICE_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table OFFICES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."OFFICES" ADD CONSTRAINT "OFFI_CURR_FK" FOREIGN KEY ("CURRENCY_SEQ")
-	  REFERENCES "TRANSPORT"."CURRENCIES" ("CURRENCY_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."CURRENCIES" ("CURRENCY_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table OUTGOING_INVOICE_HIS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."OUTGOING_INVOICE_HIS" ADD CONSTRAINT "OINHI_OUIN_FK" FOREIGN KEY ("OUTGOING_INVOICE_SEQ")
-	  REFERENCES "TRANSPORT"."OUTGOING_INVOICES" ("OUTGOING_INVOICE_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."OUTGOING_INVOICES" ("OUTGOING_INVOICE_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table OUTGOING_INVOICES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."OUTGOING_INVOICES" ADD CONSTRAINT "OUTG_RELA_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ");
   ALTER TABLE "TRANSPORT"."OUTGOING_INVOICES" ADD CONSTRAINT "OUTG_CURR_FK" FOREIGN KEY ("CURRENCY_SEQ")
-	  REFERENCES "TRANSPORT"."CURRENCIES" ("CURRENCY_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."CURRENCIES" ("CURRENCY_SEQ");
   ALTER TABLE "TRANSPORT"."OUTGOING_INVOICES" ADD CONSTRAINT "OUTG_EXPO_FK" FOREIGN KEY ("EXPORT_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ");
   ALTER TABLE "TRANSPORT"."OUTGOING_INVOICES" ADD CONSTRAINT "OUTG_PAYM_SEQ" FOREIGN KEY ("PAYMENT_TERM_SEQ")
-	  REFERENCES "TRANSPORT"."PAYMENT_TERMS" ("PAYMENT_TERM_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."PAYMENT_TERMS" ("PAYMENT_TERM_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table P
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."P" ADD CONSTRAINT "P_O_FK" FOREIGN KEY ("O_SEQ")
-	  REFERENCES "TRANSPORT"."O" ("O_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."O" ("O_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table POD_LINKS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."POD_LINKS" ADD CONSTRAINT "POLI_EXDO_FK" FOREIGN KEY ("EXPORT_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table PORTAL_DOSSIER_ATTMENTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."PORTAL_DOSSIER_ATTMENTS" ADD CONSTRAINT "PODOAT_PODO_FK" FOREIGN KEY ("PORTAL_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."PORTAL_DOSSIERS" ("PORTAL_DOSSIER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."PORTAL_DOSSIERS" ("PORTAL_DOSSIER_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table PORTAL_DOSSIER_DETAILS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."PORTAL_DOSSIER_DETAILS" ADD CONSTRAINT "PODODE_PODO_FK" FOREIGN KEY ("PORTAL_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."PORTAL_DOSSIERS" ("PORTAL_DOSSIER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."PORTAL_DOSSIERS" ("PORTAL_DOSSIER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table PUR_AGR_ADD_SURCHARGES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."PUR_AGR_ADD_SURCHARGES" ADD CONSTRAINT "PUR_AGR_ADD_SURCHARGES_FK" FOREIGN KEY ("AGREEMENT_SEQ")
-	  REFERENCES "TRANSPORT"."PURCHASE_AGREEMENTS" ("AGREEMENT_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."PURCHASE_AGREEMENTS" ("AGREEMENT_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table PUR_AGR_CITY_COLS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_COLS" ADD CONSTRAINT "PUR_AGR_CITY_COLS_FK" FOREIGN KEY ("AGREEMENT_SEQ")
-	  REFERENCES "TRANSPORT"."PURCHASE_AGREEMENTS" ("AGREEMENT_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."PURCHASE_AGREEMENTS" ("AGREEMENT_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table PUR_AGR_CITY_INTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_INTS" ADD CONSTRAINT "PUR_AGR_CITY_INTS_FK" FOREIGN KEY ("COLLECTION_SEQ")
-	  REFERENCES "TRANSPORT"."PUR_AGR_CITY_COLS" ("COLLECTION_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."PUR_AGR_CITY_COLS" ("COLLECTION_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table PUR_AGR_CITY_TERMS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_TERMS" ADD CONSTRAINT "PUACITE_DELTERM_FK" FOREIGN KEY ("DELIVERY_TERMS_SEQ")
-	  REFERENCES "TRANSPORT"."DELIVERY_TERMS" ("DELIVERY_TERM_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."DELIVERY_TERMS" ("DELIVERY_TERM_SEQ");
   ALTER TABLE "TRANSPORT"."PUR_AGR_CITY_TERMS" ADD CONSTRAINT "PUACITE_PURAGR_FK" FOREIGN KEY ("AGREEMENT_SEQ")
-	  REFERENCES "TRANSPORT"."PURCHASE_AGREEMENTS" ("AGREEMENT_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."PURCHASE_AGREEMENTS" ("AGREEMENT_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table PUR_AGR_DEP_DEP_INTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."PUR_AGR_DEP_DEP_INTS" ADD CONSTRAINT "PUR_AGR_DEP_DEP_INTS_FK" FOREIGN KEY ("DEPOT_DEPOT_SEQ")
-	  REFERENCES "TRANSPORT"."PUR_AGR_DEPOT_DEPOT" ("DEPOT_DEPOT_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."PUR_AGR_DEPOT_DEPOT" ("DEPOT_DEPOT_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table PUR_AGR_DEP_DEP_TERMS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."PUR_AGR_DEP_DEP_TERMS" ADD CONSTRAINT "PUACDETE_DELTERM_FK" FOREIGN KEY ("DELIVERY_TERMS_SEQ")
-	  REFERENCES "TRANSPORT"."DELIVERY_TERMS" ("DELIVERY_TERM_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."DELIVERY_TERMS" ("DELIVERY_TERM_SEQ");
   ALTER TABLE "TRANSPORT"."PUR_AGR_DEP_DEP_TERMS" ADD CONSTRAINT "PUADETE_PURAGR_FK" FOREIGN KEY ("AGREEMENT_SEQ")
-	  REFERENCES "TRANSPORT"."PURCHASE_AGREEMENTS" ("AGREEMENT_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."PURCHASE_AGREEMENTS" ("AGREEMENT_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table PUR_AGR_DEPOT_DEPOT
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."PUR_AGR_DEPOT_DEPOT" ADD CONSTRAINT "PUADEDE_PURAGR_FK" FOREIGN KEY ("AGREEMENT_SEQ")
-	  REFERENCES "TRANSPORT"."PURCHASE_AGREEMENTS" ("AGREEMENT_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."PURCHASE_AGREEMENTS" ("AGREEMENT_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table PUR_AGR_SURCH_INTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."PUR_AGR_SURCH_INTS" ADD CONSTRAINT "PUR_AGR_SURCH_INTS_FK" FOREIGN KEY ("SURCHARGE_SEQ")
-	  REFERENCES "TRANSPORT"."PUR_AGR_SURCHARGES" ("SURCHARGE_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."PUR_AGR_SURCHARGES" ("SURCHARGE_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table PUR_AGR_SURCHARGES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."PUR_AGR_SURCHARGES" ADD CONSTRAINT "PUR_AGR_SURCHARGES_FK" FOREIGN KEY ("AGREEMENT_SEQ")
-	  REFERENCES "TRANSPORT"."PURCHASE_AGREEMENTS" ("AGREEMENT_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."PURCHASE_AGREEMENTS" ("AGREEMENT_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table PUR_GASOIL_SURCHARGES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."PUR_GASOIL_SURCHARGES" ADD CONSTRAINT "PUR_GASOIL_SURCHARGES_FK" FOREIGN KEY ("AGREEMENT_SEQ")
-	  REFERENCES "TRANSPORT"."PURCHASE_AGREEMENTS" ("AGREEMENT_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."PURCHASE_AGREEMENTS" ("AGREEMENT_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table Q
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."Q" ADD CONSTRAINT "Q_RELATIONS_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table Q_STAT128_STATCODE_RELATIONS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."Q_STAT128_STATCODE_RELATIONS" ADD CONSTRAINT "Q_STAT128_STATCODE_RELATIO_FK" FOREIGN KEY ("STATUSCODE_SEQ")
-	  REFERENCES "TRANSPORT"."Q_STAT128_STATUSCODE" ("Q_STAT128_STATUSCODE_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."Q_STAT128_STATUSCODE" ("Q_STAT128_STATUSCODE_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table Q00
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."Q00" ADD CONSTRAINT "Q00_FTP_FK" FOREIGN KEY ("FTP_SEQ")
-	  REFERENCES "TRANSPORT"."FTP" ("FTP_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."FTP" ("FTP_SEQ") ON DELETE CASCADE;
   ALTER TABLE "TRANSPORT"."Q00" ADD CONSTRAINT "Q00_RELATIONS_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table Q10
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."Q10" ADD CONSTRAINT "Q10_Q00_FK" FOREIGN KEY ("Q00_SEQ")
-	  REFERENCES "TRANSPORT"."Q00" ("Q00_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."Q00" ("Q00_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table Q11
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."Q11" ADD CONSTRAINT "Q11_Q10_FK" FOREIGN KEY ("Q10_SEQ")
-	  REFERENCES "TRANSPORT"."Q10" ("Q10_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."Q10" ("Q10_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table Q20
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."Q20" ADD CONSTRAINT "Q20_Q00_FK" FOREIGN KEY ("Q00_SEQ")
-	  REFERENCES "TRANSPORT"."Q00" ("Q00_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."Q00" ("Q00_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table Q30
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."Q30" ADD CONSTRAINT "Q30_Q20_FK" FOREIGN KEY ("Q20_SEQ")
-	  REFERENCES "TRANSPORT"."Q20" ("Q20_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."Q20" ("Q20_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table QUOTATION
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."QUOTATION" ADD CONSTRAINT "QUOT_RELA_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table QUOTATION_ADDRESSES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."QUOTATION_ADDRESSES" ADD CONSTRAINT "QUOTADDR_ADDR_FK" FOREIGN KEY ("ADDRESS_SEQ")
-	  REFERENCES "TRANSPORT"."ADDRESSES" ("ADDRESS_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."ADDRESSES" ("ADDRESS_SEQ");
   ALTER TABLE "TRANSPORT"."QUOTATION_ADDRESSES" ADD CONSTRAINT "QUOTADDR_QUOTATION_FK" FOREIGN KEY ("QUOTATION_SEQ")
-	  REFERENCES "TRANSPORT"."QUOTATION" ("QUOTATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."QUOTATION" ("QUOTATION_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table QUOTATION_LINES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."QUOTATION_LINES" ADD CONSTRAINT "QUOTLI_QUOTCO_FK" FOREIGN KEY ("QUOTATION_COUNTRY_SEQ")
-	  REFERENCES "TRANSPORT"."QUOTATION_COUNTRIES" ("QUOTATION_COUNTRY_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."QUOTATION_COUNTRIES" ("QUOTATION_COUNTRY_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table QUOTATION_ZIPCODES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."QUOTATION_ZIPCODES" ADD CONSTRAINT "QUOTZIP_QUOTCOU_FK" FOREIGN KEY ("QUOTATION_COUNTRY_SEQ")
-	  REFERENCES "TRANSPORT"."QUOTATION_COUNTRIES" ("QUOTATION_COUNTRY_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."QUOTATION_COUNTRIES" ("QUOTATION_COUNTRY_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table RELATION_ADDRESSES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."RELATION_ADDRESSES" ADD CONSTRAINT "RELATION_ADDRESSES_FK" FOREIGN KEY ("ADDRESS_SEQ")
-	  REFERENCES "TRANSPORT"."ADDRESSES" ("ADDRESS_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."ADDRESSES" ("ADDRESS_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table RELATION_ATTMENTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."RELATION_ATTMENTS" ADD CONSTRAINT "REAT_EDDO_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table RELATION_DELIVERY_COUNTRIES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."RELATION_DELIVERY_COUNTRIES" ADD CONSTRAINT "RELDELCO_RELA_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ");
   ALTER TABLE "TRANSPORT"."RELATION_DELIVERY_COUNTRIES" ADD CONSTRAINT "RELDELCO_CO_FK" FOREIGN KEY ("COUNTRY_SEQ")
-	  REFERENCES "TRANSPORT"."COUNTRIES" ("COUNTRY_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."COUNTRIES" ("COUNTRY_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table RELATION_FOLLOW_UPS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."RELATION_FOLLOW_UPS" ADD CONSTRAINT "FOLL_OUTG_FK" FOREIGN KEY ("INVOICE_SEQ")
-	  REFERENCES "TRANSPORT"."OUTGOING_INVOICES" ("OUTGOING_INVOICE_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."OUTGOING_INVOICES" ("OUTGOING_INVOICE_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table RELATION_HISTORY
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."RELATION_HISTORY" ADD CONSTRAINT "RELATION_HISTORY_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table RELATION_NON_CONFORMITIES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."RELATION_NON_CONFORMITIES" ADD CONSTRAINT "RELATION_NON_CONFORMITIES_FK" FOREIGN KEY ("NCF_SEQ")
-	  REFERENCES "TRANSPORT"."NON_CONFORMITIES" ("NCF_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."NON_CONFORMITIES" ("NCF_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table RELATION_STATUSES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."RELATION_STATUSES" ADD CONSTRAINT "REST_RELA_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ");
   ALTER TABLE "TRANSPORT"."RELATION_STATUSES" ADD CONSTRAINT "RELASTAT_TTST_FK" FOREIGN KEY ("STATUS_SEQ")
-	  REFERENCES "TRANSPORT"."TT_STATUSSES" ("STATUS_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."TT_STATUSSES" ("STATUS_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table RELATIONS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."RELATIONS" ADD CONSTRAINT "RELA_COUN_2_FK" FOREIGN KEY ("COR_COUNTRY_SEQ")
-	  REFERENCES "TRANSPORT"."COUNTRIES" ("COUNTRY_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."COUNTRIES" ("COUNTRY_SEQ");
   ALTER TABLE "TRANSPORT"."RELATIONS" ADD CONSTRAINT "RELA_COUN" FOREIGN KEY ("COUNTRY_SEQ")
-	  REFERENCES "TRANSPORT"."COUNTRIES" ("COUNTRY_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."COUNTRIES" ("COUNTRY_SEQ");
   ALTER TABLE "TRANSPORT"."RELATIONS" ADD CONSTRAINT "RELA_PAYM_FK" FOREIGN KEY ("PAYMENT_TERM_SEQ")
-	  REFERENCES "TRANSPORT"."PAYMENT_TERMS" ("PAYMENT_TERM_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."PAYMENT_TERMS" ("PAYMENT_TERM_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table REPORT_ATTACHMENTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."REPORT_ATTACHMENTS" ADD CONSTRAINT "REAT_RELA_FK" FOREIGN KEY ("REPORT_LAYOUT_SEQ")
-	  REFERENCES "TRANSPORT"."REPORT_LAYOUTS" ("LAYOUT_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."REPORT_LAYOUTS" ("LAYOUT_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table REPORT_LAYOUTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."REPORT_LAYOUTS" ADD CONSTRAINT "RELAYOF_OFFI_FK" FOREIGN KEY ("OFFICE_SEQ")
-	  REFERENCES "TRANSPORT"."OFFICES" ("OFFICE_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."OFFICES" ("OFFICE_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table REPORT_QUERIES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."REPORT_QUERIES" ADD CONSTRAINT "REQU_REPOLAYO_FK" FOREIGN KEY ("LAYOUT_SEQ")
-	  REFERENCES "TRANSPORT"."REPORT_LAYOUTS" ("LAYOUT_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."REPORT_LAYOUTS" ("LAYOUT_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table REPORT_SCHEDULER_ATTMENTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."REPORT_SCHEDULER_ATTMENTS" ADD CONSTRAINT "RESCAT_RESC_FK" FOREIGN KEY ("SCHEDULER_SEQ")
-	  REFERENCES "TRANSPORT"."REPORT_SCHEDULER" ("SCHEDULER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."REPORT_SCHEDULER" ("SCHEDULER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table RFQ_ASSISTANCES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."RFQ_ASSISTANCES" ADD CONSTRAINT "RFQ_ASSISTANCES_FK" FOREIGN KEY ("RFQ_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."RFQ_DOSSIERS" ("RFQ_DOSSIER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."RFQ_DOSSIERS" ("RFQ_DOSSIER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table RFQ_DOSSIER_DETAILS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."RFQ_DOSSIER_DETAILS" ADD CONSTRAINT "RFDODE_RFDO_FK" FOREIGN KEY ("RFQ_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."RFQ_DOSSIERS" ("RFQ_DOSSIER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."RFQ_DOSSIERS" ("RFQ_DOSSIER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table RFQ_REVENUES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."RFQ_REVENUES" ADD CONSTRAINT "RFQ_REVENUES_FK" FOREIGN KEY ("RFQ_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."RFQ_DOSSIERS" ("RFQ_DOSSIER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."RFQ_DOSSIERS" ("RFQ_DOSSIER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table SAL_AGR_ADD_SURCHARGES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."SAL_AGR_ADD_SURCHARGES" ADD CONSTRAINT "SAL_AGR_ADD_SUR_SAL_AGR_FK" FOREIGN KEY ("AGREEMENT_SEQ")
-	  REFERENCES "TRANSPORT"."SALES_AGREEMENTS" ("AGREEMENT_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."SALES_AGREEMENTS" ("AGREEMENT_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table SAL_AGR_CITY_COLS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_COLS" ADD CONSTRAINT "SAL_AGR_CITY_COLS_SAL_AGR_FK" FOREIGN KEY ("AGREEMENT_SEQ")
-	  REFERENCES "TRANSPORT"."SALES_AGREEMENTS" ("AGREEMENT_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."SALES_AGREEMENTS" ("AGREEMENT_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table SAL_AGR_CITY_INTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_INTS" ADD CONSTRAINT "SAL_AGR_CITY_INTS_COLL_FK" FOREIGN KEY ("COLLECTION_SEQ")
-	  REFERENCES "TRANSPORT"."SAL_AGR_CITY_COLS" ("COLLECTION_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."SAL_AGR_CITY_COLS" ("COLLECTION_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table SAL_AGR_CITY_MAUT_INTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."SAL_AGR_CITY_MAUT_INTS" ADD CONSTRAINT "SAL_AGR_CITY_MAUT_INTS_COLL_FK" FOREIGN KEY ("COLLECTION_SEQ")
-	  REFERENCES "TRANSPORT"."SAL_AGR_CITY_COLS" ("COLLECTION_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."SAL_AGR_CITY_COLS" ("COLLECTION_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table SAL_AGR_DEPOT_DEPOT
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."SAL_AGR_DEPOT_DEPOT" ADD CONSTRAINT "SAADEDE_SALAGR_FK" FOREIGN KEY ("AGREEMENT_SEQ")
-	  REFERENCES "TRANSPORT"."SALES_AGREEMENTS" ("AGREEMENT_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."SALES_AGREEMENTS" ("AGREEMENT_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table SAL_AGR_DEPOT_DEPOT_INTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."SAL_AGR_DEPOT_DEPOT_INTS" ADD CONSTRAINT "SAL_AGR_DEPOT_DEPOT_INTS_FK" FOREIGN KEY ("DEPOT_DEPOT_SEQ")
-	  REFERENCES "TRANSPORT"."SAL_AGR_DEPOT_DEPOT" ("DEPOT_DEPOT_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."SAL_AGR_DEPOT_DEPOT" ("DEPOT_DEPOT_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table SAL_AGR_MAUT_INTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."SAL_AGR_MAUT_INTS" ADD CONSTRAINT "SAL_AGR_MAUT_INTS_FK" FOREIGN KEY ("SAL_MAUT_SUR_SEQ")
-	  REFERENCES "TRANSPORT"."SAL_MAUT_SURCHARGES" ("SAL_MAUT_SUR_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."SAL_MAUT_SURCHARGES" ("SAL_MAUT_SUR_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table SAL_AGR_SURCH_INTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."SAL_AGR_SURCH_INTS" ADD CONSTRAINT "SAL_AGR_SURCH_INTS_FK" FOREIGN KEY ("SURCHARGE_SEQ")
-	  REFERENCES "TRANSPORT"."SAL_AGR_SURCHARGES" ("SURCHARGE_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."SAL_AGR_SURCHARGES" ("SURCHARGE_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table SAL_AGR_SURCHARGES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."SAL_AGR_SURCHARGES" ADD CONSTRAINT "SAL_AGR_SUR__SAL_AGR_FK" FOREIGN KEY ("AGREEMENT_SEQ")
-	  REFERENCES "TRANSPORT"."SALES_AGREEMENTS" ("AGREEMENT_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."SALES_AGREEMENTS" ("AGREEMENT_SEQ") ON DELETE CASCADE;
   ALTER TABLE "TRANSPORT"."SAL_AGR_SURCHARGES" ADD CONSTRAINT "SAL_AGR_SUR_COUNTRY_FK" FOREIGN KEY ("COUNTRY_SEQ")
-	  REFERENCES "TRANSPORT"."COUNTRIES" ("COUNTRY_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."COUNTRIES" ("COUNTRY_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table SAL_GASOIL_SURCHARGES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."SAL_GASOIL_SURCHARGES" ADD CONSTRAINT "SAL_GASOIL_SUR_SAL_AGR_FK" FOREIGN KEY ("AGREEMENT_SEQ")
-	  REFERENCES "TRANSPORT"."SALES_AGREEMENTS" ("AGREEMENT_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."SALES_AGREEMENTS" ("AGREEMENT_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table SAL_MAUT_SURCHARGES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."SAL_MAUT_SURCHARGES" ADD CONSTRAINT "SAL_MAUT_SURCHARGES_FK" FOREIGN KEY ("AGREEMENT_SEQ")
-	  REFERENCES "TRANSPORT"."SALES_AGREEMENTS" ("AGREEMENT_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."SALES_AGREEMENTS" ("AGREEMENT_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table SALES_AGREEMENTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."SALES_AGREEMENTS" ADD CONSTRAINT "SALES_AGREEMENTS_CURR_FK" FOREIGN KEY ("CURRENCY_SEQ")
-	  REFERENCES "TRANSPORT"."CURRENCIES" ("CURRENCY_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."CURRENCIES" ("CURRENCY_SEQ") ON DELETE CASCADE;
   ALTER TABLE "TRANSPORT"."SALES_AGREEMENTS" ADD CONSTRAINT "SALES_AGREEMENTS_REL_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ON DELETE CASCADE;
   ALTER TABLE "TRANSPORT"."SALES_AGREEMENTS" ADD CONSTRAINT "SAAGMALE_LEDG_FK" FOREIGN KEY ("MAUT_LEDGER_SEQ")
-	  REFERENCES "TRANSPORT"."LEDGERS" ("LEDGER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."LEDGERS" ("LEDGER_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table SERVICE_LEVELS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."SERVICE_LEVELS" ADD CONSTRAINT "SEPICO_COU_FK" FOREIGN KEY ("PICKUP_COUNTRY_SEQ")
-	  REFERENCES "TRANSPORT"."COUNTRIES" ("COUNTRY_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."COUNTRIES" ("COUNTRY_SEQ");
   ALTER TABLE "TRANSPORT"."SERVICE_LEVELS" ADD CONSTRAINT "SEDECO_CO_FK" FOREIGN KEY ("DELIVERY_COUNTRY_SEQ")
-	  REFERENCES "TRANSPORT"."COUNTRIES" ("COUNTRY_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."COUNTRIES" ("COUNTRY_SEQ");
   ALTER TABLE "TRANSPORT"."SERVICE_LEVELS" ADD CONSTRAINT "SEAGRE_RELA_FK" FOREIGN KEY ("AGENT_RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table SHIPMENT_CHANGES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."SHIPMENT_CHANGES" ADD CONSTRAINT "SHIPMENT_CHANGES_FK" FOREIGN KEY ("BOOKING_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table SHPLAD
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."SHPLAD" ADD CONSTRAINT "SHPLAD_SHPORD_FK" FOREIGN KEY ("SHPORD_SEQ")
-	  REFERENCES "TRANSPORT"."SHPORD" ("SHPORD_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."SHPORD" ("SHPORD_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table SHPLAD_PLAN
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."SHPLAD_PLAN" ADD CONSTRAINT "SHPLAD_PLAN_SHPORD_FK" FOREIGN KEY ("SHPORD_PLAN_SEQ")
-	  REFERENCES "TRANSPORT"."SHPORD_PLAN" ("SHPORD_PLAN_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."SHPORD_PLAN" ("SHPORD_PLAN_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table SHPLOS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."SHPLOS" ADD CONSTRAINT "SHPLOS_SHPORD_FK" FOREIGN KEY ("SHPORD_SEQ")
-	  REFERENCES "TRANSPORT"."SHPORD" ("SHPORD_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."SHPORD" ("SHPORD_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table SHPLOS_PLAN
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."SHPLOS_PLAN" ADD CONSTRAINT "SHPLOS_PLAN_SHPORD_FK" FOREIGN KEY ("SHPORD_PLAN_SEQ")
-	  REFERENCES "TRANSPORT"."SHPORD_PLAN" ("SHPORD_PLAN_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."SHPORD_PLAN" ("SHPORD_PLAN_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table SHPORD
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."SHPORD" ADD CONSTRAINT "SHPORD_FTP_FK" FOREIGN KEY ("FTP_SEQ")
-	  REFERENCES "TRANSPORT"."FTP" ("FTP_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."FTP" ("FTP_SEQ") ON DELETE CASCADE;
   ALTER TABLE "TRANSPORT"."SHPORD" ADD CONSTRAINT "SHPORD_RELATIONS_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table SHPORD_OB
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."SHPORD_OB" ADD CONSTRAINT "SHPORD_OB_FTP_FK" FOREIGN KEY ("FTP_SEQ")
-	  REFERENCES "TRANSPORT"."FTP" ("FTP_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."FTP" ("FTP_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table SHPORD_PLAN
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."SHPORD_PLAN" ADD CONSTRAINT "SHPORD_PLAN_FTP_FK" FOREIGN KEY ("FTP_SEQ")
-	  REFERENCES "TRANSPORT"."FTP" ("FTP_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."FTP" ("FTP_SEQ") ON DELETE CASCADE;
   ALTER TABLE "TRANSPORT"."SHPORD_PLAN" ADD CONSTRAINT "SHPORD_PLAN_RELATIONS_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table STAT512_STATUSCODES_RELATIONS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."STAT512_STATUSCODES_RELATIONS" ADD CONSTRAINT "STAT512_STATUSCODES_RELATI_FK" FOREIGN KEY ("STATUSCODE_SEQ")
-	  REFERENCES "TRANSPORT"."STAT512_STATUSCODES" ("STATUSCODE_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."STAT512_STATUSCODES" ("STATUSCODE_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table STD_EDI_FORMAT_DETAILS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."STD_EDI_FORMAT_DETAILS" ADD CONSTRAINT "STEDFODE_STEDFOSH_FK" FOREIGN KEY ("SHIPMENT_SEQ")
-	  REFERENCES "TRANSPORT"."STD_EDI_FORMAT_SHIPMENTS" ("SHIPMENT_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."STD_EDI_FORMAT_SHIPMENTS" ("SHIPMENT_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table STD_EDI_FORMAT_SHIPMENTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."STD_EDI_FORMAT_SHIPMENTS" ADD CONSTRAINT "STEDFOSH_RELA_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ");
   ALTER TABLE "TRANSPORT"."STD_EDI_FORMAT_SHIPMENTS" ADD CONSTRAINT "STEDFOSH_EXDO_FK" FOREIGN KEY ("EXPORT_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."EXPORT_DOSSIERS" ("EXPORT_DOSSIER_SEQ");
   ALTER TABLE "TRANSPORT"."STD_EDI_FORMAT_SHIPMENTS" ADD CONSTRAINT "STEDFOSHXM_XML_FK" FOREIGN KEY ("XML_SEQ")
-	  REFERENCES "TRANSPORT"."XML" ("XML_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."XML" ("XML_SEQ");
   ALTER TABLE "TRANSPORT"."STD_EDI_FORMAT_SHIPMENTS" ADD CONSTRAINT "STEDFOSH_STEDTR_FK" FOREIGN KEY ("TRANSPORT_SEQ")
-	  REFERENCES "TRANSPORT"."STD_EDI_FORMAT_TRANSPORTS" ("TRANSPORT_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."STD_EDI_FORMAT_TRANSPORTS" ("TRANSPORT_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table STD_EDI_FORMAT_TRANSPORTS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."STD_EDI_FORMAT_TRANSPORTS" ADD CONSTRAINT "STEDFOTR_RELA_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ");
   ALTER TABLE "TRANSPORT"."STD_EDI_FORMAT_TRANSPORTS" ADD CONSTRAINT "STEDFOTR_GRDO_FK" FOREIGN KEY ("GROUPAGE_DOSSIER_SEQ")
-	  REFERENCES "TRANSPORT"."GROUPAGE_DOSSIER" ("GROUPAGE_DOSSIER_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."GROUPAGE_DOSSIER" ("GROUPAGE_DOSSIER_SEQ");
   ALTER TABLE "TRANSPORT"."STD_EDI_FORMAT_TRANSPORTS" ADD CONSTRAINT "STEDFOTRXM_XML_FK" FOREIGN KEY ("XML_SEQ")
-	  REFERENCES "TRANSPORT"."XML" ("XML_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."XML" ("XML_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table TURNOVER_STATISTICS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."TURNOVER_STATISTICS" ADD CONSTRAINT "TURNOVER_STATISTICS_FK" FOREIGN KEY ("DEBTOR_RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table UNIT_TYPE_CONVERSIONS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."UNIT_TYPE_CONVERSIONS" ADD CONSTRAINT "UNIT_TYPE_CONVERSIONS_FK2" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ");
   ALTER TABLE "TRANSPORT"."UNIT_TYPE_CONVERSIONS" ADD CONSTRAINT "UNIT_TYPE_CONVERSIONS_FK" FOREIGN KEY ("TYPE_SEQ")
-	  REFERENCES "TRANSPORT"."CARRIER_TYPES" ("CARRIER_TYPE_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."CARRIER_TYPES" ("CARRIER_TYPE_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table UPLOAD_COST_LINES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."UPLOAD_COST_LINES" ADD CONSTRAINT "UPLOAD_COST_LINES_FK" FOREIGN KEY ("UPLOAD_COST_SEQ")
-	  REFERENCES "TRANSPORT"."UPLOAD_COSTS" ("UPLOAD_COST_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."UPLOAD_COSTS" ("UPLOAD_COST_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table UPLOAD_DOSSIER_DETAIL_LINES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."UPLOAD_DOSSIER_DETAIL_LINES" ADD CONSTRAINT "UPLOAD_DOSSIER_DETAIL_LINES_FK" FOREIGN KEY ("UPLOAD_DETAIL_SEQ")
-	  REFERENCES "TRANSPORT"."UPLOAD_DOSSIER_DETAILS" ("UPLOAD_DETAIL_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."UPLOAD_DOSSIER_DETAILS" ("UPLOAD_DETAIL_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table UPLOAD_REVENUE_LINES
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."UPLOAD_REVENUE_LINES" ADD CONSTRAINT "UPLOAD_REVENUE_LINES_FK" FOREIGN KEY ("UPLOAD_REVENUE_SEQ")
-	  REFERENCES "TRANSPORT"."UPLOAD_REVENUES" ("UPLOAD_REVENUE_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."UPLOAD_REVENUES" ("UPLOAD_REVENUE_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table USER_SETTINGS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."USER_SETTINGS" ADD CONSTRAINT "USSE_OFFI_FK" FOREIGN KEY ("OFFICE_SEQ")
-	  REFERENCES "TRANSPORT"."OFFICES" ("OFFICE_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."OFFICES" ("OFFICE_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table W
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."W" ADD CONSTRAINT "W_FK" FOREIGN KEY ("A_SEQ")
-	  REFERENCES "TRANSPORT"."A" ("A_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."A" ("A_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table WS_SETUP_REST_HEADERS
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."WS_SETUP_REST_HEADERS" ADD CONSTRAINT "WSSRH_WS_SETUP_FK" FOREIGN KEY ("WS_SEQ")
-	  REFERENCES "TRANSPORT"."WS_SETUP" ("WS_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."WS_SETUP" ("WS_SEQ");
 --------------------------------------------------------
 --  Ref Constraints for Table X
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."X" ADD CONSTRAINT "X_Q_FK" FOREIGN KEY ("Q_SEQ")
-	  REFERENCES "TRANSPORT"."Q" ("Q_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."Q" ("Q_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table XML
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."XML" ADD CONSTRAINT "XML_RELA_FK" FOREIGN KEY ("RELATION_SEQ")
-	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ") ENABLE;
+	  REFERENCES "TRANSPORT"."RELATIONS" ("RELATION_SEQ");
   ALTER TABLE "TRANSPORT"."XML" ADD CONSTRAINT "XML_FTP_FK" FOREIGN KEY ("FTP_SEQ")
-	  REFERENCES "TRANSPORT"."FTP" ("FTP_SEQ") ON DELETE SET NULL ENABLE;
+	  REFERENCES "TRANSPORT"."FTP" ("FTP_SEQ") ON DELETE SET NULL;
 --------------------------------------------------------
 --  Ref Constraints for Table Y
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."Y" ADD CONSTRAINT "Y_F_FK" FOREIGN KEY ("F_SEQ")
-	  REFERENCES "TRANSPORT"."F" ("F_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."F" ("F_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table Z00
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."Z00" ADD CONSTRAINT "Z00_A00_FK" FOREIGN KEY ("A00_SEQ")
-	  REFERENCES "TRANSPORT"."A00" ("A00_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."A00" ("A00_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table Z00_ENTL512
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."Z00_ENTL512" ADD CONSTRAINT "Z00_ENTL512_M00_FK" FOREIGN KEY ("M00_SEQ")
-	  REFERENCES "TRANSPORT"."M00" ("M00_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."M00" ("M00_SEQ") ON DELETE CASCADE;
 --------------------------------------------------------
 --  Ref Constraints for Table Z00_STAT512
 --------------------------------------------------------
 
   ALTER TABLE "TRANSPORT"."Z00_STAT512" ADD CONSTRAINT "Z00_STAT512_Q00_FK" FOREIGN KEY ("Q00_SEQ")
-	  REFERENCES "TRANSPORT"."Q00" ("Q00_SEQ") ON DELETE CASCADE ENABLE;
+	  REFERENCES "TRANSPORT"."Q00" ("Q00_SEQ") ON DELETE CASCADE;
